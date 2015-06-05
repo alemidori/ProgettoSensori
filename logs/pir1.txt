@@ -1,0 +1,67 @@
+PROCESSO NODO AVVIATO
+********************************
+In ascolto...
+Livello batteria: 1000
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 998
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 996
+Tipo: PIR1 2 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+In ascolto...
+Livello batteria: 994
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 992
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 990
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 988
+Tipo: PIR1 3 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+In ascolto...
+Livello batteria: 986
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 984
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 982
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 980
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 978
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 976
+Tipo: PIR1 5 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+In ascolto...
+Livello batteria: 974
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 972
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 970
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 968
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 966
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 964
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 962
+Tipo: PIR1 6 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+In ascolto...
+Livello batteria: 960
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 958
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 956
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 954
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 952
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 950
+Tipo: PIR1 5 Valore: ON

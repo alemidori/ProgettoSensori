@@ -1,0 +1,134 @@
+PROCESSO NODO AVVIATO
+********************************
+Livello batteria: 1000
+Tipo: Temperature 0 Valore: 24.488293184190415
+Livello batteria: 998
+Tipo: Temperature 1 Valore: 24.620210709801697
+Livello batteria: 996
+Tipo: Temperature 2 Valore: 24.754643623508606
+Livello batteria: 994
+Tipo: Temperature 3 Valore: 24.97371744553298
+Livello batteria: 992
+Tipo: Temperature 4 Valore: 25.178758537657924
+Livello batteria: 990
+Tipo: Temperature 5 Valore: 25.26225721571743
+Livello batteria: 988
+Tipo: Temperature 6 Valore: 24.92196974746843
+Livello batteria: 986
+Tipo: Temperature 7 Valore: 25.577936895585292
+Livello batteria: 984
+Ho richiesto le misurazioni
+[{"type":"Light","value":"295.94842085304373","timestamp":9},{"type":"Light","value":"282.1352192938617","timestamp":3186},{"type":"Light","value":"295.31662982281966","timestamp":4655},{"type":"Light","value":"289.08917559112064","timestamp":7846},{"type":"Light","value":"299.1703334316846","timestamp":9638},{"type":"Light","value":"303.93894823603205","timestamp":13227},{"type":"Light","value":"313.68232990729683","timestamp":16718},{"type":"Light","value":"322.1160660085783","timestamp":18270}]
+
+Livello batteria: 979
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":5995},{"type":"PIR1","value":"ON","timestamp":7671},{"type":"PIR1","value":"ON","timestamp":19938}]
+
+Livello batteria: 974
+Ho richiesto le misurazioni
+Livello batteria: 969
+Tipo: Temperature 8 Valore: 25.290596533957647
+[{"type":"PIR2","value":"ON","timestamp":3112},{"type":"PIR2","value":"ON","timestamp":4138},{"type":"PIR2","value":"ON","timestamp":5651},{"type":"PIR2","value":"ON","timestamp":8072},{"type":"PIR2","value":"ON","timestamp":10067},{"type":"PIR2","value":"ON","timestamp":11757},{"type":"PIR2","value":"ON","timestamp":15408},{"type":"PIR2","value":"ON","timestamp":16999},{"type":"PIR2","value":"ON","timestamp":19639}]
+
+Livello batteria: 967
+Tipo: Temperature 9 Valore: 25.237813144328733
+Livello batteria: 965
+Tipo: Temperature 0 Valore: 25.429262749679168
+Livello batteria: 963
+Tipo: Temperature 1 Valore: 25.532463518906557
+Livello batteria: 961
+Tipo: Temperature 2 Valore: 25.843812472167713
+Livello batteria: 959
+Tipo: Temperature 3 Valore: 25.620465212970483
+Livello batteria: 957
+Tipo: Temperature 4 Valore: 25.945650989942358
+Livello batteria: 955
+Ho richiesto le misurazioni
+[{"type":"Light","value":"322.9303218041859","timestamp":21627},{"type":"Light","value":"323.25452229128365","timestamp":22801},{"type":"Light","value":"331.59632149291446","timestamp":25603},{"type":"Light","value":"340.46759690432526","timestamp":27748},{"type":"Light","value":"342.03699526417773","timestamp":30972},{"type":"Light","value":"337.7280000854787","timestamp":34492},{"type":"Light","value":"345.00249423202393","timestamp":37124},{"type":"Light","value":"354.7382768005596","timestamp":40144}]
+
+Livello batteria: 950
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":21346},{"type":"PIR1","value":"ON","timestamp":23028},{"type":"PIR1","value":"ON","timestamp":35079},{"type":"PIR1","value":"ON","timestamp":37129}]
+
+Livello batteria: 945
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":20970},{"type":"PIR2","value":"ON","timestamp":23996},{"type":"PIR2","value":"ON","timestamp":27079},{"type":"PIR2","value":"ON","timestamp":28502},{"type":"PIR2","value":"ON","timestamp":30535},{"type":"PIR2","value":"ON","timestamp":31667},{"type":"PIR2","value":"ON","timestamp":33035},{"type":"PIR2","value":"ON","timestamp":34166},{"type":"PIR2","value":"ON","timestamp":35465},{"type":"PIR2","value":"ON","timestamp":38539}]
+
+Livello batteria: 940
+Tipo: Temperature 5 Valore: 26.12720221310549
+Livello batteria: 938
+Tipo: Temperature 6 Valore: 25.93672825664335
+Livello batteria: 936
+Tipo: Temperature 7 Valore: 26.30059208773275
+Livello batteria: 934
+Tipo: Temperature 8 Valore: 26.125706002464973
+Livello batteria: 932
+Tipo: Temperature 9 Valore: 26.04538491847632
+Livello batteria: 930
+Tipo: Temperature 0 Valore: 26.170796607452072
+Livello batteria: 928
+Tipo: Temperature 1 Valore: 26.633977737764
+Livello batteria: 926
+Tipo: Temperature 2 Valore: 26.214950778165907
+Livello batteria: 924
+Tipo: Temperature 3 Valore: 26.885042004203886
+Livello batteria: 922
+Tipo: Temperature 4 Valore: 26.771720618819696
+Livello batteria: 920
+Ho richiesto le misurazioni
+[{"type":"Light","value":"354.4984549386872","timestamp":43033},{"type":"Light","value":"359.4170038371841","timestamp":46198},{"type":"Light","value":"372.9797206965032","timestamp":47360},{"type":"Light","value":"364.8452127344235","timestamp":49057},{"type":"Light","value":"367.95528083520736","timestamp":52301},{"type":"Light","value":"362.28623499263296","timestamp":53847},{"type":"Light","value":"380.75660328033564","timestamp":57645}]
+
+Livello batteria: 915
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":40521},{"type":"PIR1","value":"ON","timestamp":41754},{"type":"PIR1","value":"ON","timestamp":43099},{"type":"PIR1","value":"ON","timestamp":46101},{"type":"PIR1","value":"ON","timestamp":48824},{"type":"PIR1","value":"ON","timestamp":49912}]
+
+Livello batteria: 910
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":41071},{"type":"PIR2","value":"ON","timestamp":42942},{"type":"PIR2","value":"ON","timestamp":44312},{"type":"PIR2","value":"ON","timestamp":45569},{"type":"PIR2","value":"ON","timestamp":47348},{"type":"PIR2","value":"ON","timestamp":50823},{"type":"PIR2","value":"ON","timestamp":54482},{"type":"PIR2","value":"ON","timestamp":57708},{"type":"PIR2","value":"ON","timestamp":59754}]
+
+Livello batteria: 905
+Tipo: Temperature 5 Valore: 26.605787959921994
+Livello batteria: 903
+Tipo: Temperature 6 Valore: 26.88438525407813
+Livello batteria: 901
+Tipo: Temperature 7 Valore: 27.23615387889858
+Livello batteria: 899
+Tipo: Temperature 8 Valore: 27.014548923385185
+Livello batteria: 897
+Tipo: Temperature 9 Valore: 26.89083877444157
+Livello batteria: 895
+Tipo: Temperature 0 Valore: 27.177128582132923
+Livello batteria: 893
+Tipo: Temperature 1 Valore: 27.200645554214855
+Livello batteria: 891
+Tipo: Temperature 2 Valore: 27.357465042311844
+Livello batteria: 889
+Tipo: Temperature 3 Valore: 26.94196475293636
+Livello batteria: 887
+Tipo: Temperature 4 Valore: 27.441350445044524
+Livello batteria: 885
+Ho richiesto le misurazioni
+[{"type":"Light","value":"376.28721723648334","timestamp":61641},{"type":"Light","value":"379.7996202720162","timestamp":63685},{"type":"Light","value":"386.12356346445614","timestamp":65369},{"type":"Light","value":"380.006908117676","timestamp":68821},{"type":"Light","value":"383.78068486272184","timestamp":70520},{"type":"Light","value":"384.9123769290882","timestamp":73248},{"type":"Light","value":"384.64154977244533","timestamp":74411},{"type":"Light","value":"400.9821846325269","timestamp":76065},{"type":"Light","value":"395.5506925752229","timestamp":77968},{"type":"Light","value":"396.27045444733864","timestamp":79786}]
+
+Livello batteria: 880
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":61492},{"type":"PIR1","value":"ON","timestamp":63095},{"type":"PIR1","value":"ON","timestamp":65850},{"type":"PIR1","value":"ON","timestamp":67338},{"type":"PIR1","value":"ON","timestamp":69169},{"type":"PIR1","value":"ON","timestamp":72496},{"type":"PIR1","value":"ON","timestamp":74118}]
+
+Livello batteria: 875
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":60979},{"type":"PIR2","value":"ON","timestamp":64738},{"type":"PIR2","value":"ON","timestamp":67694},{"type":"PIR2","value":"ON","timestamp":68833},{"type":"PIR2","value":"ON","timestamp":72433},{"type":"PIR2","value":"ON","timestamp":73490},{"type":"PIR2","value":"ON","timestamp":76166},{"type":"PIR2","value":"ON","timestamp":77425},{"type":"PIR2","value":"ON","timestamp":80144}]
+
+Livello batteria: 870
+Tipo: Temperature 5 Valore: 27.384508921259393
+Livello batteria: 868
+Tipo: Temperature 6 Valore: 27.195346818223697
+Livello batteria: 866
+Tipo: Temperature 7 Valore: 27.620169441487143
+Livello batteria: 864
+Tipo: Temperature 8 Valore: 27.608882502080238
+Livello batteria: 862
+Tipo: Temperature 9 Valore: 27.4647099100724
+Livello batteria: 860
+Tipo: Temperature 0 Valore: 27.551437641999087
+Livello batteria: 858
+Tipo: Temperature 1 Valore: 27.645845751369304
