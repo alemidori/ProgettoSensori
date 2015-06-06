@@ -20,6 +20,7 @@ public class SinkThread implements Runnable {
     private Socket socket;
     private Gson gson;
     private String richiesta;
+    private DataOutputStream outToManager;
 
     public SinkThread(int p, int f) {
         richiesta = "misurazioni";
@@ -43,39 +44,41 @@ public class SinkThread implements Runnable {
                     try {
                         socket = new Socket("localhost", p);
                         DataOutputStream out = new DataOutputStream(socket.getOutputStream());
-                        out.writeBytes(richiesta+'\n');
+                        out.writeBytes(richiesta + '\n');
                         Nodo.updateBattery("trasmissione");
                         System.out.println("Ho richiesto le misurazioni");
                         BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                         String res = br.readLine();
                         System.out.println(res + '\n');
-//                        Object what =  gson.fromJson(res, Object.class);
-//                        //se ciò che ricevo è un messaggio
-//                        if(what instanceof Messaggio){
-//                            String content = ((Messaggio) what).getTipoMessaggio();
-//                            if(Objects.equals(content, "batteria")){
-//                                System.out.println("Un nodo e' scarico");
-////                                Messaggio msgToManager = new Messaggio("batteria");
-////                                Socket socketManager = new Socket("localhost", 5555);
-////                                outToManager = new DataOutputStream(socketManager.getOutputStream());
-////                                String msg = gson.toJson(msgToManager);
-////                                outToManager.writeBytes(msg);
-//
-//                                /*TODO
-//                                mi faccio restituire la porta del nodo con la batteria scarica
-//                                quindi chiudo le comunicazioni con lui*/
-//
-//                            }
-//                        }
-//                        //se ciò che ricevo è una lista di misurazioni
-//                            if(what instanceof ArrayList){
-//                            System.out.println(res);
-//                            /*genero la stringa con le mie misurazioni*/
-////                            ArrayList<Misurazione> lista = (ArrayList<Misurazione>) Nodo.getBuffer().leggi();
-////                            String gsonList = gson.toJson(lista);
-////                            liste = res.concat(gsonList); //concateno la mia alle liste che ho ricevuto
-////                            outToManager.writeBytes(liste);
-//                        }
+                        Object what = gson.fromJson(res, Object.class);
+                        //se ciò che ricevo è un messaggio
+                        if (what instanceof Messaggio) {
+                            String content = ((Messaggio) what).getTipoMessaggio();
+                            if (Objects.equals(content, "batteria")) {
+                                System.out.println("Un nodo e' scarico");
+                                Messaggio msgToManager = new Messaggio("batteria");
+                                Socket socketManager = new Socket("localhost", 5555);
+                                outToManager = new DataOutputStream(socketManager.getOutputStream());
+                                String msg = gson.toJson(msgToManager);
+                                outToManager.writeBytes(msg);
+
+                                /*TODO
+                                mi faccio restituire la porta del nodo con la batteria scarica
+                                quindi chiudo le comunicazioni con lui*/
+
+                            }
+
+                            
+                        }
+                        //se ciò che ricevo è una lista di misurazioni
+                        if (what instanceof ArrayList) {
+                            System.out.println(res);
+                            /*genero la stringa con le mie misurazioni*/
+                            ArrayList<Misurazione> lista = (ArrayList<Misurazione>) Nodo.getBuffer().leggi();
+                            String gsonList = gson.toJson(lista);
+                            String liste = res.concat(gsonList); //concateno la mia alle liste che ho ricevuto
+                            outToManager.writeBytes(liste);
+                        }
 
 
                     } catch (IOException e) {
@@ -91,7 +94,8 @@ public class SinkThread implements Runnable {
             e.printStackTrace();
         }
     }
-    public void stopRequest(){
+
+    public void stopRequest() {
         stop = true;
     }
 }

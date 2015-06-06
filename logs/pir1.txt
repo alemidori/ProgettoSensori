@@ -7,61 +7,622 @@ Livello batteria: 998
 Tipo: PIR1 1 Valore: ON
 Livello batteria: 996
 Tipo: PIR1 2 Valore: ON
-Connessione con il sink...
-Richiesta misurazioni
-In ascolto...
 Livello batteria: 994
-Tipo: PIR1 0 Valore: ON
+Tipo: PIR1 3 Valore: ON
 Livello batteria: 992
-Tipo: PIR1 1 Valore: ON
+Tipo: PIR1 4 Valore: ON
 Livello batteria: 990
-Tipo: PIR1 2 Valore: ON
+Tipo: PIR1 5 Valore: ON
 Livello batteria: 988
-Tipo: PIR1 3 Valore: ON
-Connessione con il sink...
-Richiesta misurazioni
-In ascolto...
-Livello batteria: 986
-Tipo: PIR1 0 Valore: ON
-Livello batteria: 984
-Tipo: PIR1 1 Valore: ON
-Livello batteria: 982
-Tipo: PIR1 2 Valore: ON
-Livello batteria: 980
-Tipo: PIR1 3 Valore: ON
-Livello batteria: 978
-Tipo: PIR1 4 Valore: ON
-Livello batteria: 976
-Tipo: PIR1 5 Valore: ON
-Connessione con il sink...
-Richiesta misurazioni
-In ascolto...
-Livello batteria: 974
-Tipo: PIR1 0 Valore: ON
-Livello batteria: 972
-Tipo: PIR1 1 Valore: ON
-Livello batteria: 970
-Tipo: PIR1 2 Valore: ON
-Livello batteria: 968
-Tipo: PIR1 3 Valore: ON
-Livello batteria: 966
-Tipo: PIR1 4 Valore: ON
-Livello batteria: 964
-Tipo: PIR1 5 Valore: ON
-Livello batteria: 962
 Tipo: PIR1 6 Valore: ON
 Connessione con il sink...
 Richiesta misurazioni
+Livello batteria: 986
 In ascolto...
-Livello batteria: 960
+Livello batteria: 981
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 958
+Livello batteria: 979
 Tipo: PIR1 1 Valore: ON
-Livello batteria: 956
+Livello batteria: 977
 Tipo: PIR1 2 Valore: ON
-Livello batteria: 954
+Livello batteria: 975
 Tipo: PIR1 3 Valore: ON
-Livello batteria: 952
+Livello batteria: 973
 Tipo: PIR1 4 Valore: ON
-Livello batteria: 950
+Livello batteria: 971
 Tipo: PIR1 5 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 969
+In ascolto...
+Livello batteria: 964
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 962
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 960
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 958
+Tipo: PIR1 3 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 956
+In ascolto...
+Livello batteria: 951
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 949
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 947
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 945
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 943
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 941
+Tipo: PIR1 5 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 939
+In ascolto...
+Livello batteria: 934
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 932
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 930
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 928
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 926
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 924
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 922
+Tipo: PIR1 6 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 920
+In ascolto...
+Livello batteria: 915
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 913
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 911
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 909
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 907
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 905
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 903
+Tipo: PIR1 6 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 901
+In ascolto...
+Livello batteria: 896
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 894
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 892
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 890
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 888
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 886
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 884
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 882
+Tipo: PIR1 7 Valore: ON
+Livello batteria: 880
+Tipo: PIR1 8 Valore: ON
+Livello batteria: 878
+Tipo: PIR1 9 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 876
+In ascolto...
+Livello batteria: 871
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 869
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 867
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 865
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 863
+Tipo: PIR1 4 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 861
+In ascolto...
+Livello batteria: 856
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 854
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 852
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 850
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 848
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 846
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 844
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 842
+Tipo: PIR1 7 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 840
+In ascolto...
+Livello batteria: 835
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 833
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 831
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 829
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 827
+Tipo: PIR1 4 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 825
+In ascolto...
+Livello batteria: 820
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 818
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 816
+Tipo: PIR1 2 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 814
+In ascolto...
+Livello batteria: 809
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 807
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 805
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 803
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 801
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 799
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 797
+Tipo: PIR1 6 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 795
+In ascolto...
+Livello batteria: 790
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 788
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 786
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 784
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 782
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 780
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 778
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 776
+Tipo: PIR1 7 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 774
+In ascolto...
+Livello batteria: 769
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 767
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 765
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 763
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 761
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 759
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 757
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 755
+Tipo: PIR1 7 Valore: ON
+Livello batteria: 753
+Tipo: PIR1 8 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 751
+In ascolto...
+Livello batteria: 746
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 744
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 742
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 740
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 738
+Tipo: PIR1 4 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 736
+In ascolto...
+Livello batteria: 731
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 729
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 727
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 725
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 723
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 721
+Tipo: PIR1 5 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 719
+In ascolto...
+Livello batteria: 714
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 712
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 710
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 708
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 706
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 704
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 702
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 700
+Tipo: PIR1 7 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 698
+In ascolto...
+Livello batteria: 693
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 691
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 689
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 687
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 685
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 683
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 681
+Tipo: PIR1 6 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 679
+In ascolto...
+Livello batteria: 674
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 672
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 670
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 668
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 666
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 664
+Tipo: PIR1 5 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 662
+In ascolto...
+Livello batteria: 657
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 655
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 653
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 651
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 649
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 647
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 645
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 643
+Tipo: PIR1 7 Valore: ON
+Livello batteria: 641
+Tipo: PIR1 8 Valore: ON
+Livello batteria: 639
+Tipo: PIR1 9 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 637
+In ascolto...
+Livello batteria: 632
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 630
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 628
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 626
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 624
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 622
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 620
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 618
+Tipo: PIR1 7 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 616
+In ascolto...
+Livello batteria: 611
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 609
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 607
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 605
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 603
+Tipo: PIR1 4 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 601
+In ascolto...
+Livello batteria: 596
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 594
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 592
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 590
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 588
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 586
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 584
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 582
+Tipo: PIR1 7 Valore: ON
+Livello batteria: 580
+Tipo: PIR1 8 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 578
+In ascolto...
+Livello batteria: 573
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 571
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 569
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 567
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 565
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 563
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 561
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 559
+Tipo: PIR1 7 Valore: ON
+Connessione con il sink...
+Richiesta misurazioni
+Livello batteria: 557
+In ascolto...
+Livello batteria: 552
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 550
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 548
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 546
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 544
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 542
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 540
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 538
+Tipo: PIR1 7 Valore: ON
+Livello batteria: 536
+Tipo: PIR1 8 Valore: ON
+Livello batteria: 534
+Tipo: PIR1 9 Valore: ON
+Livello batteria: 532
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 530
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 528
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 526
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 524
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 522
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 520
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 518
+Tipo: PIR1 7 Valore: ON
+Livello batteria: 516
+Tipo: PIR1 8 Valore: ON
+Livello batteria: 514
+Tipo: PIR1 9 Valore: ON
+Livello batteria: 512
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 510
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 508
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 506
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 504
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 502
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 500
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 498
+Tipo: PIR1 7 Valore: ON
+Livello batteria: 496
+Tipo: PIR1 8 Valore: ON
+Livello batteria: 494
+Tipo: PIR1 9 Valore: ON
+Livello batteria: 492
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 490
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 488
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 486
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 484
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 482
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 480
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 478
+Tipo: PIR1 7 Valore: ON
+Livello batteria: 476
+Tipo: PIR1 8 Valore: ON
+Livello batteria: 474
+Tipo: PIR1 9 Valore: ON
+Livello batteria: 472
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 470
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 468
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 466
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 464
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 462
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 460
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 458
+Tipo: PIR1 7 Valore: ON
+Livello batteria: 456
+Tipo: PIR1 8 Valore: ON
+Livello batteria: 454
+Tipo: PIR1 9 Valore: ON
+Livello batteria: 452
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 450
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 448
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 446
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 444
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 442
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 440
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 438
+Tipo: PIR1 7 Valore: ON
+Livello batteria: 436
+Tipo: PIR1 8 Valore: ON
+Livello batteria: 434
+Tipo: PIR1 9 Valore: ON
+Livello batteria: 432
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 430
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 428
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 426
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 424
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 422
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 420
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 418
+Tipo: PIR1 7 Valore: ON
+Livello batteria: 416
+Tipo: PIR1 8 Valore: ON
+Livello batteria: 414
+Tipo: PIR1 9 Valore: ON
+Livello batteria: 412
+Tipo: PIR1 0 Valore: ON
+Connessione con il sink...
+Livello batteria: 410
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 408
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 406
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 404
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 402
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 400
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 398
+Tipo: PIR1 7 Valore: ON
+Livello batteria: 396
+Tipo: PIR1 8 Valore: ON
+Livello batteria: 394
+Tipo: PIR1 9 Valore: ON
+Livello batteria: 392
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 390
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 388
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 386
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 384
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 382
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 380
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 378
+Tipo: PIR1 7 Valore: ON
+Livello batteria: 376
+Tipo: PIR1 8 Valore: ON
+Livello batteria: 374
+Tipo: PIR1 9 Valore: ON
+Livello batteria: 372
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 370
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 368
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 366
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 364
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 362
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 360
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 358
+Tipo: PIR1 7 Valore: ON
+Livello batteria: 356
+Tipo: PIR1 8 Valore: ON
+Livello batteria: 354
+Tipo: PIR1 9 Valore: ON

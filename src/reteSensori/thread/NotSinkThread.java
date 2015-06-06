@@ -54,7 +54,7 @@ public class NotSinkThread implements Runnable {
                         Gson gsonMsg = new Gson();
                         String msg = gsonMsg.toJson(messaggio);
                         out.writeBytes(msg);
-                        Nodo.updateBattery("trasmissione");
+
                     }
                     ArrayList<Misurazione> lista = (ArrayList<Misurazione>) buffer.leggi();
                     Gson gson = new Gson();

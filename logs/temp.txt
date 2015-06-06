@@ -1,134 +1,1548 @@
 PROCESSO NODO AVVIATO
 ********************************
 Livello batteria: 1000
-Tipo: Temperature 0 Valore: 24.488293184190415
+Tipo: Temperature 0 Valore: 23.64670930776439
 Livello batteria: 998
-Tipo: Temperature 1 Valore: 24.620210709801697
+Tipo: Temperature 1 Valore: 24.07560056166504
 Livello batteria: 996
-Tipo: Temperature 2 Valore: 24.754643623508606
+Tipo: Temperature 2 Valore: 24.388364621136564
 Livello batteria: 994
-Tipo: Temperature 3 Valore: 24.97371744553298
+Tipo: Temperature 3 Valore: 24.012440968653653
 Livello batteria: 992
-Tipo: Temperature 4 Valore: 25.178758537657924
+Tipo: Temperature 4 Valore: 24.22349618915986
 Livello batteria: 990
-Tipo: Temperature 5 Valore: 25.26225721571743
+Tipo: Temperature 5 Valore: 24.43386181734369
 Livello batteria: 988
-Tipo: Temperature 6 Valore: 24.92196974746843
+Tipo: Temperature 6 Valore: 24.6954386307145
 Livello batteria: 986
-Tipo: Temperature 7 Valore: 25.577936895585292
+Tipo: Temperature 7 Valore: 24.700342338153984
 Livello batteria: 984
+Tipo: Temperature 8 Valore: 24.402882806313052
+Livello batteria: 982
 Ho richiesto le misurazioni
-[{"type":"Light","value":"295.94842085304373","timestamp":9},{"type":"Light","value":"282.1352192938617","timestamp":3186},{"type":"Light","value":"295.31662982281966","timestamp":4655},{"type":"Light","value":"289.08917559112064","timestamp":7846},{"type":"Light","value":"299.1703334316846","timestamp":9638},{"type":"Light","value":"303.93894823603205","timestamp":13227},{"type":"Light","value":"313.68232990729683","timestamp":16718},{"type":"Light","value":"322.1160660085783","timestamp":18270}]
+[{"type":"Light","value":"317.6070987037712","timestamp":11},{"type":"Light","value":"326.86080358863273","timestamp":1554},{"type":"Light","value":"326.573382268457","timestamp":4035},{"type":"Light","value":"335.396864940809","timestamp":7762},{"type":"Light","value":"339.5354320578754","timestamp":8971},{"type":"Light","value":"337.5474589280455","timestamp":11728},{"type":"Light","value":"336.7415070152098","timestamp":13288},{"type":"Light","value":"343.13804100616255","timestamp":14715},{"type":"Light","value":"347.09884328922413","timestamp":16575},{"type":"Light","value":"356.18388267000324","timestamp":18873}]
 
-Livello batteria: 979
+Livello batteria: 977
 Ho richiesto le misurazioni
-[{"type":"PIR1","value":"ON","timestamp":5995},{"type":"PIR1","value":"ON","timestamp":7671},{"type":"PIR1","value":"ON","timestamp":19938}]
+[{"type":"PIR1","value":"ON","timestamp":2482},{"type":"PIR1","value":"ON","timestamp":3875},{"type":"PIR1","value":"ON","timestamp":9203},{"type":"PIR1","value":"ON","timestamp":10471},{"type":"PIR1","value":"ON","timestamp":11969},{"type":"PIR1","value":"ON","timestamp":13183},{"type":"PIR1","value":"ON","timestamp":15953}]
 
-Livello batteria: 974
+Livello batteria: 972
 Ho richiesto le misurazioni
-Livello batteria: 969
-Tipo: Temperature 8 Valore: 25.290596533957647
-[{"type":"PIR2","value":"ON","timestamp":3112},{"type":"PIR2","value":"ON","timestamp":4138},{"type":"PIR2","value":"ON","timestamp":5651},{"type":"PIR2","value":"ON","timestamp":8072},{"type":"PIR2","value":"ON","timestamp":10067},{"type":"PIR2","value":"ON","timestamp":11757},{"type":"PIR2","value":"ON","timestamp":15408},{"type":"PIR2","value":"ON","timestamp":16999},{"type":"PIR2","value":"ON","timestamp":19639}]
+[{"type":"PIR2","value":"ON","timestamp":18858},{"type":"PIR2","value":"ON","timestamp":1168},{"type":"PIR2","value":"ON","timestamp":3356},{"type":"PIR2","value":"ON","timestamp":6058},{"type":"PIR2","value":"ON","timestamp":8315},{"type":"PIR2","value":"ON","timestamp":10154},{"type":"PIR2","value":"ON","timestamp":12145},{"type":"PIR2","value":"ON","timestamp":14261},{"type":"PIR2","value":"ON","timestamp":15327},{"type":"PIR2","value":"ON","timestamp":16596},{"type":"PIR2","value":"ON","timestamp":17743}]
 
 Livello batteria: 967
-Tipo: Temperature 9 Valore: 25.237813144328733
+Tipo: Temperature 9 Valore: 24.53833678664771
 Livello batteria: 965
-Tipo: Temperature 0 Valore: 25.429262749679168
+Tipo: Temperature 0 Valore: 24.78334156869091
 Livello batteria: 963
-Tipo: Temperature 1 Valore: 25.532463518906557
+Tipo: Temperature 1 Valore: 24.99821453624674
 Livello batteria: 961
-Tipo: Temperature 2 Valore: 25.843812472167713
+Tipo: Temperature 2 Valore: 24.75087725513852
 Livello batteria: 959
-Tipo: Temperature 3 Valore: 25.620465212970483
+Tipo: Temperature 3 Valore: 25.226623265448257
 Livello batteria: 957
-Tipo: Temperature 4 Valore: 25.945650989942358
+Tipo: Temperature 4 Valore: 25.004575533459793
 Livello batteria: 955
+Tipo: Temperature 5 Valore: 25.102139591655575
+Livello batteria: 953
+Tipo: Temperature 6 Valore: 25.234043792717586
+Livello batteria: 951
+Tipo: Temperature 7 Valore: 25.075814434465627
+Livello batteria: 949
 Ho richiesto le misurazioni
-[{"type":"Light","value":"322.9303218041859","timestamp":21627},{"type":"Light","value":"323.25452229128365","timestamp":22801},{"type":"Light","value":"331.59632149291446","timestamp":25603},{"type":"Light","value":"340.46759690432526","timestamp":27748},{"type":"Light","value":"342.03699526417773","timestamp":30972},{"type":"Light","value":"337.7280000854787","timestamp":34492},{"type":"Light","value":"345.00249423202393","timestamp":37124},{"type":"Light","value":"354.7382768005596","timestamp":40144}]
+[{"type":"Light","value":"355.3671839469557","timestamp":21865},{"type":"Light","value":"369.1499392590208","timestamp":25085},{"type":"Light","value":"361.2583898439569","timestamp":26259},{"type":"Light","value":"373.9243381544327","timestamp":29822},{"type":"Light","value":"375.6012543927572","timestamp":33356},{"type":"Light","value":"363.730215373002","timestamp":36907},{"type":"Light","value":"373.5251542707988","timestamp":39194}]
 
-Livello batteria: 950
+Livello batteria: 944
 Ho richiesto le misurazioni
-[{"type":"PIR1","value":"ON","timestamp":21346},{"type":"PIR1","value":"ON","timestamp":23028},{"type":"PIR1","value":"ON","timestamp":35079},{"type":"PIR1","value":"ON","timestamp":37129}]
+[{"type":"PIR1","value":"ON","timestamp":26503},{"type":"PIR1","value":"ON","timestamp":30466},{"type":"PIR1","value":"ON","timestamp":35041},{"type":"PIR1","value":"ON","timestamp":37027},{"type":"PIR1","value":"ON","timestamp":38462},{"type":"PIR1","value":"ON","timestamp":40424}]
 
-Livello batteria: 945
+Livello batteria: 939
 Ho richiesto le misurazioni
-[{"type":"PIR2","value":"ON","timestamp":20970},{"type":"PIR2","value":"ON","timestamp":23996},{"type":"PIR2","value":"ON","timestamp":27079},{"type":"PIR2","value":"ON","timestamp":28502},{"type":"PIR2","value":"ON","timestamp":30535},{"type":"PIR2","value":"ON","timestamp":31667},{"type":"PIR2","value":"ON","timestamp":33035},{"type":"PIR2","value":"ON","timestamp":34166},{"type":"PIR2","value":"ON","timestamp":35465},{"type":"PIR2","value":"ON","timestamp":38539}]
+[{"type":"PIR2","value":"ON","timestamp":38821},{"type":"PIR2","value":"ON","timestamp":21206},{"type":"PIR2","value":"ON","timestamp":23748},{"type":"PIR2","value":"ON","timestamp":25213},{"type":"PIR2","value":"ON","timestamp":26231},{"type":"PIR2","value":"ON","timestamp":27767},{"type":"PIR2","value":"ON","timestamp":29944},{"type":"PIR2","value":"ON","timestamp":32534},{"type":"PIR2","value":"ON","timestamp":35079},{"type":"PIR2","value":"ON","timestamp":36148},{"type":"PIR2","value":"ON","timestamp":37203}]
 
-Livello batteria: 940
-Tipo: Temperature 5 Valore: 26.12720221310549
-Livello batteria: 938
-Tipo: Temperature 6 Valore: 25.93672825664335
-Livello batteria: 936
-Tipo: Temperature 7 Valore: 26.30059208773275
 Livello batteria: 934
-Tipo: Temperature 8 Valore: 26.125706002464973
+Tipo: Temperature 8 Valore: 25.647835644661725
 Livello batteria: 932
-Tipo: Temperature 9 Valore: 26.04538491847632
+Tipo: Temperature 9 Valore: 25.58558952516106
 Livello batteria: 930
-Tipo: Temperature 0 Valore: 26.170796607452072
+Tipo: Temperature 0 Valore: 24.92506354526408
 Livello batteria: 928
-Tipo: Temperature 1 Valore: 26.633977737764
+Tipo: Temperature 1 Valore: 25.564165611216684
 Livello batteria: 926
-Tipo: Temperature 2 Valore: 26.214950778165907
+Tipo: Temperature 2 Valore: 25.9276713826919
 Livello batteria: 924
-Tipo: Temperature 3 Valore: 26.885042004203886
+Tipo: Temperature 3 Valore: 26.014619458570373
 Livello batteria: 922
-Tipo: Temperature 4 Valore: 26.771720618819696
+Tipo: Temperature 4 Valore: 25.882498756219753
 Livello batteria: 920
+Tipo: Temperature 5 Valore: 25.805147534786883
+Livello batteria: 918
+Tipo: Temperature 6 Valore: 26.272564862362206
+Livello batteria: 916
 Ho richiesto le misurazioni
-[{"type":"Light","value":"354.4984549386872","timestamp":43033},{"type":"Light","value":"359.4170038371841","timestamp":46198},{"type":"Light","value":"372.9797206965032","timestamp":47360},{"type":"Light","value":"364.8452127344235","timestamp":49057},{"type":"Light","value":"367.95528083520736","timestamp":52301},{"type":"Light","value":"362.28623499263296","timestamp":53847},{"type":"Light","value":"380.75660328033564","timestamp":57645}]
+[{"type":"Light","value":"370.93271418767324","timestamp":40868},{"type":"Light","value":"376.72694377214066","timestamp":42482},{"type":"Light","value":"378.57227377447657","timestamp":44475},{"type":"Light","value":"391.9548794512267","timestamp":48090},{"type":"Light","value":"385.10688662814385","timestamp":49269},{"type":"Light","value":"388.2744855167022","timestamp":52840},{"type":"Light","value":"393.2820492536618","timestamp":54785},{"type":"Light","value":"398.1043502776185","timestamp":58512}]
 
-Livello batteria: 915
+Livello batteria: 911
 Ho richiesto le misurazioni
-[{"type":"PIR1","value":"ON","timestamp":40521},{"type":"PIR1","value":"ON","timestamp":41754},{"type":"PIR1","value":"ON","timestamp":43099},{"type":"PIR1","value":"ON","timestamp":46101},{"type":"PIR1","value":"ON","timestamp":48824},{"type":"PIR1","value":"ON","timestamp":49912}]
+[{"type":"PIR1","value":"ON","timestamp":43076},{"type":"PIR1","value":"ON","timestamp":47242},{"type":"PIR1","value":"ON","timestamp":48630},{"type":"PIR1","value":"ON","timestamp":60006}]
 
-Livello batteria: 910
+Livello batteria: 906
 Ho richiesto le misurazioni
-[{"type":"PIR2","value":"ON","timestamp":41071},{"type":"PIR2","value":"ON","timestamp":42942},{"type":"PIR2","value":"ON","timestamp":44312},{"type":"PIR2","value":"ON","timestamp":45569},{"type":"PIR2","value":"ON","timestamp":47348},{"type":"PIR2","value":"ON","timestamp":50823},{"type":"PIR2","value":"ON","timestamp":54482},{"type":"PIR2","value":"ON","timestamp":57708},{"type":"PIR2","value":"ON","timestamp":59754}]
+[{"type":"PIR2","value":"ON","timestamp":40815},{"type":"PIR2","value":"ON","timestamp":44289},{"type":"PIR2","value":"ON","timestamp":47825},{"type":"PIR2","value":"ON","timestamp":49243},{"type":"PIR2","value":"ON","timestamp":50908},{"type":"PIR2","value":"ON","timestamp":52275},{"type":"PIR2","value":"ON","timestamp":54916},{"type":"PIR2","value":"ON","timestamp":57593},{"type":"PIR2","value":"ON","timestamp":59158}]
 
-Livello batteria: 905
-Tipo: Temperature 5 Valore: 26.605787959921994
-Livello batteria: 903
-Tipo: Temperature 6 Valore: 26.88438525407813
 Livello batteria: 901
-Tipo: Temperature 7 Valore: 27.23615387889858
+Tipo: Temperature 7 Valore: 26.153573877783675
 Livello batteria: 899
-Tipo: Temperature 8 Valore: 27.014548923385185
+Tipo: Temperature 8 Valore: 26.334152085663682
 Livello batteria: 897
-Tipo: Temperature 9 Valore: 26.89083877444157
+Tipo: Temperature 9 Valore: 26.5793598891381
 Livello batteria: 895
-Tipo: Temperature 0 Valore: 27.177128582132923
+Tipo: Temperature 0 Valore: 26.611074859734185
 Livello batteria: 893
-Tipo: Temperature 1 Valore: 27.200645554214855
+Tipo: Temperature 1 Valore: 26.392180776871275
 Livello batteria: 891
-Tipo: Temperature 2 Valore: 27.357465042311844
+Tipo: Temperature 2 Valore: 26.678378990040603
 Livello batteria: 889
-Tipo: Temperature 3 Valore: 26.94196475293636
+Tipo: Temperature 3 Valore: 26.600286331822947
 Livello batteria: 887
-Tipo: Temperature 4 Valore: 27.441350445044524
+Tipo: Temperature 4 Valore: 26.865314966766665
 Livello batteria: 885
+Tipo: Temperature 5 Valore: 26.69766086302761
+Livello batteria: 883
 Ho richiesto le misurazioni
-[{"type":"Light","value":"376.28721723648334","timestamp":61641},{"type":"Light","value":"379.7996202720162","timestamp":63685},{"type":"Light","value":"386.12356346445614","timestamp":65369},{"type":"Light","value":"380.006908117676","timestamp":68821},{"type":"Light","value":"383.78068486272184","timestamp":70520},{"type":"Light","value":"384.9123769290882","timestamp":73248},{"type":"Light","value":"384.64154977244533","timestamp":74411},{"type":"Light","value":"400.9821846325269","timestamp":76065},{"type":"Light","value":"395.5506925752229","timestamp":77968},{"type":"Light","value":"396.27045444733864","timestamp":79786}]
+[{"type":"Light","value":"391.7662555156119","timestamp":62440},{"type":"Light","value":"394.6157234174959","timestamp":64968},{"type":"Light","value":"397.0019587583091","timestamp":67624},{"type":"Light","value":"397.90359939068134","timestamp":68724},{"type":"Light","value":"398.9989332742727","timestamp":71729},{"type":"Light","value":"388.84751933653547","timestamp":73781},{"type":"Light","value":"397.13463057568185","timestamp":77127},{"type":"Light","value":"399.19382416514605","timestamp":78180},{"type":"Light","value":"397.5020795988451","timestamp":79202}]
 
-Livello batteria: 880
+Livello batteria: 878
 Ho richiesto le misurazioni
-[{"type":"PIR1","value":"ON","timestamp":61492},{"type":"PIR1","value":"ON","timestamp":63095},{"type":"PIR1","value":"ON","timestamp":65850},{"type":"PIR1","value":"ON","timestamp":67338},{"type":"PIR1","value":"ON","timestamp":69169},{"type":"PIR1","value":"ON","timestamp":72496},{"type":"PIR1","value":"ON","timestamp":74118}]
+[{"type":"PIR1","value":"ON","timestamp":62553},{"type":"PIR1","value":"ON","timestamp":65186},{"type":"PIR1","value":"ON","timestamp":66637},{"type":"PIR1","value":"ON","timestamp":68020},{"type":"PIR1","value":"ON","timestamp":69357},{"type":"PIR1","value":"ON","timestamp":78628}]
 
-Livello batteria: 875
+Livello batteria: 873
 Ho richiesto le misurazioni
-[{"type":"PIR2","value":"ON","timestamp":60979},{"type":"PIR2","value":"ON","timestamp":64738},{"type":"PIR2","value":"ON","timestamp":67694},{"type":"PIR2","value":"ON","timestamp":68833},{"type":"PIR2","value":"ON","timestamp":72433},{"type":"PIR2","value":"ON","timestamp":73490},{"type":"PIR2","value":"ON","timestamp":76166},{"type":"PIR2","value":"ON","timestamp":77425},{"type":"PIR2","value":"ON","timestamp":80144}]
+[{"type":"PIR2","value":"ON","timestamp":60925},{"type":"PIR2","value":"ON","timestamp":64016},{"type":"PIR2","value":"ON","timestamp":67456},{"type":"PIR2","value":"ON","timestamp":70172},{"type":"PIR2","value":"ON","timestamp":71499},{"type":"PIR2","value":"ON","timestamp":72536},{"type":"PIR2","value":"ON","timestamp":74202},{"type":"PIR2","value":"ON","timestamp":75536},{"type":"PIR2","value":"ON","timestamp":77884}]
 
-Livello batteria: 870
-Tipo: Temperature 5 Valore: 27.384508921259393
 Livello batteria: 868
-Tipo: Temperature 6 Valore: 27.195346818223697
+Tipo: Temperature 6 Valore: 27.113161031413398
 Livello batteria: 866
-Tipo: Temperature 7 Valore: 27.620169441487143
+Tipo: Temperature 7 Valore: 27.114170072208967
 Livello batteria: 864
-Tipo: Temperature 8 Valore: 27.608882502080238
+Tipo: Temperature 8 Valore: 26.78833191319026
 Livello batteria: 862
-Tipo: Temperature 9 Valore: 27.4647099100724
+Tipo: Temperature 9 Valore: 26.403233592584776
 Livello batteria: 860
-Tipo: Temperature 0 Valore: 27.551437641999087
+Tipo: Temperature 0 Valore: 27.069754340717544
 Livello batteria: 858
-Tipo: Temperature 1 Valore: 27.645845751369304
+Tipo: Temperature 1 Valore: 27.29768229451114
+Livello batteria: 856
+Ho richiesto le misurazioni
+[{"type":"Light","value":"390.7008771472298","timestamp":82786},{"type":"Light","value":"390.99260556282064","timestamp":86222},{"type":"Light","value":"388.86193760566863","timestamp":89025},{"type":"Light","value":"387.60814936847214","timestamp":91066},{"type":"Light","value":"392.27605258327986","timestamp":94099},{"type":"Light","value":"388.10750324403324","timestamp":97162}]
+
+Livello batteria: 851
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":84519},{"type":"PIR1","value":"ON","timestamp":87133},{"type":"PIR1","value":"ON","timestamp":93227},{"type":"PIR1","value":"ON","timestamp":94270},{"type":"PIR1","value":"ON","timestamp":95754},{"type":"PIR1","value":"ON","timestamp":98579},{"type":"PIR1","value":"ON","timestamp":100442}]
+
+Livello batteria: 846
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":80700},{"type":"PIR2","value":"ON","timestamp":81992},{"type":"PIR2","value":"ON","timestamp":84833},{"type":"PIR2","value":"ON","timestamp":86102},{"type":"PIR2","value":"ON","timestamp":88439},{"type":"PIR2","value":"ON","timestamp":91338},{"type":"PIR2","value":"ON","timestamp":93068},{"type":"PIR2","value":"ON","timestamp":94276},{"type":"PIR2","value":"ON","timestamp":95674},{"type":"PIR2","value":"ON","timestamp":97307}]
+
+Livello batteria: 841
+Tipo: Temperature 2 Valore: 27.139200081958336
+Livello batteria: 839
+Tipo: Temperature 3 Valore: 27.279929348500147
+Livello batteria: 837
+Tipo: Temperature 4 Valore: 27.41979803424679
+Livello batteria: 835
+Tipo: Temperature 5 Valore: 27.78780867781485
+Livello batteria: 833
+Tipo: Temperature 6 Valore: 27.757007042923647
+Livello batteria: 831
+Tipo: Temperature 7 Valore: 27.834457376146023
+Livello batteria: 829
+Tipo: Temperature 8 Valore: 27.628423464786138
+Livello batteria: 827
+Ho richiesto le misurazioni
+[{"type":"Light","value":"392.75921673212923","timestamp":101113},{"type":"Light","value":"393.7977973833116","timestamp":104490},{"type":"Light","value":"388.7387413581106","timestamp":107327},{"type":"Light","value":"381.55062108038004","timestamp":109288},{"type":"Light","value":"385.27834972993907","timestamp":111759},{"type":"Light","value":"389.6202947727756","timestamp":114859},{"type":"Light","value":"378.49796776699185","timestamp":116181},{"type":"Light","value":"375.03107979864444","timestamp":117735},{"type":"Light","value":"373.7056545120248","timestamp":119653}]
+
+Livello batteria: 822
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":102268},{"type":"PIR1","value":"ON","timestamp":104771},{"type":"PIR1","value":"ON","timestamp":106940},{"type":"PIR1","value":"ON","timestamp":110583},{"type":"PIR1","value":"ON","timestamp":112997},{"type":"PIR1","value":"ON","timestamp":115969},{"type":"PIR1","value":"ON","timestamp":119628}]
+
+Livello batteria: 817
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":100930},{"type":"PIR2","value":"ON","timestamp":103193},{"type":"PIR2","value":"ON","timestamp":105960},{"type":"PIR2","value":"ON","timestamp":109672},{"type":"PIR2","value":"ON","timestamp":112612},{"type":"PIR2","value":"ON","timestamp":114207},{"type":"PIR2","value":"ON","timestamp":116515},{"type":"PIR2","value":"ON","timestamp":119399}]
+
+Livello batteria: 812
+Tipo: Temperature 9 Valore: 27.956900933941093
+Livello batteria: 810
+Tipo: Temperature 0 Valore: 28.146551814676915
+Livello batteria: 808
+Tipo: Temperature 1 Valore: 27.63433948755845
+Livello batteria: 806
+Tipo: Temperature 2 Valore: 27.958440912013316
+Livello batteria: 804
+Tipo: Temperature 3 Valore: 27.94562105452584
+Livello batteria: 802
+Tipo: Temperature 4 Valore: 27.96567954270499
+Livello batteria: 800
+Tipo: Temperature 5 Valore: 28.29155028364619
+Livello batteria: 798
+Ho richiesto le misurazioni
+[{"type":"Light","value":"359.39199467058677","timestamp":123624},{"type":"Light","value":"373.07967087250006","timestamp":126097},{"type":"Light","value":"360.67187544610994","timestamp":128014},{"type":"Light","value":"362.72445390892074","timestamp":129533},{"type":"Light","value":"359.2306930653192","timestamp":133189},{"type":"Light","value":"354.36185329554496","timestamp":135991},{"type":"Light","value":"355.5659393049633","timestamp":138505}]
+
+Livello batteria: 793
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":121007},{"type":"PIR1","value":"ON","timestamp":122505},{"type":"PIR1","value":"ON","timestamp":124501},{"type":"PIR1","value":"ON","timestamp":125916},{"type":"PIR1","value":"ON","timestamp":127043},{"type":"PIR1","value":"ON","timestamp":130575},{"type":"PIR1","value":"ON","timestamp":135307},{"type":"PIR1","value":"ON","timestamp":136856},{"type":"PIR1","value":"ON","timestamp":138385},{"type":"PIR1","value":"ON","timestamp":140128}]
+
+Livello batteria: 788
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":123382},{"type":"PIR2","value":"ON","timestamp":125301},{"type":"PIR2","value":"ON","timestamp":127113},{"type":"PIR2","value":"ON","timestamp":129937},{"type":"PIR2","value":"ON","timestamp":133519},{"type":"PIR2","value":"ON","timestamp":135299},{"type":"PIR2","value":"ON","timestamp":136407},{"type":"PIR2","value":"ON","timestamp":139366}]
+
+Livello batteria: 783
+Tipo: Temperature 6 Valore: 28.248832156154453
+Livello batteria: 781
+Tipo: Temperature 7 Valore: 27.979858022636517
+Livello batteria: 779
+Tipo: Temperature 8 Valore: 28.295434561343733
+Livello batteria: 777
+Tipo: Temperature 9 Valore: 28.178263194108975
+Livello batteria: 775
+Tipo: Temperature 0 Valore: 28.1477955149995
+Livello batteria: 773
+Tipo: Temperature 1 Valore: 28.67502269520985
+Livello batteria: 771
+Tipo: Temperature 2 Valore: 28.568275149936184
+Livello batteria: 769
+Tipo: Temperature 3 Valore: 28.60349691673448
+Livello batteria: 767
+Tipo: Temperature 4 Valore: 28.92923979949065
+Livello batteria: 765
+Ho richiesto le misurazioni
+[{"type":"Light","value":"358.71362473098213","timestamp":140953},{"type":"Light","value":"342.95592585460895","timestamp":143580},{"type":"Light","value":"335.9522005096796","timestamp":146084},{"type":"Light","value":"333.81177094177787","timestamp":147253},{"type":"Light","value":"324.67229909468205","timestamp":149332},{"type":"Light","value":"329.6401871507871","timestamp":152189},{"type":"Light","value":"335.07541976954417","timestamp":154051},{"type":"Light","value":"324.7921445438388","timestamp":155758},{"type":"Light","value":"314.43133579929037","timestamp":159245}]
+
+Livello batteria: 760
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":141968},{"type":"PIR1","value":"ON","timestamp":153853},{"type":"PIR1","value":"ON","timestamp":155139},{"type":"PIR1","value":"ON","timestamp":157068},{"type":"PIR1","value":"ON","timestamp":158933}]
+
+Livello batteria: 755
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":142196},{"type":"PIR2","value":"ON","timestamp":143812},{"type":"PIR2","value":"ON","timestamp":145090},{"type":"PIR2","value":"ON","timestamp":147353},{"type":"PIR2","value":"ON","timestamp":150481},{"type":"PIR2","value":"ON","timestamp":151906},{"type":"PIR2","value":"ON","timestamp":153872},{"type":"PIR2","value":"ON","timestamp":155522},{"type":"PIR2","value":"ON","timestamp":156774},{"type":"PIR2","value":"ON","timestamp":159125}]
+
+Livello batteria: 750
+Tipo: Temperature 5 Valore: 28.641720764665116
+Livello batteria: 748
+Tipo: Temperature 6 Valore: 28.891819970982443
+Livello batteria: 746
+Tipo: Temperature 7 Valore: 28.929860085193713
+Livello batteria: 744
+Tipo: Temperature 8 Valore: 28.84969074969475
+Livello batteria: 742
+Tipo: Temperature 9 Valore: 29.05862315111102
+Livello batteria: 740
+Tipo: Temperature 0 Valore: 28.690138140843313
+Livello batteria: 738
+Tipo: Temperature 1 Valore: 29.025018357689092
+Livello batteria: 736
+Tipo: Temperature 2 Valore: 28.914181897320354
+Livello batteria: 734
+Tipo: Temperature 3 Valore: 29.094565116838204
+Livello batteria: 732
+Ho richiesto le misurazioni
+[{"type":"Light","value":"320.00342907169573","timestamp":161599},{"type":"Light","value":"303.1936758112888","timestamp":163167},{"type":"Light","value":"301.19156722629606","timestamp":167113},{"type":"Light","value":"300.43810536148993","timestamp":169458},{"type":"Light","value":"289.63672577527484","timestamp":171171},{"type":"Light","value":"286.55221659743023","timestamp":173736},{"type":"Light","value":"284.7921919303093","timestamp":177040},{"type":"Light","value":"284.15721714379015","timestamp":179035}]
+
+Livello batteria: 727
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":161490},{"type":"PIR1","value":"ON","timestamp":167660},{"type":"PIR1","value":"ON","timestamp":170922},{"type":"PIR1","value":"ON","timestamp":172436},{"type":"PIR1","value":"ON","timestamp":173582},{"type":"PIR1","value":"ON","timestamp":176335},{"type":"PIR1","value":"ON","timestamp":177554},{"type":"PIR1","value":"ON","timestamp":178917}]
+
+Livello batteria: 722
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":162966},{"type":"PIR2","value":"ON","timestamp":166429},{"type":"PIR2","value":"ON","timestamp":169545},{"type":"PIR2","value":"ON","timestamp":170857},{"type":"PIR2","value":"ON","timestamp":172510},{"type":"PIR2","value":"ON","timestamp":174602},{"type":"PIR2","value":"ON","timestamp":176368},{"type":"PIR2","value":"ON","timestamp":178097},{"type":"PIR2","value":"ON","timestamp":179594}]
+
+Livello batteria: 717
+Tipo: Temperature 4 Valore: 28.93711762597515
+Livello batteria: 715
+Tipo: Temperature 5 Valore: 28.911484129757387
+Livello batteria: 713
+Tipo: Temperature 6 Valore: 29.533837993433977
+Livello batteria: 711
+Tipo: Temperature 7 Valore: 29.200036761145597
+Livello batteria: 709
+Tipo: Temperature 8 Valore: 29.30259362563837
+Livello batteria: 707
+Tipo: Temperature 9 Valore: 29.450286775545745
+Livello batteria: 705
+Tipo: Temperature 0 Valore: 29.510242444541863
+Livello batteria: 703
+Tipo: Temperature 1 Valore: 29.424713733694478
+Livello batteria: 701
+Tipo: Temperature 2 Valore: 29.623206032069866
+Livello batteria: 699
+Ho richiesto le misurazioni
+[{"type":"Light","value":"266.4377308690422","timestamp":180584},{"type":"Light","value":"271.1507679811063","timestamp":182434},{"type":"Light","value":"267.279655000543","timestamp":183707},{"type":"Light","value":"251.46663446022166","timestamp":187167},{"type":"Light","value":"247.9569944938405","timestamp":190667},{"type":"Light","value":"241.87583891548076","timestamp":193639},{"type":"Light","value":"250.23660764567532","timestamp":196006},{"type":"Light","value":"236.04223868466931","timestamp":199138}]
+
+Livello batteria: 694
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":182091},{"type":"PIR1","value":"ON","timestamp":184990},{"type":"PIR1","value":"ON","timestamp":190749},{"type":"PIR1","value":"ON","timestamp":192633},{"type":"PIR1","value":"ON","timestamp":193909}]
+
+Livello batteria: 689
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":199219},{"type":"PIR2","value":"ON","timestamp":180762},{"type":"PIR2","value":"ON","timestamp":183243},{"type":"PIR2","value":"ON","timestamp":184502},{"type":"PIR2","value":"ON","timestamp":185852},{"type":"PIR2","value":"ON","timestamp":186914},{"type":"PIR2","value":"ON","timestamp":190469},{"type":"PIR2","value":"ON","timestamp":192651},{"type":"PIR2","value":"ON","timestamp":194550},{"type":"PIR2","value":"ON","timestamp":195707},{"type":"PIR2","value":"ON","timestamp":198165}]
+
+Livello batteria: 684
+Tipo: Temperature 3 Valore: 29.685451988408794
+Livello batteria: 682
+Tipo: Temperature 4 Valore: 29.401743033953704
+Livello batteria: 680
+Tipo: Temperature 5 Valore: 29.775714684087404
+Livello batteria: 678
+Tipo: Temperature 6 Valore: 29.73045019664484
+Livello batteria: 676
+Tipo: Temperature 7 Valore: 29.849588514518473
+Livello batteria: 674
+Tipo: Temperature 8 Valore: 29.61110273302941
+Livello batteria: 672
+Tipo: Temperature 9 Valore: 29.702477252929235
+Livello batteria: 670
+Tipo: Temperature 0 Valore: 29.367048213329515
+Livello batteria: 668
+Tipo: Temperature 1 Valore: 29.66932818892741
+Livello batteria: 666
+Ho richiesto le misurazioni
+[{"type":"Light","value":"226.92341005053927","timestamp":201903},{"type":"Light","value":"224.37048532198472","timestamp":205718},{"type":"Light","value":"213.87271539765274","timestamp":208321},{"type":"Light","value":"214.1496163315","timestamp":210189},{"type":"Light","value":"206.001285453452","timestamp":213208},{"type":"Light","value":"201.5407806894964","timestamp":216946},{"type":"Light","value":"201.71367589057965","timestamp":218802},{"type":"Light","value":"197.19000919978023","timestamp":220291}]
+
+Livello batteria: 661
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":204224},{"type":"PIR1","value":"ON","timestamp":210796},{"type":"PIR1","value":"ON","timestamp":214347}]
+
+Livello batteria: 656
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":220515},{"type":"PIR2","value":"ON","timestamp":201381},{"type":"PIR2","value":"ON","timestamp":203465},{"type":"PIR2","value":"ON","timestamp":205769},{"type":"PIR2","value":"ON","timestamp":207041},{"type":"PIR2","value":"ON","timestamp":208998},{"type":"PIR2","value":"ON","timestamp":210142},{"type":"PIR2","value":"ON","timestamp":211897},{"type":"PIR2","value":"ON","timestamp":214600},{"type":"PIR2","value":"ON","timestamp":215858},{"type":"PIR2","value":"ON","timestamp":218298}]
+
+Livello batteria: 651
+Tipo: Temperature 2 Valore: 29.72356094727035
+Livello batteria: 649
+Tipo: Temperature 3 Valore: 29.757514706483263
+Livello batteria: 647
+Tipo: Temperature 4 Valore: 30.031091780458173
+Livello batteria: 645
+Tipo: Temperature 5 Valore: 29.752329177349385
+Livello batteria: 643
+Tipo: Temperature 6 Valore: 29.808269658554764
+Livello batteria: 641
+Tipo: Temperature 7 Valore: 30.05725369588945
+Livello batteria: 639
+Tipo: Temperature 8 Valore: 30.001781789989735
+Livello batteria: 637
+Tipo: Temperature 9 Valore: 29.61632406024149
+Livello batteria: 635
+Ho richiesto le misurazioni
+[{"type":"Light","value":"179.16792597025466","timestamp":223941},{"type":"Light","value":"172.7853444620852","timestamp":225319},{"type":"Light","value":"175.32325064142148","timestamp":226753},{"type":"Light","value":"165.2086824653483","timestamp":228636},{"type":"Light","value":"151.98248840128485","timestamp":230687},{"type":"Light","value":"158.41028795515453","timestamp":234544},{"type":"Light","value":"159.83740042355063","timestamp":235750},{"type":"Light","value":"144.1303160766842","timestamp":238064},{"type":"Light","value":"129.56003849200903","timestamp":239678}]
+
+Livello batteria: 630
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":225342},{"type":"PIR1","value":"ON","timestamp":229061},{"type":"PIR1","value":"ON","timestamp":231665},{"type":"PIR1","value":"ON","timestamp":234530},{"type":"PIR1","value":"ON","timestamp":236781},{"type":"PIR1","value":"ON","timestamp":238384},{"type":"PIR1","value":"ON","timestamp":240255}]
+
+Livello batteria: 625
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":222436},{"type":"PIR2","value":"ON","timestamp":223782},{"type":"PIR2","value":"ON","timestamp":226031},{"type":"PIR2","value":"ON","timestamp":227141},{"type":"PIR2","value":"ON","timestamp":228439},{"type":"PIR2","value":"ON","timestamp":231650},{"type":"PIR2","value":"ON","timestamp":235075},{"type":"PIR2","value":"ON","timestamp":236780},{"type":"PIR2","value":"ON","timestamp":237953}]
+
+Livello batteria: 620
+Tipo: Temperature 0 Valore: 29.882575305553267
+Livello batteria: 618
+Tipo: Temperature 1 Valore: 29.80672731996904
+Livello batteria: 616
+Tipo: Temperature 2 Valore: 30.067906446404837
+Livello batteria: 614
+Tipo: Temperature 3 Valore: 29.98229712775405
+Livello batteria: 612
+Tipo: Temperature 4 Valore: 30.35852135062073
+Livello batteria: 610
+Tipo: Temperature 5 Valore: 30.14554325158317
+Livello batteria: 608
+Tipo: Temperature 6 Valore: 30.06904008294739
+Livello batteria: 606
+Ho richiesto le misurazioni
+[{"type":"Light","value":"133.5808122673403","timestamp":243346},{"type":"Light","value":"122.5755220386854","timestamp":244702},{"type":"Light","value":"127.47317093389547","timestamp":247560},{"type":"Light","value":"131.65046338459254","timestamp":249886},{"type":"Light","value":"117.1268209376129","timestamp":251097},{"type":"Light","value":"115.08986612104567","timestamp":253509},{"type":"Light","value":"107.2978466116169","timestamp":255190},{"type":"Light","value":"108.59038373348335","timestamp":257933},{"type":"Light","value":"101.19826808728776","timestamp":260381}]
+
+Livello batteria: 601
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":244594},{"type":"PIR1","value":"ON","timestamp":246516},{"type":"PIR1","value":"ON","timestamp":248358},{"type":"PIR1","value":"ON","timestamp":249378},{"type":"PIR1","value":"ON","timestamp":250408},{"type":"PIR1","value":"ON","timestamp":252307},{"type":"PIR1","value":"ON","timestamp":257164},{"type":"PIR1","value":"ON","timestamp":260524}]
+
+Livello batteria: 596
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":241408},{"type":"PIR2","value":"ON","timestamp":244198},{"type":"PIR2","value":"ON","timestamp":245728},{"type":"PIR2","value":"ON","timestamp":248504},{"type":"PIR2","value":"ON","timestamp":249709},{"type":"PIR2","value":"ON","timestamp":252265},{"type":"PIR2","value":"ON","timestamp":254048},{"type":"PIR2","value":"ON","timestamp":257812}]
+
+Livello batteria: 591
+Tipo: Temperature 7 Valore: 30.063869634253546
+Livello batteria: 589
+Tipo: Temperature 8 Valore: 29.808227891796328
+Livello batteria: 587
+Tipo: Temperature 9 Valore: 29.933498008990277
+Livello batteria: 585
+Tipo: Temperature 0 Valore: 30.046464389298187
+Livello batteria: 583
+Tipo: Temperature 1 Valore: 29.779483266681773
+Livello batteria: 581
+Tipo: Temperature 2 Valore: 29.855575670962857
+Livello batteria: 579
+Tipo: Temperature 3 Valore: 30.027597265541335
+Livello batteria: 577
+Tipo: Temperature 4 Valore: 30.11414216271807
+Livello batteria: 575
+Ho richiesto le misurazioni
+[{"type":"Light","value":"94.82439770736596","timestamp":262157},{"type":"Light","value":"95.11416957469305","timestamp":265348},{"type":"Light","value":"83.27472976459428","timestamp":268107},{"type":"Light","value":"85.25908941275227","timestamp":269409},{"type":"Light","value":"75.98453425354374","timestamp":271528},{"type":"Light","value":"72.08025236010057","timestamp":272631},{"type":"Light","value":"70.20586531144886","timestamp":274965},{"type":"Light","value":"67.76127987385087","timestamp":277898},{"type":"Light","value":"61.9853263361097","timestamp":280172}]
+
+Livello batteria: 570
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":267028},{"type":"PIR1","value":"ON","timestamp":270049},{"type":"PIR1","value":"ON","timestamp":271315},{"type":"PIR1","value":"ON","timestamp":272402},{"type":"PIR1","value":"ON","timestamp":273662},{"type":"PIR1","value":"ON","timestamp":274959},{"type":"PIR1","value":"ON","timestamp":276181},{"type":"PIR1","value":"ON","timestamp":278272},{"type":"PIR1","value":"ON","timestamp":279611}]
+
+Livello batteria: 565
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":261778},{"type":"PIR2","value":"ON","timestamp":263051},{"type":"PIR2","value":"ON","timestamp":264189},{"type":"PIR2","value":"ON","timestamp":265379},{"type":"PIR2","value":"ON","timestamp":269035},{"type":"PIR2","value":"ON","timestamp":272623},{"type":"PIR2","value":"ON","timestamp":275453},{"type":"PIR2","value":"ON","timestamp":277962}]
+
+Livello batteria: 560
+Tipo: Temperature 5 Valore: 29.810420945606843
+Livello batteria: 558
+Tipo: Temperature 6 Valore: 29.747234257732146
+Livello batteria: 556
+Tipo: Temperature 7 Valore: 30.119216934451227
+Livello batteria: 554
+Tipo: Temperature 8 Valore: 29.726350200410476
+Livello batteria: 552
+Tipo: Temperature 9 Valore: 30.003772856009576
+Livello batteria: 550
+Tipo: Temperature 0 Valore: 29.84520869848254
+Livello batteria: 548
+Tipo: Temperature 1 Valore: 29.54214213088315
+Livello batteria: 546
+Tipo: Temperature 2 Valore: 30.124817089048978
+Livello batteria: 544
+Ho richiesto le misurazioni
+[{"type":"Light","value":"53.36203407649052","timestamp":281288},{"type":"Light","value":"54.939790256779716","timestamp":283026},{"type":"Light","value":"51.48213308384036","timestamp":285354},{"type":"Light","value":"56.59589031138176","timestamp":287541},{"type":"Light","value":"37.4923838390312","timestamp":291433},{"type":"Light","value":"44.39918282963993","timestamp":292449},{"type":"Light","value":"44.50645894762588","timestamp":295016},{"type":"Light","value":"41.60411261093174","timestamp":296375},{"type":"Light","value":"38.92553838587194","timestamp":299348}]
+
+Livello batteria: 539
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":284964},{"type":"PIR1","value":"ON","timestamp":286565},{"type":"PIR1","value":"ON","timestamp":295396},{"type":"PIR1","value":"ON","timestamp":298406},{"type":"PIR1","value":"ON","timestamp":299632}]
+
+Livello batteria: 534
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":281552},{"type":"PIR2","value":"ON","timestamp":283629},{"type":"PIR2","value":"ON","timestamp":285513},{"type":"PIR2","value":"ON","timestamp":286560},{"type":"PIR2","value":"ON","timestamp":287745},{"type":"PIR2","value":"ON","timestamp":290161},{"type":"PIR2","value":"ON","timestamp":293646},{"type":"PIR2","value":"ON","timestamp":295270},{"type":"PIR2","value":"ON","timestamp":298626},{"type":"PIR2","value":"ON","timestamp":300262}]
+
+Livello batteria: 529
+Tipo: Temperature 3 Valore: 29.87025605475877
+Livello batteria: 527
+Tipo: Temperature 4 Valore: 30.073527987891737
+Livello batteria: 525
+Tipo: Temperature 5 Valore: 30.28204197167048
+Livello batteria: 523
+Tipo: Temperature 6 Valore: 29.72861521296177
+Livello batteria: 521
+Tipo: Temperature 7 Valore: 29.956874679439245
+Livello batteria: 519
+Tipo: Temperature 8 Valore: 29.769699004506755
+Livello batteria: 517
+Tipo: Temperature 9 Valore: 29.773690063726963
+Livello batteria: 515
+Tipo: Temperature 0 Valore: 29.7632566378428
+Livello batteria: 513
+Ho richiesto le misurazioni
+[{"type":"Light","value":"33.958959280540384","timestamp":302176},{"type":"Light","value":"42.55534527484372","timestamp":305579},{"type":"Light","value":"28.923514113662833","timestamp":308370},{"type":"Light","value":"33.365282404339595","timestamp":309826},{"type":"Light","value":"30.91630808429392","timestamp":311162},{"type":"Light","value":"22.778246879896493","timestamp":315095},{"type":"Light","value":"32.51215779726994","timestamp":317199},{"type":"Light","value":"20.375511154329086","timestamp":319593}]
+
+Livello batteria: 508
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":301311},{"type":"PIR1","value":"ON","timestamp":306132},{"type":"PIR1","value":"ON","timestamp":307525},{"type":"PIR1","value":"ON","timestamp":309134},{"type":"PIR1","value":"ON","timestamp":310823},{"type":"PIR1","value":"ON","timestamp":318394}]
+
+Livello batteria: 503
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":320007},{"type":"PIR2","value":"ON","timestamp":302194},{"type":"PIR2","value":"ON","timestamp":303458},{"type":"PIR2","value":"ON","timestamp":305104},{"type":"PIR2","value":"ON","timestamp":306625},{"type":"PIR2","value":"ON","timestamp":307766},{"type":"PIR2","value":"ON","timestamp":310405},{"type":"PIR2","value":"ON","timestamp":313280},{"type":"PIR2","value":"ON","timestamp":316281},{"type":"PIR2","value":"ON","timestamp":317861},{"type":"PIR2","value":"ON","timestamp":318990}]
+
+Livello batteria: 498
+Tipo: Temperature 1 Valore: 29.876698433718065
+Livello batteria: 496
+Tipo: Temperature 2 Valore: 30.026267775432796
+Livello batteria: 494
+Tipo: Temperature 3 Valore: 29.77761337530658
+Livello batteria: 492
+Tipo: Temperature 4 Valore: 29.958184416822746
+Livello batteria: 490
+Tipo: Temperature 5 Valore: 29.726667769402507
+Livello batteria: 488
+Tipo: Temperature 6 Valore: 29.79197660808499
+Livello batteria: 486
+Tipo: Temperature 7 Valore: 29.518346351731974
+Livello batteria: 484
+Tipo: Temperature 8 Valore: 29.736201871747244
+Livello batteria: 482
+Tipo: Temperature 9 Valore: 29.617133416304203
+Livello batteria: 480
+Tipo: Temperature 0 Valore: 29.683270842616725
+Livello batteria: 478
+Ho richiesto le misurazioni
+[{"type":"Light","value":"20.640424442714355","timestamp":321706},{"type":"Light","value":"25.98830916025772","timestamp":324414},{"type":"Light","value":"25.352303583174","timestamp":327219},{"type":"Light","value":"13.100346356900644","timestamp":330412},{"type":"Light","value":"17.290039717874226","timestamp":332701},{"type":"Light","value":"32.4653777485953","timestamp":334589},{"type":"Light","value":"27.873550705207908","timestamp":336384},{"type":"Light","value":"13.787494356504169","timestamp":339011}]
+
+Livello batteria: 473
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":322241},{"type":"PIR1","value":"ON","timestamp":324780},{"type":"PIR1","value":"ON","timestamp":326506},{"type":"PIR1","value":"ON","timestamp":327639},{"type":"PIR1","value":"ON","timestamp":329039},{"type":"PIR1","value":"ON","timestamp":331670},{"type":"PIR1","value":"ON","timestamp":333919},{"type":"PIR1","value":"ON","timestamp":339721}]
+
+Livello batteria: 468
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":339579},{"type":"PIR2","value":"ON","timestamp":322048},{"type":"PIR2","value":"ON","timestamp":323127},{"type":"PIR2","value":"ON","timestamp":324715},{"type":"PIR2","value":"ON","timestamp":326725},{"type":"PIR2","value":"ON","timestamp":327799},{"type":"PIR2","value":"ON","timestamp":330052},{"type":"PIR2","value":"ON","timestamp":331714},{"type":"PIR2","value":"ON","timestamp":334686},{"type":"PIR2","value":"ON","timestamp":336499},{"type":"PIR2","value":"ON","timestamp":337877}]
+
+Livello batteria: 463
+Tipo: Temperature 1 Valore: 29.899385719524773
+Livello batteria: 461
+Tipo: Temperature 2 Valore: 29.687910051019042
+Livello batteria: 459
+Tipo: Temperature 3 Valore: 29.54846354579572
+Livello batteria: 457
+Tipo: Temperature 4 Valore: 29.487376030324395
+Livello batteria: 455
+Tipo: Temperature 5 Valore: 29.38445952468099
+Livello batteria: 453
+Tipo: Temperature 6 Valore: 29.61556834288712
+Livello batteria: 451
+Tipo: Temperature 7 Valore: 29.77893683958604
+Livello batteria: 449
+Tipo: Temperature 8 Valore: 29.742594372061863
+Livello batteria: 447
+Tipo: Temperature 9 Valore: 29.428389098209696
+Livello batteria: 445
+Ho richiesto le misurazioni
+[{"type":"Light","value":"30.92033560799593","timestamp":340989},{"type":"Light","value":"41.35407955568188","timestamp":344783},{"type":"Light","value":"28.685109170463093","timestamp":348129},{"type":"Light","value":"32.38961290851228","timestamp":350834},{"type":"Light","value":"31.73371674592416","timestamp":351942},{"type":"Light","value":"35.68686015723056","timestamp":354596},{"type":"Light","value":"35.32784580424613","timestamp":358357},{"type":"Light","value":"39.04019846515709","timestamp":360296}]
+
+Livello batteria: 440
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":344179},{"type":"PIR1","value":"ON","timestamp":345340},{"type":"PIR1","value":"ON","timestamp":346986},{"type":"PIR1","value":"ON","timestamp":348067},{"type":"PIR1","value":"ON","timestamp":357542},{"type":"PIR1","value":"ON","timestamp":358596},{"type":"PIR1","value":"ON","timestamp":360268}]
+
+Livello batteria: 435
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":342814},{"type":"PIR2","value":"ON","timestamp":344170},{"type":"PIR2","value":"ON","timestamp":345376},{"type":"PIR2","value":"ON","timestamp":346726},{"type":"PIR2","value":"ON","timestamp":348470},{"type":"PIR2","value":"ON","timestamp":350512},{"type":"PIR2","value":"ON","timestamp":354461},{"type":"PIR2","value":"ON","timestamp":358281}]
+
+Livello batteria: 430
+Tipo: Temperature 0 Valore: 29.376192399903896
+Livello batteria: 428
+Tipo: Temperature 1 Valore: 29.5535556763944
+Livello batteria: 426
+Tipo: Temperature 2 Valore: 29.19997758011877
+Livello batteria: 424
+Tipo: Temperature 3 Valore: 29.656448954741315
+Livello batteria: 422
+Tipo: Temperature 4 Valore: 29.66713358965184
+Livello batteria: 420
+Tipo: Temperature 5 Valore: 29.331182501679333
+Livello batteria: 418
+Ho richiesto le misurazioni
+[{"type":"Light","value":"40.67814947516237","timestamp":361465},{"type":"Light","value":"37.6568170762882","timestamp":362781},{"type":"Light","value":"49.23043184585348","timestamp":364247},{"type":"Light","value":"45.624590003814944","timestamp":365822},{"type":"Light","value":"43.872380086824066","timestamp":369169},{"type":"Light","value":"54.05382154217555","timestamp":370512},{"type":"Light","value":"50.44828284276424","timestamp":373448},{"type":"Light","value":"51.53369208254544","timestamp":377211},{"type":"Light","value":"53.79323683738058","timestamp":378570},{"type":"Light","value":"71.57546939615602","timestamp":380542}]
+
+Livello batteria: 413
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":363528},{"type":"PIR1","value":"ON","timestamp":369843},{"type":"PIR1","value":"ON","timestamp":373500},{"type":"PIR1","value":"ON","timestamp":376503},{"type":"PIR1","value":"ON","timestamp":377699},{"type":"PIR1","value":"ON","timestamp":379317}]
+
+Livello batteria: 408
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":360937},{"type":"PIR2","value":"ON","timestamp":363376},{"type":"PIR2","value":"ON","timestamp":365273},{"type":"PIR2","value":"ON","timestamp":367503},{"type":"PIR2","value":"ON","timestamp":369572},{"type":"PIR2","value":"ON","timestamp":372262},{"type":"PIR2","value":"ON","timestamp":375195},{"type":"PIR2","value":"ON","timestamp":376485},{"type":"PIR2","value":"ON","timestamp":378876},{"type":"PIR2","value":"ON","timestamp":380159}]
+
+Livello batteria: 403
+Tipo: Temperature 6 Valore: 29.065534743988692
+Livello batteria: 401
+Tipo: Temperature 7 Valore: 29.554094012427775
+Livello batteria: 399
+Tipo: Temperature 8 Valore: 29.22759960399081
+Livello batteria: 397
+Tipo: Temperature 9 Valore: 29.038812888224108
+Livello batteria: 395
+Tipo: Temperature 0 Valore: 29.420459383418056
+Livello batteria: 393
+Tipo: Temperature 1 Valore: 28.974754518773672
+Livello batteria: 391
+Tipo: Temperature 2 Valore: 28.924259837045582
+Livello batteria: 389
+Tipo: Temperature 3 Valore: 28.87851639735699
+Livello batteria: 387
+Ho richiesto le misurazioni
+[{"type":"Light","value":"64.21458799449832","timestamp":382001},{"type":"Light","value":"70.54441207079012","timestamp":384783},{"type":"Light","value":"75.08445744503466","timestamp":385850},{"type":"Light","value":"81.57222130474517","timestamp":387138},{"type":"Light","value":"76.40723126471647","timestamp":389839},{"type":"Light","value":"83.99946366155545","timestamp":392962},{"type":"Light","value":"91.4309470645691","timestamp":395526},{"type":"Light","value":"96.63001053626857","timestamp":397893},{"type":"Light","value":"94.35553342398471","timestamp":400277}]
+
+Livello batteria: 382
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":382276},{"type":"PIR1","value":"ON","timestamp":384304},{"type":"PIR1","value":"ON","timestamp":385784},{"type":"PIR1","value":"ON","timestamp":387847},{"type":"PIR1","value":"ON","timestamp":388952},{"type":"PIR1","value":"ON","timestamp":392056},{"type":"PIR1","value":"ON","timestamp":394541},{"type":"PIR1","value":"ON","timestamp":395988},{"type":"PIR1","value":"ON","timestamp":397975},{"type":"PIR1","value":"ON","timestamp":399709}]
+
+Livello batteria: 377
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":381364},{"type":"PIR2","value":"ON","timestamp":384145},{"type":"PIR2","value":"ON","timestamp":386281},{"type":"PIR2","value":"ON","timestamp":387423},{"type":"PIR2","value":"ON","timestamp":389172},{"type":"PIR2","value":"ON","timestamp":392592},{"type":"PIR2","value":"ON","timestamp":393648},{"type":"PIR2","value":"ON","timestamp":397334},{"type":"PIR2","value":"ON","timestamp":398925},{"type":"PIR2","value":"ON","timestamp":400413}]
+
+Livello batteria: 372
+Tipo: Temperature 4 Valore: 28.74309172680086
+Livello batteria: 370
+Tipo: Temperature 5 Valore: 28.94957549829479
+Livello batteria: 368
+Tipo: Temperature 6 Valore: 28.904213678933917
+Livello batteria: 366
+Tipo: Temperature 7 Valore: 28.81709426322279
+Livello batteria: 364
+Tipo: Temperature 8 Valore: 28.711322101162697
+Livello batteria: 362
+Tipo: Temperature 9 Valore: 28.42608529168221
+Livello batteria: 360
+Tipo: Temperature 0 Valore: 28.33175967733107
+Livello batteria: 358
+Tipo: Temperature 1 Valore: 28.782095196219284
+Livello batteria: 356
+Tipo: Temperature 2 Valore: 28.87671605113491
+Livello batteria: 354
+Tipo: Temperature 3 Valore: 28.48746027202691
+Livello batteria: 352
+Ho richiesto le misurazioni
+[{"type":"Light","value":"95.99004309294652","timestamp":403895},{"type":"Light","value":"103.75692763582089","timestamp":406555},{"type":"Light","value":"107.88639090533286","timestamp":409544},{"type":"Light","value":"114.42866675421067","timestamp":410831},{"type":"Light","value":"119.66677807727068","timestamp":414269},{"type":"Light","value":"124.63746638283504","timestamp":416484},{"type":"Light","value":"129.26245654004182","timestamp":418617}]
+
+Livello batteria: 347
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":402789},{"type":"PIR1","value":"ON","timestamp":404388},{"type":"PIR1","value":"ON","timestamp":405676},{"type":"PIR1","value":"ON","timestamp":408873},{"type":"PIR1","value":"ON","timestamp":412995},{"type":"PIR1","value":"ON","timestamp":414519},{"type":"PIR1","value":"ON","timestamp":418315},{"type":"PIR1","value":"ON","timestamp":420209}]
+
+Livello batteria: 342
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":402256},{"type":"PIR2","value":"ON","timestamp":403803},{"type":"PIR2","value":"ON","timestamp":407024},{"type":"PIR2","value":"ON","timestamp":408624},{"type":"PIR2","value":"ON","timestamp":409883},{"type":"PIR2","value":"ON","timestamp":412416},{"type":"PIR2","value":"ON","timestamp":413788},{"type":"PIR2","value":"ON","timestamp":416046},{"type":"PIR2","value":"ON","timestamp":420037}]
+
+Livello batteria: 337
+Tipo: Temperature 4 Valore: 27.990044109158617
+Livello batteria: 335
+Tipo: Temperature 5 Valore: 28.321081229820233
+Livello batteria: 333
+Tipo: Temperature 6 Valore: 27.956853040277938
+Livello batteria: 331
+Tipo: Temperature 7 Valore: 28.55011258924358
+Livello batteria: 329
+Tipo: Temperature 8 Valore: 28.220014069239095
+Livello batteria: 327
+Tipo: Temperature 9 Valore: 28.493922178796996
+Livello batteria: 325
+Tipo: Temperature 0 Valore: 28.31512558676937
+Livello batteria: 323
+Ho richiesto le misurazioni
+[{"type":"Light","value":"133.5277585352362","timestamp":421122},{"type":"Light","value":"143.28437765093904","timestamp":424783},{"type":"Light","value":"140.0602543122676","timestamp":428364},{"type":"Light","value":"147.2769963514986","timestamp":431072},{"type":"Light","value":"158.7903885777077","timestamp":434714},{"type":"Light","value":"152.15008781348018","timestamp":436428},{"type":"Light","value":"160.59496941273957","timestamp":438008},{"type":"Light","value":"163.08237183584382","timestamp":440498}]
+
+Livello batteria: 318
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":422592},{"type":"PIR1","value":"ON","timestamp":425549},{"type":"PIR1","value":"ON","timestamp":435843},{"type":"PIR1","value":"ON","timestamp":438724},{"type":"PIR1","value":"ON","timestamp":440185}]
+
+Livello batteria: 313
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":421491},{"type":"PIR2","value":"ON","timestamp":423026},{"type":"PIR2","value":"ON","timestamp":426691},{"type":"PIR2","value":"ON","timestamp":428675},{"type":"PIR2","value":"ON","timestamp":429902},{"type":"PIR2","value":"ON","timestamp":431414},{"type":"PIR2","value":"ON","timestamp":434168},{"type":"PIR2","value":"ON","timestamp":435350},{"type":"PIR2","value":"ON","timestamp":438072},{"type":"PIR2","value":"ON","timestamp":440155}]
+
+Livello batteria: 308
+Tipo: Temperature 1 Valore: 28.115233732160007
+Livello batteria: 306
+Tipo: Temperature 2 Valore: 27.813097547461823
+Livello batteria: 304
+Tipo: Temperature 3 Valore: 28.0147497946394
+Livello batteria: 302
+Tipo: Temperature 4 Valore: 27.727455253010962
+Livello batteria: 300
+Tipo: Temperature 5 Valore: 27.751406615174133
+Livello batteria: 298
+Tipo: Temperature 6 Valore: 27.7118256207968
+Livello batteria: 296
+Tipo: Temperature 7 Valore: 28.014865245341092
+Livello batteria: 294
+Tipo: Temperature 8 Valore: 27.496821832773055
+Livello batteria: 292
+Ho richiesto le misurazioni
+[{"type":"Light","value":"184.0399287538784","timestamp":442533},{"type":"Light","value":"185.1177371654461","timestamp":444640},{"type":"Light","value":"180.6045393416816","timestamp":445721},{"type":"Light","value":"187.65206057044148","timestamp":447677},{"type":"Light","value":"201.630655477368","timestamp":449182},{"type":"Light","value":"201.38557917444408","timestamp":452979},{"type":"Light","value":"202.8471801230569","timestamp":455946},{"type":"Light","value":"211.89620671046987","timestamp":457021},{"type":"Light","value":"224.62869242014125","timestamp":458217},{"type":"Light","value":"229.57548542498404","timestamp":459787}]
+
+Livello batteria: 287
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":441300},{"type":"PIR1","value":"ON","timestamp":445425},{"type":"PIR1","value":"ON","timestamp":446561},{"type":"PIR1","value":"ON","timestamp":448738},{"type":"PIR1","value":"ON","timestamp":450936},{"type":"PIR1","value":"ON","timestamp":452112},{"type":"PIR1","value":"ON","timestamp":454741},{"type":"PIR1","value":"ON","timestamp":458596},{"type":"PIR1","value":"ON","timestamp":459785}]
+
+Livello batteria: 282
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":458723},{"type":"PIR2","value":"ON","timestamp":459832},{"type":"PIR2","value":"ON","timestamp":441826},{"type":"PIR2","value":"ON","timestamp":443540},{"type":"PIR2","value":"ON","timestamp":445311},{"type":"PIR2","value":"ON","timestamp":446402},{"type":"PIR2","value":"ON","timestamp":448014},{"type":"PIR2","value":"ON","timestamp":449278},{"type":"PIR2","value":"ON","timestamp":450299},{"type":"PIR2","value":"ON","timestamp":451776},{"type":"PIR2","value":"ON","timestamp":455432},{"type":"PIR2","value":"ON","timestamp":456538}]
+
+Livello batteria: 277
+Tipo: Temperature 9 Valore: 27.396848822826055
+Livello batteria: 275
+Tipo: Temperature 0 Valore: 27.161405794861842
+Livello batteria: 273
+Tipo: Temperature 1 Valore: 26.92717054124216
+Livello batteria: 271
+Tipo: Temperature 2 Valore: 27.352214422533894
+Livello batteria: 269
+Tipo: Temperature 3 Valore: 27.264491405953486
+Livello batteria: 267
+Tipo: Temperature 4 Valore: 27.27258270499736
+Livello batteria: 265
+Tipo: Temperature 5 Valore: 27.27271208728602
+Livello batteria: 263
+Ho richiesto le misurazioni
+[{"type":"Light","value":"232.621387232426","timestamp":463469},{"type":"Light","value":"245.7686408244428","timestamp":466802},{"type":"Light","value":"238.60916891496723","timestamp":470030},{"type":"Light","value":"248.96007508969447","timestamp":473223},{"type":"Light","value":"256.2622810470733","timestamp":476114},{"type":"Light","value":"254.57973894750953","timestamp":479834}]
+
+Livello batteria: 258
+Ho richiesto le misurazioni
+[{"type":"PIR1","value":"ON","timestamp":463825},{"type":"PIR1","value":"ON","timestamp":464923},{"type":"PIR1","value":"ON","timestamp":466400},{"type":"PIR1","value":"ON","timestamp":467568},{"type":"PIR1","value":"ON","timestamp":469097},{"type":"PIR1","value":"ON","timestamp":470142},{"type":"PIR1","value":"ON","timestamp":473267},{"type":"PIR1","value":"ON","timestamp":477310}]
+
+Livello batteria: 253
+Ho richiesto le misurazioni
+[{"type":"PIR2","value":"ON","timestamp":461460},{"type":"PIR2","value":"ON","timestamp":465127},{"type":"PIR2","value":"ON","timestamp":466224},{"type":"PIR2","value":"ON","timestamp":469319},{"type":"PIR2","value":"ON","timestamp":472886},{"type":"PIR2","value":"ON","timestamp":475529},{"type":"PIR2","value":"ON","timestamp":476627},{"type":"PIR2","value":"ON","timestamp":477851},{"type":"PIR2","value":"ON","timestamp":479631}]
+
+Livello batteria: 248
+Livello di batteria minore del 25%
+Tipo: Temperature 6 Valore: 27.082097978635122
+Ho indetto un'elezione
+Livello batteria: 246
+Livello di batteria minore del 25%
+Tipo: Temperature 7 Valore: 27.074944312821327
+Ho indetto un'elezione
+Livello batteria: 244
+Livello di batteria minore del 25%
+Tipo: Temperature 8 Valore: 26.811475663415084
+Ho indetto un'elezione
+Livello batteria: 242
+Livello di batteria minore del 25%
+Tipo: Temperature 9 Valore: 26.935168866853164
+Ho indetto un'elezione
+Livello batteria: 240
+Livello di batteria minore del 25%
+Tipo: Temperature 0 Valore: 26.754699611327528
+Ho indetto un'elezione
+Livello batteria: 238
+Livello di batteria minore del 25%
+Tipo: Temperature 1 Valore: 26.19577201736283
+Ho indetto un'elezione
+Livello batteria: 236
+Livello di batteria minore del 25%
+Tipo: Temperature 2 Valore: 26.743975188283287
+Ho indetto un'elezione
+Livello batteria: 234
+Livello di batteria minore del 25%
+Ho richiesto le misurazioni
+Ho indetto un'elezione
+Livello batteria: 229
+Livello di batteria minore del 25%
+Tipo: Temperature 3 Valore: 26.65410236475529
+Ho indetto un'elezione
+Livello batteria: 227
+Livello di batteria minore del 25%
+Tipo: Temperature 4 Valore: 26.710297810518405
+Ho indetto un'elezione
+Livello batteria: 225
+Livello di batteria minore del 25%
+Tipo: Temperature 5 Valore: 26.45070430295917
+Ho indetto un'elezione
+Livello batteria: 223
+Livello di batteria minore del 25%
+Tipo: Temperature 6 Valore: 26.112021997131695
+Ho indetto un'elezione
+Livello batteria: 221
+Livello di batteria minore del 25%
+Tipo: Temperature 7 Valore: 26.249293844197695
+Ho indetto un'elezione
+Livello batteria: 219
+Livello di batteria minore del 25%
+Tipo: Temperature 8 Valore: 26.173715787994645
+Ho indetto un'elezione
+Livello batteria: 217
+Livello di batteria minore del 25%
+Tipo: Temperature 9 Valore: 25.69287363813379
+Ho indetto un'elezione
+Livello batteria: 215
+Livello di batteria minore del 25%
+Tipo: Temperature 0 Valore: 25.677250223966745
+Ho indetto un'elezione
+Livello batteria: 213
+Livello di batteria minore del 25%
+Tipo: Temperature 1 Valore: 25.972707716955615
+Ho indetto un'elezione
+Livello batteria: 211
+Livello di batteria minore del 25%
+Tipo: Temperature 2 Valore: 25.856958352054086
+Ho indetto un'elezione
+Livello batteria: 209
+Livello di batteria minore del 25%
+Tipo: Temperature 3 Valore: 25.426036502697137
+Ho indetto un'elezione
+Livello batteria: 207
+Livello di batteria minore del 25%
+Tipo: Temperature 4 Valore: 25.235660192205792
+Ho indetto un'elezione
+Livello batteria: 205
+Livello di batteria minore del 25%
+Tipo: Temperature 5 Valore: 26.008510083211096
+Ho indetto un'elezione
+Livello batteria: 203
+Livello di batteria minore del 25%
+Tipo: Temperature 6 Valore: 25.371832614188424
+Ho indetto un'elezione
+Livello batteria: 201
+Livello di batteria minore del 25%
+Tipo: Temperature 7 Valore: 25.348178932520113
+Ho indetto un'elezione
+Livello batteria: 199
+Livello di batteria minore del 25%
+Tipo: Temperature 8 Valore: 25.39408865384145
+Ho indetto un'elezione
+Livello batteria: 197
+Livello di batteria minore del 25%
+Tipo: Temperature 9 Valore: 25.38370227236613
+Ho indetto un'elezione
+Livello batteria: 195
+Livello di batteria minore del 25%
+Tipo: Temperature 0 Valore: 25.26700892545258
+Ho indetto un'elezione
+Livello batteria: 193
+Livello di batteria minore del 25%
+Tipo: Temperature 1 Valore: 25.179927025060014
+Ho indetto un'elezione
+Livello batteria: 191
+Livello di batteria minore del 25%
+Tipo: Temperature 2 Valore: 24.866084378014467
+Ho indetto un'elezione
+Livello batteria: 189
+Livello di batteria minore del 25%
+Tipo: Temperature 3 Valore: 24.939487062214535
+Ho indetto un'elezione
+Livello batteria: 187
+Livello di batteria minore del 25%
+Tipo: Temperature 4 Valore: 24.7730945489652
+Ho indetto un'elezione
+Livello batteria: 185
+Livello di batteria minore del 25%
+Tipo: Temperature 5 Valore: 24.624948118191288
+Ho indetto un'elezione
+Livello batteria: 183
+Livello di batteria minore del 25%
+Tipo: Temperature 6 Valore: 24.695976808364573
+Ho indetto un'elezione
+Livello batteria: 181
+Livello di batteria minore del 25%
+Tipo: Temperature 7 Valore: 24.488778692641386
+Ho indetto un'elezione
+Livello batteria: 179
+Livello di batteria minore del 25%
+Tipo: Temperature 8 Valore: 24.62820660001574
+Ho indetto un'elezione
+Livello batteria: 177
+Livello di batteria minore del 25%
+Tipo: Temperature 9 Valore: 24.55094839562298
+Ho indetto un'elezione
+Livello batteria: 175
+Livello di batteria minore del 25%
+Tipo: Temperature 0 Valore: 24.800563444647235
+Ho indetto un'elezione
+Livello batteria: 173
+Livello di batteria minore del 25%
+Tipo: Temperature 1 Valore: 24.2504664897372
+Ho indetto un'elezione
+Livello batteria: 171
+Livello di batteria minore del 25%
+Tipo: Temperature 2 Valore: 23.954819310760488
+Ho indetto un'elezione
+Livello batteria: 169
+Livello di batteria minore del 25%
+Tipo: Temperature 3 Valore: 24.216476638777724
+Ho indetto un'elezione
+Livello batteria: 167
+Livello di batteria minore del 25%
+Tipo: Temperature 4 Valore: 24.309628682299742
+Ho indetto un'elezione
+Livello batteria: 165
+Livello di batteria minore del 25%
+Tipo: Temperature 5 Valore: 23.73362472843117
+Ho indetto un'elezione
+Livello batteria: 163
+Livello di batteria minore del 25%
+Tipo: Temperature 6 Valore: 23.818545638145658
+Ho indetto un'elezione
+Livello batteria: 161
+Livello di batteria minore del 25%
+Tipo: Temperature 7 Valore: 23.95761497370542
+Ho indetto un'elezione
+Livello batteria: 159
+Livello di batteria minore del 25%
+Tipo: Temperature 8 Valore: 23.459690742811976
+Ho indetto un'elezione
+Livello batteria: 157
+Livello di batteria minore del 25%
+Tipo: Temperature 9 Valore: 23.2708015904698
+Ho indetto un'elezione
+Livello batteria: 155
+Livello di batteria minore del 25%
+Tipo: Temperature 0 Valore: 23.226721843590457
+Ho indetto un'elezione
+Livello batteria: 153
+Livello di batteria minore del 25%
+Tipo: Temperature 1 Valore: 23.553224279279995
+Ho indetto un'elezione
+Livello batteria: 151
+Livello di batteria minore del 25%
+Tipo: Temperature 2 Valore: 23.21101038641312
+Ho indetto un'elezione
+Livello batteria: 149
+Livello di batteria minore del 25%
+Tipo: Temperature 3 Valore: 23.204665958707043
+Ho indetto un'elezione
+Livello batteria: 147
+Livello di batteria minore del 25%
+Tipo: Temperature 4 Valore: 22.77904890182052
+Ho indetto un'elezione
+Livello batteria: 145
+Livello di batteria minore del 25%
+Tipo: Temperature 5 Valore: 23.28825617667844
+Livello batteria: 143
+Livello di batteria minore del 25%
+Tipo: Temperature 6 Valore: 23.07242532345546
+Livello batteria: 141
+Livello di batteria minore del 25%
+Tipo: Temperature 7 Valore: 22.86474339531637
+Livello batteria: 139
+Livello di batteria minore del 25%
+Tipo: Temperature 8 Valore: 22.2999753426011
+Livello batteria: 137
+Livello di batteria minore del 25%
+Tipo: Temperature 9 Valore: 22.54750665955606
+Livello batteria: 135
+Livello di batteria minore del 25%
+Tipo: Temperature 0 Valore: 22.238641805024553
+Livello batteria: 133
+Livello di batteria minore del 25%
+Tipo: Temperature 1 Valore: 22.033940229613997
+Livello batteria: 131
+Livello di batteria minore del 25%
+Tipo: Temperature 2 Valore: 22.38446608975703
+Livello batteria: 129
+Livello di batteria minore del 25%
+Tipo: Temperature 3 Valore: 22.030962927331878
+Livello batteria: 127
+Livello di batteria minore del 25%
+Tipo: Temperature 4 Valore: 21.870116379869078
+Livello batteria: 125
+Livello di batteria minore del 25%
+Tipo: Temperature 5 Valore: 21.92184552975769
+Livello batteria: 123
+Livello di batteria minore del 25%
+Tipo: Temperature 6 Valore: 21.34473843359497
+Livello batteria: 121
+Livello di batteria minore del 25%
+Tipo: Temperature 7 Valore: 21.492438220211717
+Livello batteria: 119
+Livello di batteria minore del 25%
+Tipo: Temperature 8 Valore: 21.74535630065804
+Livello batteria: 117
+Livello di batteria minore del 25%
+Tipo: Temperature 9 Valore: 21.513944928250144
+Livello batteria: 115
+Livello di batteria minore del 25%
+Tipo: Temperature 0 Valore: 21.375217194658838
+Livello batteria: 113
+Livello di batteria minore del 25%
+Tipo: Temperature 1 Valore: 21.332745694958952
+Livello batteria: 111
+Livello di batteria minore del 25%
+Tipo: Temperature 2 Valore: 21.113434938133597
+Livello batteria: 109
+Livello di batteria minore del 25%
+Tipo: Temperature 3 Valore: 21.198135255780677
+Livello batteria: 107
+Livello di batteria minore del 25%
+Tipo: Temperature 4 Valore: 20.710619509684825
+Livello batteria: 105
+Livello di batteria minore del 25%
+Tipo: Temperature 5 Valore: 20.77405264347761
+Livello batteria: 103
+Livello di batteria minore del 25%
+Tipo: Temperature 6 Valore: 20.766621629419298
+Livello batteria: 101
+Livello di batteria minore del 25%
+Tipo: Temperature 7 Valore: 21.19078576262846
+Livello batteria: 99
+Livello di batteria minore del 25%
+Tipo: Temperature 8 Valore: 20.852016670201984
+Livello batteria: 97
+Livello di batteria minore del 25%
+Tipo: Temperature 9 Valore: 20.768389981208013
+Livello batteria: 95
+Livello di batteria minore del 25%
+Tipo: Temperature 0 Valore: 20.521943291680646
+Livello batteria: 93
+Livello di batteria minore del 25%
+Tipo: Temperature 1 Valore: 20.39307233001218
+Livello batteria: 91
+Livello di batteria minore del 25%
+Tipo: Temperature 2 Valore: 20.281142295433316
+Livello batteria: 89
+Livello di batteria minore del 25%
+Tipo: Temperature 3 Valore: 19.77854627261631
+Livello batteria: 87
+Livello di batteria minore del 25%
+Tipo: Temperature 4 Valore: 19.763125866572494
+Livello batteria: 85
+Livello di batteria minore del 25%
+Tipo: Temperature 5 Valore: 19.749420032024442
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 83
+Livello di batteria minore del 25%
+Tipo: Temperature 6 Valore: 20.005813229502277
+Livello batteria: 81
+Livello di batteria minore del 25%
+Tipo: Temperature 7 Valore: 19.48630471310564
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 79
+Livello di batteria minore del 25%
+Tipo: Temperature 8 Valore: 20.193394761195314
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 77
+Livello di batteria minore del 25%
+Tipo: Temperature 9 Valore: 19.21081370787587
+Livello batteria: 75
+Livello di batteria minore del 25%
+Tipo: Temperature 0 Valore: 19.391826567543347
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 73
+Livello di batteria minore del 25%
+Tipo: Temperature 1 Valore: 19.3151281415602
+Livello batteria: 71
+Livello di batteria minore del 25%
+Tipo: Temperature 2 Valore: 19.549207248478996
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 69
+Livello di batteria minore del 25%
+Tipo: Temperature 3 Valore: 19.176590876314815
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 67
+Livello di batteria minore del 25%
+Tipo: Temperature 4 Valore: 19.04574011139905
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 65
+Livello di batteria minore del 25%
+Tipo: Temperature 5 Valore: 18.64090688250966
+Livello batteria: 63
+Livello di batteria minore del 25%
+Tipo: Temperature 6 Valore: 18.73892020991601
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 61
+Livello di batteria minore del 25%
+Tipo: Temperature 7 Valore: 18.86808330691951
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 59
+Livello di batteria minore del 25%
+Tipo: Temperature 8 Valore: 18.585450723522268
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 57
+Livello di batteria minore del 25%
+Tipo: Temperature 9 Valore: 18.41765060608935
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 55
+Livello di batteria minore del 25%
+Tipo: Temperature 0 Valore: 18.334159761839285
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 53
+Livello di batteria minore del 25%
+Tipo: Temperature 1 Valore: 18.594474770443384
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 51
+Livello di batteria minore del 25%
+Tipo: Temperature 2 Valore: 18.221211990065086
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 49
+Livello di batteria minore del 25%
+Tipo: Temperature 3 Valore: 18.212162215534956
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 47
+Livello di batteria minore del 25%
+Tipo: Temperature 4 Valore: 18.18523399195287
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 45
+Livello di batteria minore del 25%
+Tipo: Temperature 5 Valore: 17.851922116952238
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 43
+Livello di batteria minore del 25%
+Tipo: Temperature 6 Valore: 17.87472309261565
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 41
+Livello di batteria minore del 25%
+Tipo: Temperature 7 Valore: 17.67902531228842
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 39
+Livello di batteria minore del 25%
+Tipo: Temperature 8 Valore: 17.649865535823146
+Livello batteria: 37
+Livello di batteria minore del 25%
+Tipo: Temperature 9 Valore: 17.589855297698293
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 35
+Livello di batteria minore del 25%
+Tipo: Temperature 0 Valore: 17.55240849130038
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 33
+Livello di batteria minore del 25%
+Tipo: Temperature 1 Valore: 17.617650792272546
+Livello batteria: 31
+Livello di batteria minore del 25%
+Tipo: Temperature 2 Valore: 17.69465492525571
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 29
+Livello di batteria minore del 25%
+Tipo: Temperature 3 Valore: 17.00210530916418
+Livello batteria: 27
+Livello di batteria minore del 25%
+Tipo: Temperature 4 Valore: 17.188141831086373
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 25
+Livello di batteria minore del 25%
+Tipo: Temperature 5 Valore: 17.243969662208457
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 23
+Livello di batteria minore del 25%
+Tipo: Temperature 6 Valore: 16.60784280297683
+Livello batteria: 21
+Livello di batteria minore del 25%
+Tipo: Temperature 7 Valore: 16.945072065901396
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 19
+Livello di batteria minore del 25%
+Tipo: Temperature 8 Valore: 16.74354675888045
+Livello batteria: 17
+Livello di batteria minore del 25%
+Tipo: Temperature 9 Valore: 16.531364172485215
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+java.net.ConnectException: Operation timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at reteSensori.thread.ElectionThread.run(ElectionThread.java:31)
+	at java.lang.Thread.run(Thread.java:745)
+Ho indetto un'elezione
+Livello batteria: 15
+Livello di batteria minore del 25%
+Tipo: Temperature 0 Valore: 16.326757558500294

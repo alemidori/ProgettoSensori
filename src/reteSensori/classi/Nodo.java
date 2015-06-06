@@ -106,6 +106,8 @@ public class Nodo {
             }
 
             percentBattery = ((level * 100) / SingletonBattery.getInstance().getMaxLevel());
+
+
             System.out.println("Livello batteria: " + level);
             if (percentBattery < 25.0) {
                 System.out.println("Livello di batteria minore del 25%");
