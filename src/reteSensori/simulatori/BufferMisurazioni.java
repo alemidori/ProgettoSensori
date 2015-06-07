@@ -23,8 +23,6 @@ public class BufferMisurazioni<M> implements Buffer {
     @Override
     public synchronized void aggiungi(Object o) {
 
-        Nodo.updateBattery("lettura");
-
         if (i < 10) {
             misurazioni.add(i, (Misurazione) o);
             System.out.println("Tipo: " + misurazioni.get(i).getType() + " " + i + " Valore: " + misurazioni.get(i).getValue());
@@ -37,6 +35,7 @@ public class BufferMisurazioni<M> implements Buffer {
         }
         i++;
 
+        Nodo.updateBattery("lettura");
     }
 
 

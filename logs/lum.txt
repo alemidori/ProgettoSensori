@@ -1,722 +1,87 @@
 PROCESSO NODO AVVIATO
 ********************************
-Livello batteria: 1000
-Tipo: Light 0 Valore: 317.6070987037712
+Tipo: Light 0 Valore: 353.34961208825854
+Livello batteria: 400 Percentuale: 40.0%
 In ascolto...
-Livello batteria: 998
-Tipo: Light 1 Valore: 326.86080358863273
-Livello batteria: 996
-Tipo: Light 2 Valore: 326.573382268457
-Livello batteria: 994
-Tipo: Light 3 Valore: 335.396864940809
-Livello batteria: 992
-Tipo: Light 4 Valore: 339.5354320578754
-Livello batteria: 990
-Tipo: Light 5 Valore: 337.5474589280455
-Livello batteria: 988
-Tipo: Light 6 Valore: 336.7415070152098
-Livello batteria: 986
-Tipo: Light 7 Valore: 343.13804100616255
-Livello batteria: 984
-Tipo: Light 8 Valore: 347.09884328922413
-Livello batteria: 982
-Tipo: Light 9 Valore: 356.18388267000324
+Tipo: Light 1 Valore: 363.36251515494746
+Livello batteria: 398 Percentuale: 39.0%
+Tipo: Light 2 Valore: 369.2852543213693
+Livello batteria: 396 Percentuale: 39.0%
+Tipo: Light 3 Valore: 369.2588177404067
+Livello batteria: 394 Percentuale: 39.0%
+Tipo: Light 4 Valore: 365.79731666616004
+Livello batteria: 392 Percentuale: 39.0%
+Tipo: Light 5 Valore: 374.346766139872
+Livello batteria: 390 Percentuale: 39.0%
+Tipo: Light 6 Valore: 373.39052091531505
+Livello batteria: 388 Percentuale: 38.0%
 Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 980
+Richiesta: misurazioni
+Livello batteria: 386 Percentuale: 38.0%
 In ascolto...
-Livello batteria: 975
-Tipo: Light 0 Valore: 355.3671839469557
-Livello batteria: 973
-Tipo: Light 1 Valore: 369.1499392590208
-Livello batteria: 971
-Tipo: Light 2 Valore: 361.2583898439569
-Livello batteria: 969
-Tipo: Light 3 Valore: 373.9243381544327
-Livello batteria: 967
-Tipo: Light 4 Valore: 375.6012543927572
-Livello batteria: 965
-Tipo: Light 5 Valore: 363.730215373002
-Livello batteria: 963
-Tipo: Light 6 Valore: 373.5251542707988
+Tipo: Light 0 Valore: 372.67149303919877
+Livello batteria: 381 Percentuale: 38.0%
+Tipo: Light 1 Valore: 376.23280784735823
+Livello batteria: 379 Percentuale: 37.0%
+Tipo: Light 2 Valore: 386.33672309585154
+Livello batteria: 377 Percentuale: 37.0%
+Tipo: Light 3 Valore: 378.5140388899499
+Livello batteria: 375 Percentuale: 37.0%
+Tipo: Light 4 Valore: 383.4838613084464
+Livello batteria: 373 Percentuale: 37.0%
+Tipo: Light 5 Valore: 393.9326401328632
+Livello batteria: 371 Percentuale: 37.0%
+Tipo: Light 6 Valore: 386.058976536932
+Livello batteria: 369 Percentuale: 36.0%
+Tipo: Light 7 Valore: 386.885342293184
+Livello batteria: 367 Percentuale: 36.0%
+Tipo: Light 8 Valore: 388.5300988784278
+Livello batteria: 365 Percentuale: 36.0%
 Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 961
+Richiesta: elezione
+Livello batteria: 363 Percentuale: 36.0%
 In ascolto...
-Livello batteria: 956
-Tipo: Light 0 Valore: 370.93271418767324
-Livello batteria: 954
-Tipo: Light 1 Valore: 376.72694377214066
-Livello batteria: 952
-Tipo: Light 2 Valore: 378.57227377447657
-Livello batteria: 950
-Tipo: Light 3 Valore: 391.9548794512267
-Livello batteria: 948
-Tipo: Light 4 Valore: 385.10688662814385
-Livello batteria: 946
-Tipo: Light 5 Valore: 388.2744855167022
-Livello batteria: 944
-Tipo: Light 6 Valore: 393.2820492536618
-Livello batteria: 942
-Tipo: Light 7 Valore: 398.1043502776185
+Tipo: Light 9 Valore: 391.99608520863734
+Livello batteria: 358 Percentuale: 35.0%
+Tipo: Light 0 Valore: 390.61886494655886
+Livello batteria: 356 Percentuale: 35.0%
+Tipo: Light 1 Valore: 394.70055154291583
+Livello batteria: 354 Percentuale: 35.0%
+Tipo: Light 2 Valore: 393.9470277024434
+Livello batteria: 352 Percentuale: 35.0%
+Tipo: Light 3 Valore: 400.7090244140076
+Livello batteria: 350 Percentuale: 35.0%
+Tipo: Light 4 Valore: 392.6370166791965
+Livello batteria: 348 Percentuale: 34.0%
 Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 940
+Richiesta: misurazioni
+Livello batteria: 346 Percentuale: 34.0%
 In ascolto...
-Livello batteria: 935
-Tipo: Light 0 Valore: 391.7662555156119
-Livello batteria: 933
-Tipo: Light 1 Valore: 394.6157234174959
-Livello batteria: 931
-Tipo: Light 2 Valore: 397.0019587583091
-Livello batteria: 929
-Tipo: Light 3 Valore: 397.90359939068134
-Livello batteria: 927
-Tipo: Light 4 Valore: 398.9989332742727
-Livello batteria: 925
-Tipo: Light 5 Valore: 388.84751933653547
-Livello batteria: 923
-Tipo: Light 6 Valore: 397.13463057568185
-Livello batteria: 921
-Tipo: Light 7 Valore: 399.19382416514605
-Livello batteria: 919
-Tipo: Light 8 Valore: 397.5020795988451
+Tipo: Light 0 Valore: 397.57111322728315
+Livello batteria: 341 Percentuale: 34.0%
+Tipo: Light 1 Valore: 395.5619895036845
+Livello batteria: 339 Percentuale: 33.0%
+Tipo: Light 2 Valore: 391.6560923252727
+Livello batteria: 337 Percentuale: 33.0%
+Tipo: Light 3 Valore: 385.4348215826768
+Livello batteria: 335 Percentuale: 33.0%
+Tipo: Light 4 Valore: 390.6608330404187
+Livello batteria: 333 Percentuale: 33.0%
+Tipo: Light 5 Valore: 390.8290046391765
+Livello batteria: 331 Percentuale: 33.0%
+Tipo: Light 6 Valore: 395.9581616202281
+Livello batteria: 329 Percentuale: 32.0%
+Tipo: Light 7 Valore: 387.23884859649894
+Livello batteria: 327 Percentuale: 32.0%
 Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 917
+Richiesta: misurazioni
+Livello batteria: 325 Percentuale: 32.0%
 In ascolto...
-Livello batteria: 912
-Tipo: Light 0 Valore: 390.7008771472298
-Livello batteria: 910
-Tipo: Light 1 Valore: 390.99260556282064
-Livello batteria: 908
-Tipo: Light 2 Valore: 388.86193760566863
-Livello batteria: 906
-Tipo: Light 3 Valore: 387.60814936847214
-Livello batteria: 904
-Tipo: Light 4 Valore: 392.27605258327986
-Livello batteria: 902
-Tipo: Light 5 Valore: 388.10750324403324
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 900
-In ascolto...
-Livello batteria: 895
-Tipo: Light 0 Valore: 392.75921673212923
-Livello batteria: 893
-Tipo: Light 1 Valore: 393.7977973833116
-Livello batteria: 891
-Tipo: Light 2 Valore: 388.7387413581106
-Livello batteria: 889
-Tipo: Light 3 Valore: 381.55062108038004
-Livello batteria: 887
-Tipo: Light 4 Valore: 385.27834972993907
-Livello batteria: 885
-Tipo: Light 5 Valore: 389.6202947727756
-Livello batteria: 883
-Tipo: Light 6 Valore: 378.49796776699185
-Livello batteria: 881
-Tipo: Light 7 Valore: 375.03107979864444
-Livello batteria: 879
-Tipo: Light 8 Valore: 373.7056545120248
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 877
-In ascolto...
-Livello batteria: 872
-Tipo: Light 0 Valore: 359.39199467058677
-Livello batteria: 870
-Tipo: Light 1 Valore: 373.07967087250006
-Livello batteria: 868
-Tipo: Light 2 Valore: 360.67187544610994
-Livello batteria: 866
-Tipo: Light 3 Valore: 362.72445390892074
-Livello batteria: 864
-Tipo: Light 4 Valore: 359.2306930653192
-Livello batteria: 862
-Tipo: Light 5 Valore: 354.36185329554496
-Livello batteria: 860
-Tipo: Light 6 Valore: 355.5659393049633
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 858
-In ascolto...
-Livello batteria: 853
-Tipo: Light 0 Valore: 358.71362473098213
-Livello batteria: 851
-Tipo: Light 1 Valore: 342.95592585460895
-Livello batteria: 849
-Tipo: Light 2 Valore: 335.9522005096796
-Livello batteria: 847
-Tipo: Light 3 Valore: 333.81177094177787
-Livello batteria: 845
-Tipo: Light 4 Valore: 324.67229909468205
-Livello batteria: 843
-Tipo: Light 5 Valore: 329.6401871507871
-Livello batteria: 841
-Tipo: Light 6 Valore: 335.07541976954417
-Livello batteria: 839
-Tipo: Light 7 Valore: 324.7921445438388
-Livello batteria: 837
-Tipo: Light 8 Valore: 314.43133579929037
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 835
-In ascolto...
-Livello batteria: 830
-Tipo: Light 0 Valore: 320.00342907169573
-Livello batteria: 828
-Tipo: Light 1 Valore: 303.1936758112888
-Livello batteria: 826
-Tipo: Light 2 Valore: 301.19156722629606
-Livello batteria: 824
-Tipo: Light 3 Valore: 300.43810536148993
-Livello batteria: 822
-Tipo: Light 4 Valore: 289.63672577527484
-Livello batteria: 820
-Tipo: Light 5 Valore: 286.55221659743023
-Livello batteria: 818
-Tipo: Light 6 Valore: 284.7921919303093
-Livello batteria: 816
-Tipo: Light 7 Valore: 284.15721714379015
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 814
-In ascolto...
-Livello batteria: 809
-Tipo: Light 0 Valore: 266.4377308690422
-Livello batteria: 807
-Tipo: Light 1 Valore: 271.1507679811063
-Livello batteria: 805
-Tipo: Light 2 Valore: 267.279655000543
-Livello batteria: 803
-Tipo: Light 3 Valore: 251.46663446022166
-Livello batteria: 801
-Tipo: Light 4 Valore: 247.9569944938405
-Livello batteria: 799
-Tipo: Light 5 Valore: 241.87583891548076
-Livello batteria: 797
-Tipo: Light 6 Valore: 250.23660764567532
-Livello batteria: 795
-Tipo: Light 7 Valore: 236.04223868466931
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 793
-In ascolto...
-Livello batteria: 788
-Tipo: Light 0 Valore: 226.92341005053927
-Livello batteria: 786
-Tipo: Light 1 Valore: 224.37048532198472
-Livello batteria: 784
-Tipo: Light 2 Valore: 213.87271539765274
-Livello batteria: 782
-Tipo: Light 3 Valore: 214.1496163315
-Livello batteria: 780
-Tipo: Light 4 Valore: 206.001285453452
-Livello batteria: 778
-Tipo: Light 5 Valore: 201.5407806894964
-Livello batteria: 776
-Tipo: Light 6 Valore: 201.71367589057965
-Livello batteria: 774
-Tipo: Light 7 Valore: 197.19000919978023
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 772
-In ascolto...
-Livello batteria: 767
-Tipo: Light 0 Valore: 179.16792597025466
-Livello batteria: 765
-Tipo: Light 1 Valore: 172.7853444620852
-Livello batteria: 763
-Tipo: Light 2 Valore: 175.32325064142148
-Livello batteria: 761
-Tipo: Light 3 Valore: 165.2086824653483
-Livello batteria: 759
-Tipo: Light 4 Valore: 151.98248840128485
-Livello batteria: 757
-Tipo: Light 5 Valore: 158.41028795515453
-Livello batteria: 755
-Tipo: Light 6 Valore: 159.83740042355063
-Livello batteria: 753
-Tipo: Light 7 Valore: 144.1303160766842
-Livello batteria: 751
-Tipo: Light 8 Valore: 129.56003849200903
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 749
-In ascolto...
-Livello batteria: 744
-Tipo: Light 0 Valore: 133.5808122673403
-Livello batteria: 742
-Tipo: Light 1 Valore: 122.5755220386854
-Livello batteria: 740
-Tipo: Light 2 Valore: 127.47317093389547
-Livello batteria: 738
-Tipo: Light 3 Valore: 131.65046338459254
-Livello batteria: 736
-Tipo: Light 4 Valore: 117.1268209376129
-Livello batteria: 734
-Tipo: Light 5 Valore: 115.08986612104567
-Livello batteria: 732
-Tipo: Light 6 Valore: 107.2978466116169
-Livello batteria: 730
-Tipo: Light 7 Valore: 108.59038373348335
-Livello batteria: 728
-Tipo: Light 8 Valore: 101.19826808728776
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 726
-In ascolto...
-Livello batteria: 721
-Tipo: Light 0 Valore: 94.82439770736596
-Livello batteria: 719
-Tipo: Light 1 Valore: 95.11416957469305
-Livello batteria: 717
-Tipo: Light 2 Valore: 83.27472976459428
-Livello batteria: 715
-Tipo: Light 3 Valore: 85.25908941275227
-Livello batteria: 713
-Tipo: Light 4 Valore: 75.98453425354374
-Livello batteria: 711
-Tipo: Light 5 Valore: 72.08025236010057
-Livello batteria: 709
-Tipo: Light 6 Valore: 70.20586531144886
-Livello batteria: 707
-Tipo: Light 7 Valore: 67.76127987385087
-Livello batteria: 705
-Tipo: Light 8 Valore: 61.9853263361097
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 703
-In ascolto...
-Livello batteria: 698
-Tipo: Light 0 Valore: 53.36203407649052
-Livello batteria: 696
-Tipo: Light 1 Valore: 54.939790256779716
-Livello batteria: 694
-Tipo: Light 2 Valore: 51.48213308384036
-Livello batteria: 692
-Tipo: Light 3 Valore: 56.59589031138176
-Livello batteria: 690
-Tipo: Light 4 Valore: 37.4923838390312
-Livello batteria: 688
-Tipo: Light 5 Valore: 44.39918282963993
-Livello batteria: 686
-Tipo: Light 6 Valore: 44.50645894762588
-Livello batteria: 684
-Tipo: Light 7 Valore: 41.60411261093174
-Livello batteria: 682
-Tipo: Light 8 Valore: 38.92553838587194
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 680
-In ascolto...
-Livello batteria: 675
-Tipo: Light 0 Valore: 33.958959280540384
-Livello batteria: 673
-Tipo: Light 1 Valore: 42.55534527484372
-Livello batteria: 671
-Tipo: Light 2 Valore: 28.923514113662833
-Livello batteria: 669
-Tipo: Light 3 Valore: 33.365282404339595
-Livello batteria: 667
-Tipo: Light 4 Valore: 30.91630808429392
-Livello batteria: 665
-Tipo: Light 5 Valore: 22.778246879896493
-Livello batteria: 663
-Tipo: Light 6 Valore: 32.51215779726994
-Livello batteria: 661
-Tipo: Light 7 Valore: 20.375511154329086
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 659
-In ascolto...
-Livello batteria: 654
-Tipo: Light 0 Valore: 20.640424442714355
-Livello batteria: 652
-Tipo: Light 1 Valore: 25.98830916025772
-Livello batteria: 650
-Tipo: Light 2 Valore: 25.352303583174
-Livello batteria: 648
-Tipo: Light 3 Valore: 13.100346356900644
-Livello batteria: 646
-Tipo: Light 4 Valore: 17.290039717874226
-Livello batteria: 644
-Tipo: Light 5 Valore: 32.4653777485953
-Livello batteria: 642
-Tipo: Light 6 Valore: 27.873550705207908
-Livello batteria: 640
-Tipo: Light 7 Valore: 13.787494356504169
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 638
-In ascolto...
-Livello batteria: 633
-Tipo: Light 0 Valore: 30.92033560799593
-Livello batteria: 631
-Tipo: Light 1 Valore: 41.35407955568188
-Livello batteria: 629
-Tipo: Light 2 Valore: 28.685109170463093
-Livello batteria: 627
-Tipo: Light 3 Valore: 32.38961290851228
-Livello batteria: 625
-Tipo: Light 4 Valore: 31.73371674592416
-Livello batteria: 623
-Tipo: Light 5 Valore: 35.68686015723056
-Livello batteria: 621
-Tipo: Light 6 Valore: 35.32784580424613
-Livello batteria: 619
-Tipo: Light 7 Valore: 39.04019846515709
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 617
-In ascolto...
-Livello batteria: 612
-Tipo: Light 0 Valore: 40.67814947516237
-Livello batteria: 610
-Tipo: Light 1 Valore: 37.6568170762882
-Livello batteria: 608
-Tipo: Light 2 Valore: 49.23043184585348
-Livello batteria: 606
-Tipo: Light 3 Valore: 45.624590003814944
-Livello batteria: 604
-Tipo: Light 4 Valore: 43.872380086824066
-Livello batteria: 602
-Tipo: Light 5 Valore: 54.05382154217555
-Livello batteria: 600
-Tipo: Light 6 Valore: 50.44828284276424
-Livello batteria: 598
-Tipo: Light 7 Valore: 51.53369208254544
-Livello batteria: 596
-Tipo: Light 8 Valore: 53.79323683738058
-Livello batteria: 594
-Tipo: Light 9 Valore: 71.57546939615602
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 592
-In ascolto...
-Livello batteria: 587
-Tipo: Light 0 Valore: 64.21458799449832
-Livello batteria: 585
-Tipo: Light 1 Valore: 70.54441207079012
-Livello batteria: 583
-Tipo: Light 2 Valore: 75.08445744503466
-Livello batteria: 581
-Tipo: Light 3 Valore: 81.57222130474517
-Livello batteria: 579
-Tipo: Light 4 Valore: 76.40723126471647
-Livello batteria: 577
-Tipo: Light 5 Valore: 83.99946366155545
-Livello batteria: 575
-Tipo: Light 6 Valore: 91.4309470645691
-Livello batteria: 573
-Tipo: Light 7 Valore: 96.63001053626857
-Livello batteria: 571
-Tipo: Light 8 Valore: 94.35553342398471
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 569
-In ascolto...
-Livello batteria: 564
-Tipo: Light 0 Valore: 95.99004309294652
-Livello batteria: 562
-Tipo: Light 1 Valore: 103.75692763582089
-Livello batteria: 560
-Tipo: Light 2 Valore: 107.88639090533286
-Livello batteria: 558
-Tipo: Light 3 Valore: 114.42866675421067
-Livello batteria: 556
-Tipo: Light 4 Valore: 119.66677807727068
-Livello batteria: 554
-Tipo: Light 5 Valore: 124.63746638283504
-Livello batteria: 552
-Tipo: Light 6 Valore: 129.26245654004182
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 550
-In ascolto...
-Livello batteria: 545
-Tipo: Light 0 Valore: 133.5277585352362
-Livello batteria: 543
-Tipo: Light 1 Valore: 143.28437765093904
-Livello batteria: 541
-Tipo: Light 2 Valore: 140.0602543122676
-Livello batteria: 539
-Tipo: Light 3 Valore: 147.2769963514986
-Livello batteria: 537
-Tipo: Light 4 Valore: 158.7903885777077
-Livello batteria: 535
-Tipo: Light 5 Valore: 152.15008781348018
-Livello batteria: 533
-Tipo: Light 6 Valore: 160.59496941273957
-Livello batteria: 531
-Tipo: Light 7 Valore: 163.08237183584382
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 529
-In ascolto...
-Livello batteria: 524
-Tipo: Light 0 Valore: 184.0399287538784
-Livello batteria: 522
-Tipo: Light 1 Valore: 185.1177371654461
-Livello batteria: 520
-Tipo: Light 2 Valore: 180.6045393416816
-Livello batteria: 518
-Tipo: Light 3 Valore: 187.65206057044148
-Livello batteria: 516
-Tipo: Light 4 Valore: 201.630655477368
-Livello batteria: 514
-Tipo: Light 5 Valore: 201.38557917444408
-Livello batteria: 512
-Tipo: Light 6 Valore: 202.8471801230569
-Livello batteria: 510
-Tipo: Light 7 Valore: 211.89620671046987
-Livello batteria: 508
-Tipo: Light 8 Valore: 224.62869242014125
-Livello batteria: 506
-Tipo: Light 9 Valore: 229.57548542498404
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 504
-In ascolto...
-Livello batteria: 499
-Tipo: Light 0 Valore: 232.621387232426
-Livello batteria: 497
-Tipo: Light 1 Valore: 245.7686408244428
-Livello batteria: 495
-Tipo: Light 2 Valore: 238.60916891496723
-Livello batteria: 493
-Tipo: Light 3 Valore: 248.96007508969447
-Livello batteria: 491
-Tipo: Light 4 Valore: 256.2622810470733
-Livello batteria: 489
-Tipo: Light 5 Valore: 254.57973894750953
-Connessione con il sink...
-Richiesta misurazioni
-Livello batteria: 487
-In ascolto...
-Connessione con il sink...
-Livello batteria: 482
-Tipo: Light 0 Valore: 269.8100816719677
-Livello batteria: 480
-Tipo: Light 1 Valore: 270.0752555246381
-Livello batteria: 478
-Tipo: Light 2 Valore: 275.34702970219075
-Livello batteria: 476
-Tipo: Light 3 Valore: 280.19299371934716
-Livello batteria: 474
-Tipo: Light 4 Valore: 283.3891153451444
-Livello batteria: 472
-Tipo: Light 5 Valore: 287.4741121676005
-Livello batteria: 470
-Tipo: Light 6 Valore: 293.9569288644789
-Livello batteria: 468
-Tipo: Light 7 Valore: 302.7614966946437
-Livello batteria: 466
-Tipo: Light 8 Valore: 301.92823479733045
-Livello batteria: 464
-Tipo: Light 9 Valore: 309.79413932346336
-Livello batteria: 462
-Tipo: Light 0 Valore: 321.06245761673506
-Livello batteria: 460
-Tipo: Light 1 Valore: 322.9987388838624
-Livello batteria: 458
-Tipo: Light 2 Valore: 334.6047131519585
-Livello batteria: 456
-Tipo: Light 3 Valore: 332.4797463940943
-Livello batteria: 454
-Tipo: Light 4 Valore: 339.7355680256475
-Livello batteria: 452
-Tipo: Light 5 Valore: 338.36703891059364
-Livello batteria: 450
-Tipo: Light 6 Valore: 338.4571877244901
-Livello batteria: 448
-Tipo: Light 7 Valore: 347.6831985890877
-Livello batteria: 446
-Tipo: Light 8 Valore: 347.5571732940585
-Livello batteria: 444
-Tipo: Light 9 Valore: 351.31754574824384
-Livello batteria: 442
-Tipo: Light 0 Valore: 346.31300092925426
-Livello batteria: 440
-Tipo: Light 1 Valore: 359.0749059901448
-Livello batteria: 438
-Tipo: Light 2 Valore: 365.73718451180036
-Livello batteria: 436
-Tipo: Light 3 Valore: 370.1808727956005
-Livello batteria: 434
-Tipo: Light 4 Valore: 369.1673367822957
-Livello batteria: 432
-Tipo: Light 5 Valore: 365.5043268396084
-Livello batteria: 430
-Tipo: Light 6 Valore: 376.9383834055063
-Livello batteria: 428
-Tipo: Light 7 Valore: 372.29298262121245
-Livello batteria: 426
-Tipo: Light 8 Valore: 376.95420810398065
-Livello batteria: 424
-Tipo: Light 9 Valore: 387.04918932768715
-Livello batteria: 422
-Tipo: Light 0 Valore: 381.0441506264668
-Livello batteria: 420
-Tipo: Light 1 Valore: 384.2920539470915
-Livello batteria: 418
-Tipo: Light 2 Valore: 388.3718042052899
-Livello batteria: 416
-Tipo: Light 3 Valore: 382.6164946192363
-Livello batteria: 414
-Tipo: Light 4 Valore: 375.2820083498226
-Livello batteria: 412
-Tipo: Light 5 Valore: 393.11201434054755
-Livello batteria: 410
-Tipo: Light 6 Valore: 398.6855729023044
-Livello batteria: 408
-Tipo: Light 7 Valore: 385.8418597102102
-Livello batteria: 406
-Tipo: Light 8 Valore: 397.3832460382929
-Livello batteria: 404
-Tipo: Light 9 Valore: 396.5265714378688
-Livello batteria: 402
-Tipo: Light 0 Valore: 394.73092042630566
-Livello batteria: 400
-Tipo: Light 1 Valore: 396.05006374645984
-Livello batteria: 398
-Tipo: Light 2 Valore: 394.653428322833
-Livello batteria: 396
-Tipo: Light 3 Valore: 391.581615421129
-Livello batteria: 394
-Tipo: Light 4 Valore: 392.564763215966
-Livello batteria: 392
-Tipo: Light 5 Valore: 400.6096455747738
-Livello batteria: 390
-Tipo: Light 6 Valore: 393.55707305323494
-Livello batteria: 388
-Tipo: Light 7 Valore: 392.9491360952734
-Livello batteria: 386
-Tipo: Light 8 Valore: 381.4615614261823
-Livello batteria: 384
-Tipo: Light 9 Valore: 387.3804148236131
-Livello batteria: 382
-Tipo: Light 0 Valore: 393.53055543118813
-Livello batteria: 380
-Tipo: Light 1 Valore: 395.36395134906854
-Livello batteria: 378
-Tipo: Light 2 Valore: 386.2368010783541
-Livello batteria: 376
-Tipo: Light 3 Valore: 393.9160958168157
-Livello batteria: 374
-Tipo: Light 4 Valore: 389.72532531124466
-Livello batteria: 372
-Tipo: Light 5 Valore: 373.0730080889136
-Livello batteria: 370
-Tipo: Light 6 Valore: 381.5066679439908
-Livello batteria: 368
-Tipo: Light 7 Valore: 378.71084861055107
-Livello batteria: 366
-Tipo: Light 8 Valore: 376.3148916165934
-Livello batteria: 364
-Tipo: Light 9 Valore: 371.97428711947293
-Livello batteria: 362
-Tipo: Light 0 Valore: 366.9651424127338
-Livello batteria: 360
-Tipo: Light 1 Valore: 360.0889243612055
-Livello batteria: 358
-Tipo: Light 2 Valore: 367.50274935748763
-Livello batteria: 356
-Tipo: Light 3 Valore: 359.8509434439884
-Livello batteria: 354
-Tipo: Light 4 Valore: 356.32610671154845
-Livello batteria: 352
-Tipo: Light 5 Valore: 353.1927350329348
-Livello batteria: 350
-Tipo: Light 6 Valore: 343.7496953679163
-Livello batteria: 348
-Tipo: Light 7 Valore: 350.28006595375183
-Livello batteria: 346
-Tipo: Light 8 Valore: 341.2986228859621
-Livello batteria: 344
-Tipo: Light 9 Valore: 340.11978204948855
-Livello batteria: 342
-Tipo: Light 0 Valore: 337.30133201078615
-Livello batteria: 340
-Tipo: Light 1 Valore: 321.0146272169116
-Livello batteria: 338
-Tipo: Light 2 Valore: 333.120613093935
-Livello batteria: 336
-Tipo: Light 3 Valore: 319.66222395353316
-Livello batteria: 334
-Tipo: Light 4 Valore: 320.24754704951204
-Livello batteria: 332
-Tipo: Light 5 Valore: 311.1482136803678
-Livello batteria: 330
-Tipo: Light 6 Valore: 313.92913215148354
-Livello batteria: 328
-Tipo: Light 7 Valore: 299.5119968016429
-Livello batteria: 326
-Tipo: Light 8 Valore: 306.6234650063767
-Livello batteria: 324
-Tipo: Light 9 Valore: 301.7377046367663
-Livello batteria: 322
-Tipo: Light 0 Valore: 297.6172135222172
-Livello batteria: 320
-Tipo: Light 1 Valore: 286.39041331532053
-Livello batteria: 318
-Tipo: Light 2 Valore: 285.87215892065973
-Livello batteria: 316
-Tipo: Light 3 Valore: 274.6925606505958
-Livello batteria: 314
-Tipo: Light 4 Valore: 267.59082923386376
-Livello batteria: 312
-Tipo: Light 5 Valore: 266.32595591058055
-Livello batteria: 310
-Tipo: Light 6 Valore: 267.64406997343866
-Livello batteria: 308
-Tipo: Light 7 Valore: 242.62522161247477
-Livello batteria: 306
-Tipo: Light 8 Valore: 250.05998868071498
-Livello batteria: 304
-Tipo: Light 9 Valore: 239.65746393862858
-Livello batteria: 302
-Tipo: Light 0 Valore: 243.26945564996905
-Livello batteria: 300
-Tipo: Light 1 Valore: 229.66666210110134
-Livello batteria: 298
-Tipo: Light 2 Valore: 230.73427868167943
-Livello batteria: 296
-Tipo: Light 3 Valore: 221.21300883116947
-Livello batteria: 294
-Tipo: Light 4 Valore: 214.48091870558665
-Livello batteria: 292
-Tipo: Light 5 Valore: 212.82234121781292
-Livello batteria: 290
-Tipo: Light 6 Valore: 198.57614658127312
-Livello batteria: 288
-Tipo: Light 7 Valore: 202.07551808326963
-Livello batteria: 286
-Tipo: Light 8 Valore: 195.66410620996322
-Livello batteria: 284
-Tipo: Light 9 Valore: 189.95558443315517
-Livello batteria: 282
-Tipo: Light 0 Valore: 178.57962829691417
-Livello batteria: 280
-Tipo: Light 1 Valore: 184.73340568679765
-Livello batteria: 278
-Tipo: Light 2 Valore: 175.4352710344156
-Livello batteria: 276
-Tipo: Light 3 Valore: 168.7119169052905
-Livello batteria: 274
-Tipo: Light 4 Valore: 155.9397786967904
-Livello batteria: 272
-Tipo: Light 5 Valore: 150.67785261686336
-Livello batteria: 270
-Tipo: Light 6 Valore: 147.04030635904203
-Livello batteria: 268
-Tipo: Light 7 Valore: 140.7927228650166
-Livello batteria: 266
-Tipo: Light 8 Valore: 132.72414564295457
-Livello batteria: 264
-Tipo: Light 9 Valore: 130.5739873866648
-Livello batteria: 262
-Tipo: Light 0 Valore: 131.76467650787134
-Livello batteria: 260
-Tipo: Light 1 Valore: 123.13194791069938
+Tipo: Light 0 Valore: 395.0198577618018
+Livello batteria: 320 Percentuale: 32.0%
+Tipo: Light 1 Valore: 384.75136819927275
+Livello batteria: 318 Percentuale: 31.0%
+Tipo: Light 2 Valore: 384.34761167697184
+Livello batteria: 316 Percentuale: 31.0%
+Tipo: Light 3 Valore: 387.7836866388853
+Livello batteria: 314 Percentuale: 31.0%

@@ -26,9 +26,12 @@ public class NotSinkThread implements Runnable {
     private boolean stop = false;
     private Socket socket;
     private DataOutputStream out;
+    private int porta, frequenza;
 
-    public NotSinkThread(int p, Buffer b) {
-        buffer = b;
+    public NotSinkThread(int p, int f) {
+        porta = p;
+        frequenza = f;
+        buffer = Nodo.getBuffer();
         try {
             serverSocket = new ServerSocket(p);
         } catch (IOException e) {
@@ -39,46 +42,67 @@ public class NotSinkThread implements Runnable {
     @Override
     public void run() {
         while (!stop) {
-            try {
-                System.out.println("In ascolto...");
-                socket = serverSocket.accept();
-                System.out.println("Connessione con il sink...");
-                BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-                String req = br.readLine();
-                System.out.println("Richiesta " + req);
-                out = new DataOutputStream(socket.getOutputStream());
-
-                if (Objects.equals(req, "misurazioni")) {
-                    if (Nodo.getPercentBattery() < 25.0) {
-                        Messaggio messaggio = new Messaggio("batteria");
-                        Gson gsonMsg = new Gson();
-                        String msg = gsonMsg.toJson(messaggio);
-                        out.writeBytes(msg);
-
-                    }
-                    ArrayList<Misurazione> lista = (ArrayList<Misurazione>) buffer.leggi();
-                    Gson gson = new Gson();
-                    String gsonList = gson.toJson(lista);
-                    out.writeBytes(gsonList + '\n');
-                    Nodo.updateBattery("trasmissione");
-                }
-
-                if (Objects.equals(req, "elezione")) {
+            if (SingletonBattery.getInstance().getLevel() > 0) {
+                try {
+                    System.out.println("In ascolto...");
+                    socket = serverSocket.accept();
+                    System.out.println("Connessione con il sink...");
+                    BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                    String req = br.readLine();
                     out = new DataOutputStream(socket.getOutputStream());
-                    out.writeBytes("Nodo: " + buffer.leggi().get(0).getType() + "Livello batteria: " + SingletonBattery.getInstance().getLevel());
-                    Nodo.updateBattery("trasmissione");
+
+                    if (Objects.equals(req, "misurazioni")) {
+                        System.out.println("Richiesta: " + req);
+                        ArrayList<Misurazione> lista = (ArrayList<Misurazione>) buffer.leggi();
+                        Gson gson = new Gson();
+                        String gsonList = gson.toJson(lista);
+                        out.writeBytes(gsonList + '\n');
+                        Nodo.updateBattery("trasmissione");
+                    }
+
+                    if (Objects.equals(req, "elezione")) {
+                        System.out.println("Richiesta: " + req);
+                        out = new DataOutputStream(socket.getOutputStream());
+                        int perc = (int) (Nodo.getPercentBattery());
+                        out.writeByte(perc);
+                        Nodo.updateBattery("trasmissione");
+                    }
+                    if (Objects.equals(req, "eletto")) {
+                        System.out.println("Sono stato eletto sink");
+                        stopListening();
+                        new Thread(new SinkThread(porta, frequenza)).start();
+                    }
+                    if (Objects.equals(req, "msgManager")) {
+                        Socket socketManager = new Socket("localhost",5555);
+                        DataOutputStream outToManager = new DataOutputStream(socketManager.getOutputStream());
+                        outToManager.writeBytes("La rete di sensori non e' piu' disponibile");
+                        Nodo.updateBattery("trasmissioneGestore");
+                        System.out.println("Ho notificato il gestore di rete non disponibile");
+                        stopListening();
+                    }
+
+
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
+            }
+            else {
+                try {
+                    out.writeBytes("scarico");
 
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                stopListening();
 
+            }
+        }
+            try {
+
+                serverSocket.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }
-        }
-        try {
-            socket.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
     }
 

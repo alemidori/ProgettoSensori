@@ -69,13 +69,21 @@ public class Nodo {
 
         } else {
             //se non sono sink mi metto in attesa di una richiesta dal sink
-            notSinkThread = new NotSinkThread(port, buffer);
+            notSinkThread = new NotSinkThread(port,frequenza);
             new Thread(notSinkThread).start();
         }
     }
 
     public static Buffer<Misurazione> getBuffer() {
         return buffer;
+    }
+
+    public static void setSink() {
+        sink = true;
+    }
+
+    public static void setNotSink() {
+        sink = false;
     }
 
     public static float getPercentBattery() {
@@ -102,28 +110,16 @@ public class Nodo {
                     newLevel = level - trasmissionToManager;
                     SingletonBattery.getInstance().setLevel(newLevel);
                     break;
-                default: System.out.println("attivita' non specificata");
+                default:
+                    System.out.println("attivita' non specificata");
             }
 
             percentBattery = ((level * 100) / SingletonBattery.getInstance().getMaxLevel());
-
-
-            System.out.println("Livello batteria: " + level);
-            if (percentBattery < 25.0) {
-                System.out.println("Livello di batteria minore del 25%");
-                if (sink) {
-                    new Thread(new ElectionThread(port)).start();
-                }
-            }
+            System.out.println("Livello batteria: " + level + " Percentuale: " + percentBattery + "%");
 
         } else {
             simulator.stopMeGently();
-            if (sink) {
-                sinkThread.stopRequest();
-            } else {
-                notSinkThread.stopListening();
-            }
-            System.out.println("Sensore stoppato");
+        System.out.println("Sensore stoppato");
         }
 
     }
