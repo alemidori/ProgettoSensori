@@ -1,101 +1,35 @@
 PROCESSO NODO AVVIATO
 ********************************
-Tipo: Light 0 Valore: 269.98163744875876
+Tipo: Light 0 Valore: 357.28652497977083
 Livello batteria: 400 Percentuale: 40.0%
 In ascolto...
-Tipo: Light 1 Valore: 289.3242108456365
+Tipo: Light 1 Valore: 368.09059396982747
 Livello batteria: 398 Percentuale: 39.0%
-Tipo: Light 2 Valore: 283.5540232612454
+Tipo: Light 2 Valore: 371.3079296389215
 Livello batteria: 396 Percentuale: 39.0%
-Tipo: Light 3 Valore: 302.49354858599895
+Tipo: Light 3 Valore: 366.051412967313
 Livello batteria: 394 Percentuale: 39.0%
-Tipo: Light 4 Valore: 296.607299001756
+Tipo: Light 4 Valore: 372.11173617961896
 Livello batteria: 392 Percentuale: 39.0%
-Tipo: Light 5 Valore: 304.36826245793895
+Tipo: Light 5 Valore: 370.4587256187645
 Livello batteria: 390 Percentuale: 39.0%
-Tipo: Light 6 Valore: 311.63721255995426
+Tipo: Light 6 Valore: 371.27397185986865
 Livello batteria: 388 Percentuale: 38.0%
-Tipo: Light 7 Valore: 305.566425423914
+Tipo: Light 7 Valore: 371.2684234641976
 Livello batteria: 386 Percentuale: 38.0%
-Tipo: Light 8 Valore: 313.20679995863725
+Tipo: Light 8 Valore: 379.1870011447967
 Livello batteria: 384 Percentuale: 38.0%
-Tipo: Light 9 Valore: 325.81820916044313
+Connessione con il sink...
+Richiesta: misurazioni
 Livello batteria: 382 Percentuale: 38.0%
-Connessione con il sink...
-Richiesta: misurazioni
-Livello batteria: 380 Percentuale: 38.0%
 In ascolto...
-Tipo: Light 0 Valore: 322.8862135169005
+Tipo: Light 0 Valore: 387.0985840239642
+Livello batteria: 377 Percentuale: 37.0%
+Tipo: Light 1 Valore: 380.8636300553752
 Livello batteria: 375 Percentuale: 37.0%
-Tipo: Light 1 Valore: 330.23829661676444
+Tipo: Light 2 Valore: 377.92422593436976
 Livello batteria: 373 Percentuale: 37.0%
-Tipo: Light 2 Valore: 335.7362572260343
+Tipo: Light 3 Valore: 389.8592247648089
 Livello batteria: 371 Percentuale: 37.0%
-Tipo: Light 3 Valore: 329.5984619457287
+Tipo: Light 4 Valore: 389.85326654724395
 Livello batteria: 369 Percentuale: 36.0%
-Tipo: Light 4 Valore: 343.68845382318233
-Livello batteria: 367 Percentuale: 36.0%
-Tipo: Light 5 Valore: 335.92352979066516
-Livello batteria: 365 Percentuale: 36.0%
-Tipo: Light 6 Valore: 356.4216273062339
-Livello batteria: 363 Percentuale: 36.0%
-Connessione con il sink...
-Richiesta: elezione
-Livello batteria: 361 Percentuale: 36.0%
-In ascolto...
-Tipo: Light 7 Valore: 356.6316578715711
-Livello batteria: 356 Percentuale: 35.0%
-Tipo: Light 8 Valore: 357.1414555157437
-Livello batteria: 354 Percentuale: 35.0%
-Tipo: Light 9 Valore: 358.81912645356914
-Livello batteria: 352 Percentuale: 35.0%
-Tipo: Light 0 Valore: 369.55592803272225
-Livello batteria: 350 Percentuale: 35.0%
-Tipo: Light 1 Valore: 367.4427295337441
-Livello batteria: 348 Percentuale: 34.0%
-Tipo: Light 2 Valore: 377.7096982678079
-Livello batteria: 346 Percentuale: 34.0%
-Tipo: Light 3 Valore: 377.3285274714796
-Livello batteria: 344 Percentuale: 34.0%
-Tipo: Light 4 Valore: 370.4799616009688
-Livello batteria: 342 Percentuale: 34.0%
-Connessione con il sink...
-Richiesta: misurazioni
-Livello batteria: 340 Percentuale: 34.0%
-In ascolto...
-Tipo: Light 0 Valore: 370.6890938474914
-Livello batteria: 335 Percentuale: 33.0%
-Tipo: Light 1 Valore: 382.0701708497731
-Livello batteria: 333 Percentuale: 33.0%
-Tipo: Light 2 Valore: 383.16630443335544
-Livello batteria: 331 Percentuale: 33.0%
-Tipo: Light 3 Valore: 382.320891579269
-Livello batteria: 329 Percentuale: 32.0%
-Tipo: Light 4 Valore: 378.51810067581334
-Livello batteria: 327 Percentuale: 32.0%
-Tipo: Light 5 Valore: 383.4231903962329
-Livello batteria: 325 Percentuale: 32.0%
-Connessione con il sink...
-Richiesta: misurazioni
-Livello batteria: 323 Percentuale: 32.0%
-In ascolto...
-Tipo: Light 0 Valore: 391.6022952190213
-Livello batteria: 318 Percentuale: 31.0%
-Tipo: Light 1 Valore: 381.0979899646104
-Livello batteria: 316 Percentuale: 31.0%
-Tipo: Light 2 Valore: 384.51909932163704
-Livello batteria: 314 Percentuale: 31.0%
-Tipo: Light 3 Valore: 393.91174757790554
-Livello batteria: 312 Percentuale: 31.0%
-Tipo: Light 4 Valore: 394.6714727714197
-Livello batteria: 310 Percentuale: 31.0%
-Tipo: Light 5 Valore: 401.52045977941503
-Livello batteria: 308 Percentuale: 30.0%
-Tipo: Light 6 Valore: 394.92115584865223
-Livello batteria: 306 Percentuale: 30.0%
-Tipo: Light 7 Valore: 396.3907176595888
-Livello batteria: 304 Percentuale: 30.0%
-Tipo: Light 8 Valore: 396.5009920431013
-Livello batteria: 302 Percentuale: 30.0%
-Tipo: Light 9 Valore: 398.2680013935599
-Livello batteria: 300 Percentuale: 30.0%

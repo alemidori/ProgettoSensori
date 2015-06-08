@@ -24,6 +24,7 @@ public class ReadMsgThread implements Runnable {
     public void run() {
 
         try {
+            System.out.println("Nuovo messaggio dalla rete di sensori: ");
             System.out.println(br.readLine());
             System.out.println("***************************************");
 

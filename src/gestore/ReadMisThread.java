@@ -24,6 +24,7 @@ public class ReadMisThread implements Runnable {
     public void run() {
 
         try {
+            System.out.println("Nuove misurazioni:");
             System.out.println(br.readLine());
             System.out.println("***************************************");
 
