@@ -22,11 +22,10 @@ public class SinkThread implements Runnable {
     private int porta;
     private int frequenza;
     private boolean stop = false;
-    private Socket socketManager;
+    private Socket socketMSGManager;
+    private Socket socketMISManager;
     private Gson gson;
     private String richiesta, elezione;
-    private DataOutputStream outToManager;
-    private DataOutputStream outToMax;
     private Socket socketNewSink;
 
     public SinkThread(int p, int f) {
@@ -49,6 +48,7 @@ public class SinkThread implements Runnable {
                 e.printStackTrace();
             }
 
+            DataOutputStream outToMSGManager;
             if (Nodo.getPercentBattery() > 25.0) {
                 /*********************chiedo le misurazioni***********************/
                 List<String> listeMisurazioni = new ArrayList<>();
@@ -63,8 +63,7 @@ public class SinkThread implements Runnable {
                                     if (checkOut.checkError()) {
                                         System.out.println("Errore in checkError");
                                     } else {
-                                        socketManager = new Socket("localhost", 5555);
-                                        outToManager = new DataOutputStream(socketManager.getOutputStream());
+
                                         DataOutputStream out = new DataOutputStream(socket.getOutputStream());
                                         out.writeBytes(richiesta + '\n');
                                         Nodo.updateBattery("trasmissione");
@@ -87,10 +86,10 @@ public class SinkThread implements Runnable {
                             System.out.println("ConnectException 2");
 
                             try {
-                                socketManager = new Socket("localhost", 5555);
-                                outToManager = new DataOutputStream(socketManager.getOutputStream());
-                                outToManager.writeBytes("Il nodo con porta:" + p + " ha chiuso le connessioni");
-                                socketManager.close();
+                                socketMSGManager = new Socket("localhost", 6666);
+                                outToMSGManager = new DataOutputStream(socketMSGManager.getOutputStream());
+                                outToMSGManager.writeBytes("Il nodo con porta:" + p + " ha chiuso le connessioni");
+                                socketMSGManager.close();
                             } catch (IOException e1) {
                                 e1.printStackTrace();
                             }
@@ -109,10 +108,10 @@ public class SinkThread implements Runnable {
                 String all = gson.toJson(listeMisurazioni);
 
                 try {
-                    socketManager = new Socket("localhost", 5555);
-                    outToManager = new DataOutputStream(socketManager.getOutputStream());
-                    outToManager.writeBytes(all+'\n');
-                    socketManager.close();
+                    socketMISManager = new Socket("localhost", 5555);
+                    DataOutputStream outToMISManager = new DataOutputStream(socketMISManager.getOutputStream());
+                    outToMISManager.writeBytes(all + '\n');
+                    socketMISManager.close();
                     Nodo.updateBattery("trasmissioneGestore");
                 } catch (IOException e) {
                     e.printStackTrace();
@@ -152,10 +151,10 @@ public class SinkThread implements Runnable {
                             /**lancio l'eccezione se il nodo ha chiuso la serversocket**/
                             System.out.println("ConnectException 2");
                             try {
-                                socketManager = new Socket("localhost", 5555);
-                                outToManager = new DataOutputStream(socketManager.getOutputStream());
-                                outToManager.writeBytes("Il nodo con porta:" + p + " ha chiuso le connessioni");
-                                socketManager.close();
+                                socketMSGManager = new Socket("localhost", 6666);
+                                outToMSGManager = new DataOutputStream(socketMSGManager.getOutputStream());
+                                outToMSGManager.writeBytes("Il nodo con porta:" + p + " ha chiuso le connessioni");
+                                socketMSGManager.close();
                             } catch (IOException e1) {
                                 e1.printStackTrace();
                             }
@@ -180,6 +179,7 @@ public class SinkThread implements Runnable {
 
                 System.out.println("Livello batteria piu' carica': " + max);
                 System.out.println("La porta corrispondente e': " + portToSendMessage);
+                DataOutputStream outToMax;
                 if (max > 25) {
                     try {
                         socketNewSink = new Socket("localhost", portToSendMessage);
@@ -200,10 +200,10 @@ public class SinkThread implements Runnable {
                             outToMax = new DataOutputStream(socketNewSink.getOutputStream());
                             outToMax.writeBytes("msgManager");
                         } else {
-                            socketManager = new Socket("localhost", 5555);
-                            outToManager = new DataOutputStream(socketManager.getOutputStream());
-                            outToManager.writeBytes("La rete di sensori non e' piu' disponibile"+'\n');
-                            socketManager.close();
+                            socketMSGManager = new Socket("localhost", 6666);
+                            outToMSGManager = new DataOutputStream(socketMSGManager.getOutputStream());
+                            outToMSGManager.writeBytes("La rete sensori non e' piu' disponibile");
+                            socketMSGManager.close();
                             Nodo.updateBattery("trasmissioneGestore");
                             System.out.println("Ho notificato il gestore di rete non disponibile");
                         }
