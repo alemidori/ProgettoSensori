@@ -56,8 +56,8 @@
       <file leaf-file-name="SinkThread.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/reteSensori/thread/SinkThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5625">
-              <caret line="153" column="66" selection-start-line="153" selection-start-column="66" selection-end-line="153" selection-end-column="66" />
+            <state vertical-scroll-proportion="-2.59375">
+              <caret line="112" column="89" selection-start-line="112" selection-start-column="89" selection-end-line="112" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,8 +187,8 @@
         <option value="$PROJECT_DIR$/src/gestore/ReadMisThread.java" />
         <option value="$PROJECT_DIR$/src/gestore/ReadMsgThread.java" />
         <option value="$PROJECT_DIR$/src/gestore/gest/Gestore.java" />
-        <option value="$PROJECT_DIR$/src/reteSensori/thread/SinkThread.java" />
         <option value="$PROJECT_DIR$/src/gestore/Gestore.java" />
+        <option value="$PROJECT_DIR$/src/reteSensori/thread/SinkThread.java" />
       </list>
     </option>
   </component>
@@ -741,12 +741,12 @@
       <workItem from="1433589718545" duration="18406000" />
       <workItem from="1433682004276" duration="14177000" />
       <workItem from="1433713636301" duration="3774000" />
-      <workItem from="1433748344451" duration="9566000" />
+      <workItem from="1433748344451" duration="10137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287409000" />
+    <option name="totallyTimeSpent" value="287980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="713" extended-state="6" />
@@ -1178,8 +1178,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reteSensori/thread/SinkThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5625">
-          <caret line="153" column="66" selection-start-line="153" selection-start-column="66" selection-end-line="153" selection-end-column="66" />
+        <state vertical-scroll-proportion="-2.59375">
+          <caret line="112" column="89" selection-start-line="112" selection-start-column="89" selection-end-line="112" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

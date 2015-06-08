@@ -81,8 +81,6 @@ public class SinkThread implements Runnable {
 
                                 }
 
-                            } else {
-                                System.out.println("Il nodo con porta: " + p + " ha chiuso le connessioni");
                             }
                         }catch (ConnectException e) {
                             /**lancio l'eccezione se il nodo ha chiuso la serversocket**/
@@ -90,7 +88,8 @@ public class SinkThread implements Runnable {
 
                             try {
                                 socketManager = new Socket("localhost", 5555);
-                                outToManager.writeBytes("Il nodo con porta:" + p + " ha chiuso le connessioni"+'\n');
+                                outToManager = new DataOutputStream(socketManager.getOutputStream());
+                                outToManager.writeBytes("Il nodo con porta:" + p + " ha chiuso le connessioni");
                                 socketManager.close();
                             } catch (IOException e1) {
                                 e1.printStackTrace();
@@ -110,6 +109,8 @@ public class SinkThread implements Runnable {
                 String all = gson.toJson(listeMisurazioni);
 
                 try {
+                    socketManager = new Socket("localhost", 5555);
+                    outToManager = new DataOutputStream(socketManager.getOutputStream());
                     outToManager.writeBytes(all+'\n');
                     socketManager.close();
                     Nodo.updateBattery("trasmissioneGestore");
@@ -132,9 +133,7 @@ public class SinkThread implements Runnable {
                                 try {
                                     PrintWriter checkOut = new PrintWriter(socket.getOutputStream(), true);
                                     if (checkOut.checkError()) {
-                                        System.out.println("Il nodo con porta: " + p + " ha chiuso le connessioni");
-                                        socketManager = new Socket("localhost", 5555);
-                                        outToManager.writeBytes("Il nodo con porta:" + p + " ha chiuso le connessioni"+'\n');
+                                        System.out.println("Errore in checkError");
                                     } else {
                                         DataOutputStream out = new DataOutputStream(socket.getOutputStream());
                                         out.writeBytes(richiesta + '\n');
@@ -154,7 +153,8 @@ public class SinkThread implements Runnable {
                             System.out.println("ConnectException 2");
                             try {
                                 socketManager = new Socket("localhost", 5555);
-                                outToManager.writeBytes("Il nodo con porta:" + p + " ha chiuso le connessioni"+'\n');
+                                outToManager = new DataOutputStream(socketManager.getOutputStream());
+                                outToManager.writeBytes("Il nodo con porta:" + p + " ha chiuso le connessioni");
                                 socketManager.close();
                             } catch (IOException e1) {
                                 e1.printStackTrace();
