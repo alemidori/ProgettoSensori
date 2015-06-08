@@ -76,6 +76,7 @@ public class NotSinkThread implements Runnable {
                         Socket socketManager = new Socket("localhost",5555);
                         DataOutputStream outToManager = new DataOutputStream(socketManager.getOutputStream());
                         outToManager.writeBytes("La rete di sensori non e' piu' disponibile");
+                        socketManager.close();
                         Nodo.updateBattery("trasmissioneGestore");
                         System.out.println("Ho notificato il gestore di rete non disponibile");
                         stopListening();

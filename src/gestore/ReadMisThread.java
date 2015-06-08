@@ -8,10 +8,10 @@ import java.net.Socket;
 /**
  * Created by Alessandra on 07/06/15.
  */
-public class GestoreThread implements Runnable {
+public class ReadMisThread implements Runnable {
     private  BufferedReader br;
 
-    public GestoreThread(Socket s){
+    public ReadMisThread(Socket s){
 
         try {
             br = new BufferedReader(new InputStreamReader(s.getInputStream()));
@@ -23,9 +23,9 @@ public class GestoreThread implements Runnable {
     @Override
     public void run() {
 
-        System.out.println("Liste misurazioni:");
         try {
             System.out.println(br.readLine());
+            System.out.println("***************************************");
 
         } catch (IOException e) {
             e.printStackTrace();

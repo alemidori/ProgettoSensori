@@ -13,91 +13,65 @@ Tipo: PIR1 4 Valore: ON
 Livello batteria: 442 Percentuale: 44.0%
 Tipo: PIR1 5 Valore: ON
 Livello batteria: 440 Percentuale: 44.0%
-Tipo: PIR1 6 Valore: ON
-Livello batteria: 438 Percentuale: 43.0%
-Tipo: PIR1 7 Valore: ON
-Livello batteria: 436 Percentuale: 43.0%
 Connessione con il sink...
 Richiesta: misurazioni
-Livello batteria: 434 Percentuale: 43.0%
+Livello batteria: 438 Percentuale: 43.0%
 In ascolto...
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 429 Percentuale: 42.0%
+Livello batteria: 433 Percentuale: 43.0%
 Tipo: PIR1 1 Valore: ON
-Livello batteria: 427 Percentuale: 42.0%
+Livello batteria: 431 Percentuale: 43.0%
 Tipo: PIR1 2 Valore: ON
-Livello batteria: 425 Percentuale: 42.0%
+Livello batteria: 429 Percentuale: 42.0%
 Tipo: PIR1 3 Valore: ON
-Livello batteria: 423 Percentuale: 42.0%
+Livello batteria: 427 Percentuale: 42.0%
 Tipo: PIR1 4 Valore: ON
-Livello batteria: 421 Percentuale: 42.0%
+Livello batteria: 425 Percentuale: 42.0%
 Tipo: PIR1 5 Valore: ON
-Livello batteria: 419 Percentuale: 41.0%
-Tipo: PIR1 6 Valore: ON
-Livello batteria: 417 Percentuale: 41.0%
+Livello batteria: 423 Percentuale: 42.0%
 Connessione con il sink...
 Richiesta: elezione
-Livello batteria: 415 Percentuale: 41.0%
+Livello batteria: 421 Percentuale: 42.0%
 In ascolto...
 Connessione con il sink...
 Sono stato eletto sink
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 416 Percentuale: 41.0%
 Tipo: PIR1 7 Valore: ON
-Livello batteria: 410 Percentuale: 41.0%
+Livello batteria: 414 Percentuale: 41.0%
 Tipo: PIR1 8 Valore: ON
-Livello batteria: 408 Percentuale: 40.0%
+Livello batteria: 412 Percentuale: 41.0%
 Tipo: PIR1 9 Valore: ON
+Livello batteria: 410 Percentuale: 41.0%
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 408 Percentuale: 40.0%
+Tipo: PIR1 1 Valore: ON
 Livello batteria: 406 Percentuale: 40.0%
-Tipo: PIR1 0 Valore: ON
+Tipo: PIR1 2 Valore: ON
 Livello batteria: 404 Percentuale: 40.0%
-Tipo: PIR1 1 Valore: ON
 Livello batteria: 402 Percentuale: 40.0%
-Livello batteria: 400 Percentuale: 40.0%
-Ho richiesto le misurazioni
 Leggo le misurazioni
-[{"type":"Temperature","value":"23.845992754159642","timestamp":51649},{"type":"Temperature","value":"23.915127934760537","timestamp":54406},{"type":"Temperature","value":"24.40468807231773","timestamp":55543},{"type":"Temperature","value":"24.065033749080502","timestamp":59246},{"type":"Temperature","value":"22.988992506669504","timestamp":21578},{"type":"Temperature","value":"23.27609599029351","timestamp":25497},{"type":"Temperature","value":"23.484264412763725","timestamp":28714},{"type":"Temperature","value":"23.78173702533634","timestamp":30828},{"type":"Temperature","value":"24.116026061562227","timestamp":34614},{"type":"Temperature","value":"23.569840104420734","timestamp":36478},{"type":"Temperature","value":"23.546539496115543","timestamp":40361},{"type":"Temperature","value":"23.933601323007753","timestamp":41795},{"type":"Temperature","value":"23.97891785930154","timestamp":45696},{"type":"Temperature","value":"23.767251655183546","timestamp":48847}]
+[{"type":"Temperature","value":"24.23713056461704","timestamp":46402},{"type":"Temperature","value":"24.645266950712948","timestamp":48607},{"type":"Temperature","value":"24.574590009730812","timestamp":50961},{"type":"Temperature","value":"24.51013980068419","timestamp":53640},{"type":"Temperature","value":"24.392439722325282","timestamp":56042},{"type":"Temperature","value":"24.768154714550178","timestamp":60021},{"type":"Temperature","value":"23.33526409044269","timestamp":23167},{"type":"Temperature","value":"23.829141052790888","timestamp":24504},{"type":"Temperature","value":"23.541250739801","timestamp":25576},{"type":"Temperature","value":"23.784297535725006","timestamp":27668},{"type":"Temperature","value":"23.766992243773984","timestamp":29309},{"type":"Temperature","value":"23.538075524978467","timestamp":31701},{"type":"Temperature","value":"24.028822206222408","timestamp":35280},{"type":"Temperature","value":"23.796537010913212","timestamp":36556},{"type":"Temperature","value":"24.272758995917478","timestamp":40481},{"type":"Temperature","value":"24.00839408165441","timestamp":42567}]
 
-Livello batteria: 395 Percentuale: 39.0%
-Ho richiesto le misurazioni
+Livello batteria: 397 Percentuale: 39.0%
 Leggo le misurazioni
-[{"type":"Light","value":"390.61886494655886","timestamp":46823},{"type":"Light","value":"394.70055154291583","timestamp":50022},{"type":"Light","value":"393.9470277024434","timestamp":53267},{"type":"Light","value":"400.7090244140076","timestamp":55130},{"type":"Light","value":"392.6370166791965","timestamp":58147},{"type":"Light","value":"372.67149303919877","timestamp":21320},{"type":"Light","value":"376.23280784735823","timestamp":24989},{"type":"Light","value":"386.33672309585154","timestamp":27333},{"type":"Light","value":"378.5140388899499","timestamp":28620},{"type":"Light","value":"383.4838613084464","timestamp":30681},{"type":"Light","value":"393.9326401328632","timestamp":31961},{"type":"Light","value":"386.058976536932","timestamp":33549},{"type":"Light","value":"386.885342293184","timestamp":35788},{"type":"Light","value":"388.5300988784278","timestamp":39662},{"type":"Light","value":"391.99608520863734","timestamp":43596}]
+[{"type":"Light","value":"384.2115737565018","timestamp":48661},{"type":"Light","value":"390.2684084392124","timestamp":51145},{"type":"Light","value":"389.10427281224213","timestamp":54777},{"type":"Light","value":"383.69099880400626","timestamp":56887},{"type":"Light","value":"382.86465869664994","timestamp":60016},{"type":"Light","value":"358.5997689374859","timestamp":22494},{"type":"Light","value":"357.2870070099391","timestamp":24779},{"type":"Light","value":"355.1833860909042","timestamp":27364},{"type":"Light","value":"365.8241430513579","timestamp":29728},{"type":"Light","value":"369.2086089593759","timestamp":33700},{"type":"Light","value":"372.80949058232","timestamp":35619},{"type":"Light","value":"371.4631727069457","timestamp":38119},{"type":"Light","value":"371.1985811597866","timestamp":41885},{"type":"Light","value":"382.61285963407175","timestamp":43638},{"type":"Light","value":"388.06801738131213","timestamp":44769}]
 
-Livello batteria: 390 Percentuale: 39.0%
-Ho richiesto le misurazioni
-Leggo le misurazioni
-[{"type":"PIR2","value":"ON","timestamp":40327},{"type":"PIR2","value":"ON","timestamp":43326},{"type":"PIR2","value":"ON","timestamp":44854},{"type":"PIR2","value":"ON","timestamp":46743},{"type":"PIR2","value":"ON","timestamp":48341},{"type":"PIR2","value":"ON","timestamp":49714},{"type":"PIR2","value":"ON","timestamp":51326},{"type":"PIR2","value":"ON","timestamp":54603},{"type":"PIR2","value":"ON","timestamp":58469},{"type":"PIR2","value":"ON","timestamp":22703},{"type":"PIR2","value":"ON","timestamp":25190},{"type":"PIR2","value":"ON","timestamp":26473},{"type":"PIR2","value":"ON","timestamp":28098},{"type":"PIR2","value":"ON","timestamp":29244},{"type":"PIR2","value":"ON","timestamp":30367},{"type":"PIR2","value":"ON","timestamp":31892},{"type":"PIR2","value":"ON","timestamp":33088},{"type":"PIR2","value":"ON","timestamp":36572},{"type":"PIR2","value":"ON","timestamp":38773}]
-
-Livello batteria: 385 Percentuale: 38.0%
+ConnectException 2
+Livello batteria: 392 Percentuale: 39.0%
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 365 Percentuale: 36.0%
+Livello batteria: 372 Percentuale: 37.0%
 Tipo: PIR1 1 Valore: ON
-Livello batteria: 363 Percentuale: 36.0%
+Livello batteria: 370 Percentuale: 37.0%
 Tipo: PIR1 2 Valore: ON
-Livello batteria: 361 Percentuale: 36.0%
+Livello batteria: 368 Percentuale: 36.0%
 Tipo: PIR1 3 Valore: ON
-Livello batteria: 359 Percentuale: 35.0%
+Livello batteria: 366 Percentuale: 36.0%
 Tipo: PIR1 4 Valore: ON
-Livello batteria: 357 Percentuale: 35.0%
-Livello batteria: 355 Percentuale: 35.0%
-Ho richiesto le misurazioni
-Leggo le misurazioni
-[{"type":"Temperature","value":"24.49009525235539","timestamp":60663},{"type":"Temperature","value":"24.662028612211664","timestamp":64156},{"type":"Temperature","value":"24.675198058930274","timestamp":66975},{"type":"Temperature","value":"24.701350065659923","timestamp":69122},{"type":"Temperature","value":"24.549393518524507","timestamp":72121},{"type":"Temperature","value":"24.747591606477773","timestamp":75742},{"type":"Temperature","value":"24.708349513580256","timestamp":78840}]
-
-Livello batteria: 350 Percentuale: 35.0%
-Ho richiesto le misurazioni
-Leggo le misurazioni
-[{"type":"Light","value":"397.57111322728315","timestamp":61384},{"type":"Light","value":"395.5619895036845","timestamp":63032},{"type":"Light","value":"391.6560923252727","timestamp":64288},{"type":"Light","value":"385.4348215826768","timestamp":67110},{"type":"Light","value":"390.6608330404187","timestamp":70086},{"type":"Light","value":"390.8290046391765","timestamp":71117},{"type":"Light","value":"395.9581616202281","timestamp":74373},{"type":"Light","value":"387.23884859649894","timestamp":77858}]
-
-Livello batteria: 345 Percentuale: 34.0%
-Ho richiesto le misurazioni
-Leggo le misurazioni
-[{"type":"PIR2","value":"ON","timestamp":61462},{"type":"PIR2","value":"ON","timestamp":65257},{"type":"PIR2","value":"ON","timestamp":66631},{"type":"PIR2","value":"ON","timestamp":68735},{"type":"PIR2","value":"ON","timestamp":71294},{"type":"PIR2","value":"ON","timestamp":73960},{"type":"PIR2","value":"ON","timestamp":75090},{"type":"PIR2","value":"ON","timestamp":78116}]
-
-Livello batteria: 340 Percentuale: 34.0%
-Tipo: PIR1 0 Valore: ON
-Livello batteria: 320 Percentuale: 32.0%
-Tipo: PIR1 1 Valore: ON
-Livello batteria: 318 Percentuale: 31.0%
-Tipo: PIR1 2 Valore: ON
-Livello batteria: 316 Percentuale: 31.0%
-Tipo: PIR1 3 Valore: ON
-Livello batteria: 314 Percentuale: 31.0%
+Livello batteria: 364 Percentuale: 36.0%
+Tipo: PIR1 5 Valore: ON
+Livello batteria: 362 Percentuale: 36.0%
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 360 Percentuale: 36.0%
+Tipo: PIR1 7 Valore: ON
+Livello batteria: 358 Percentuale: 35.0%

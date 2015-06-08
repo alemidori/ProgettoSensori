@@ -2,104 +2,53 @@ PROCESSO NODO AVVIATO
 ********************************
 In ascolto...
 Tipo: PIR2 0 Valore: ON
-Livello batteria: 400 Percentuale: 40.0%
+Livello batteria: 50 Percentuale: 5.0%
 Tipo: PIR2 1 Valore: ON
-Livello batteria: 398 Percentuale: 39.0%
+Livello batteria: 48 Percentuale: 4.0%
 Tipo: PIR2 2 Valore: ON
-Livello batteria: 396 Percentuale: 39.0%
+Livello batteria: 46 Percentuale: 4.0%
 Tipo: PIR2 3 Valore: ON
-Livello batteria: 394 Percentuale: 39.0%
+Livello batteria: 44 Percentuale: 4.0%
 Tipo: PIR2 4 Valore: ON
-Livello batteria: 392 Percentuale: 39.0%
+Livello batteria: 42 Percentuale: 4.0%
 Tipo: PIR2 5 Valore: ON
-Livello batteria: 390 Percentuale: 39.0%
+Livello batteria: 40 Percentuale: 4.0%
 Tipo: PIR2 6 Valore: ON
-Livello batteria: 388 Percentuale: 38.0%
+Livello batteria: 38 Percentuale: 3.0%
 Tipo: PIR2 7 Valore: ON
-Livello batteria: 386 Percentuale: 38.0%
+Livello batteria: 36 Percentuale: 3.0%
 Tipo: PIR2 8 Valore: ON
-Livello batteria: 384 Percentuale: 38.0%
+Livello batteria: 34 Percentuale: 3.0%
 Tipo: PIR2 9 Valore: ON
-Livello batteria: 382 Percentuale: 38.0%
+Livello batteria: 32 Percentuale: 3.0%
 Connessione con il sink...
 Richiesta: misurazioni
-Livello batteria: 380 Percentuale: 38.0%
+Livello batteria: 30 Percentuale: 3.0%
 In ascolto...
 Tipo: PIR2 0 Valore: ON
-Livello batteria: 375 Percentuale: 37.0%
+Livello batteria: 25 Percentuale: 2.0%
 Tipo: PIR2 1 Valore: ON
-Livello batteria: 373 Percentuale: 37.0%
+Livello batteria: 23 Percentuale: 2.0%
 Tipo: PIR2 2 Valore: ON
-Livello batteria: 371 Percentuale: 37.0%
+Livello batteria: 21 Percentuale: 2.0%
 Tipo: PIR2 3 Valore: ON
-Livello batteria: 369 Percentuale: 36.0%
+Livello batteria: 19 Percentuale: 1.0%
 Tipo: PIR2 4 Valore: ON
-Livello batteria: 367 Percentuale: 36.0%
+Livello batteria: 17 Percentuale: 1.0%
 Tipo: PIR2 5 Valore: ON
-Livello batteria: 365 Percentuale: 36.0%
+Livello batteria: 15 Percentuale: 1.0%
 Tipo: PIR2 6 Valore: ON
-Livello batteria: 363 Percentuale: 36.0%
+Livello batteria: 13 Percentuale: 1.0%
 Tipo: PIR2 7 Valore: ON
-Livello batteria: 361 Percentuale: 36.0%
+Livello batteria: 11 Percentuale: 1.0%
 Tipo: PIR2 8 Valore: ON
-Livello batteria: 359 Percentuale: 35.0%
+Livello batteria: 9 Percentuale: 0.0%
 Tipo: PIR2 9 Valore: ON
-Livello batteria: 357 Percentuale: 35.0%
+Livello batteria: 7 Percentuale: 0.0%
 Tipo: PIR2 0 Valore: ON
-Livello batteria: 355 Percentuale: 35.0%
+Livello batteria: 5 Percentuale: 0.0%
 Connessione con il sink...
 Richiesta: elezione
-Livello batteria: 353 Percentuale: 35.0%
-In ascolto...
+Livello batteria: 3 Percentuale: 0.0%
 Tipo: PIR2 1 Valore: ON
-Livello batteria: 348 Percentuale: 34.0%
-Tipo: PIR2 2 Valore: ON
-Livello batteria: 346 Percentuale: 34.0%
-Tipo: PIR2 3 Valore: ON
-Livello batteria: 344 Percentuale: 34.0%
-Tipo: PIR2 4 Valore: ON
-Livello batteria: 342 Percentuale: 34.0%
-Tipo: PIR2 5 Valore: ON
-Livello batteria: 340 Percentuale: 34.0%
-Tipo: PIR2 6 Valore: ON
-Livello batteria: 338 Percentuale: 33.0%
-Tipo: PIR2 7 Valore: ON
-Livello batteria: 336 Percentuale: 33.0%
-Tipo: PIR2 8 Valore: ON
-Livello batteria: 334 Percentuale: 33.0%
-Connessione con il sink...
-Richiesta: misurazioni
-Livello batteria: 332 Percentuale: 33.0%
-In ascolto...
-Tipo: PIR2 0 Valore: ON
-Livello batteria: 327 Percentuale: 32.0%
-Tipo: PIR2 1 Valore: ON
-Livello batteria: 325 Percentuale: 32.0%
-Tipo: PIR2 2 Valore: ON
-Livello batteria: 323 Percentuale: 32.0%
-Tipo: PIR2 3 Valore: ON
-Livello batteria: 321 Percentuale: 32.0%
-Tipo: PIR2 4 Valore: ON
-Livello batteria: 319 Percentuale: 31.0%
-Tipo: PIR2 5 Valore: ON
-Livello batteria: 317 Percentuale: 31.0%
-Tipo: PIR2 6 Valore: ON
-Livello batteria: 315 Percentuale: 31.0%
-Tipo: PIR2 7 Valore: ON
-Livello batteria: 313 Percentuale: 31.0%
-Connessione con il sink...
-Richiesta: misurazioni
-Livello batteria: 311 Percentuale: 31.0%
-In ascolto...
-Tipo: PIR2 0 Valore: ON
-Livello batteria: 306 Percentuale: 30.0%
-Tipo: PIR2 1 Valore: ON
-Livello batteria: 304 Percentuale: 30.0%
-Tipo: PIR2 2 Valore: ON
-Livello batteria: 302 Percentuale: 30.0%
-Tipo: PIR2 3 Valore: ON
-Livello batteria: 300 Percentuale: 30.0%
-Tipo: PIR2 4 Valore: ON
-Livello batteria: 298 Percentuale: 29.0%
-Tipo: PIR2 5 Valore: ON
-Livello batteria: 296 Percentuale: 29.0%
+Sensore stoppato

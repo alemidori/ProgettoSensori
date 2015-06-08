@@ -3,7 +3,6 @@ package reteSensori.classi;
 
 import reteSensori.simulatori.*;
 import reteSensori.singleton.SingletonBattery;
-import reteSensori.thread.ElectionThread;
 import reteSensori.thread.NotSinkThread;
 import reteSensori.thread.SinkThread;
 

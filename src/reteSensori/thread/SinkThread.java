@@ -2,14 +2,14 @@ package reteSensori.thread;
 
 import com.google.gson.Gson;
 
-import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
 import reteSensori.classi.Nodo;
 import reteSensori.simulatori.Misurazione;
-import reteSensori.classi.Messaggio;
+
 
 import javax.net.SocketFactory;
 
 import java.io.*;
+import java.net.ConnectException;
 import java.net.Socket;
 import java.util.*;
 
@@ -51,48 +51,67 @@ public class SinkThread implements Runnable {
 
             if (Nodo.getPercentBattery() > 25.0) {
                 /*********************chiedo le misurazioni***********************/
-                ArrayList<String> listeMisurazioni = new ArrayList<>();
+                List<String> listeMisurazioni = new ArrayList<>();
                 for (int p : porte) {
                     if (p != porta) {
                         try {
-                            Socket socket = new Socket("localhost", p);
+                            //creo una socket ancora disconnessa
+                            Socket socket = SocketFactory.getDefault().createSocket("localhost",p);
                             if (socket.isConnected()) {
                                 try {
-                                    DataOutputStream out = new DataOutputStream(socket.getOutputStream());
                                     PrintWriter checkOut = new PrintWriter(socket.getOutputStream(), true);
-                                    if (checkOut.checkError())
-                                        System.out.println("Il nodo con porta: " + p + " ha chiuso le connessioni");
-                                    else {
+                                    if (checkOut.checkError()) {
+                                        System.out.println("Errore in checkError");
+                                    } else {
+                                        socketManager = new Socket("localhost", 5555);
+                                        outToManager = new DataOutputStream(socketManager.getOutputStream());
+                                        DataOutputStream out = new DataOutputStream(socket.getOutputStream());
                                         out.writeBytes(richiesta + '\n');
                                         Nodo.updateBattery("trasmissione");
-                                        System.out.println("Ho richiesto le misurazioni");
                                         BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                                         System.out.println("Leggo le misurazioni");
                                         String res = br.readLine();
                                         System.out.println(res + '\n');
                                         listeMisurazioni.add(res);
-                                        /*genero la stringa con le mie misurazioni*/
-                                        ArrayList<Misurazione> lista = (ArrayList<Misurazione>) Nodo.getBuffer().leggi();
-                                        String gsonList = gson.toJson(lista);
-                                        listeMisurazioni.add(gsonList);
-                                        socketManager = new Socket("localhost", 5555);
-                                        outToManager = new DataOutputStream(socketManager.getOutputStream());
+
+
                                     }
-                                } catch (IOException e) {
-                                    e.printStackTrace();
+                                } catch (ConnectException e) {
+                                    System.out.println("ConnectException 1");
+
                                 }
+
                             } else {
-                                System.out.println("Il nodo con porta: " + p + "ha chiuso le connessioni");
+                                System.out.println("Il nodo con porta: " + p + " ha chiuso le connessioni");
                             }
-                        } catch (IOException e) {
+                        }catch (ConnectException e) {
+                            /**lancio l'eccezione se il nodo ha chiuso la serversocket**/
+                            System.out.println("ConnectException 2");
+
+                            try {
+                                socketManager = new Socket("localhost", 5555);
+                                outToManager.writeBytes("Il nodo con porta:" + p + " ha chiuso le connessioni"+'\n');
+                                socketManager.close();
+                            } catch (IOException e1) {
+                                e1.printStackTrace();
+                            }
+                        }
+                        catch (IOException e) {
                             e.printStackTrace();
                         }
 
                     }
                 }
+
+                /*genero la stringa con le mie misurazioni*/
+                ArrayList<Misurazione> lista = (ArrayList<Misurazione>) Nodo.getBuffer().leggi();
+                String gsonList = gson.toJson(lista);
+                listeMisurazioni.add(gsonList);
                 String all = gson.toJson(listeMisurazioni);
+
                 try {
-                    outToManager.writeBytes(all);
+                    outToManager.writeBytes(all+'\n');
+                    socketManager.close();
                     Nodo.updateBattery("trasmissioneGestore");
                 } catch (IOException e) {
                     e.printStackTrace();
@@ -107,14 +126,42 @@ public class SinkThread implements Runnable {
                 for (int p : porte) {
                     if (p != porta) {
                         try {
-                            Socket socket = new Socket("localhost", p);
-                            DataOutputStream out = new DataOutputStream(socket.getOutputStream());
-                            out.writeBytes(richiesta + '\n');
-                            BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-                            int res = br.read();
-                            map.put(p, res);
+                            //creo una socket ancora disconnessa
+                            Socket socket = SocketFactory.getDefault().createSocket("localhost",p);
+                            if (socket.isConnected()) {
+                                try {
+                                    PrintWriter checkOut = new PrintWriter(socket.getOutputStream(), true);
+                                    if (checkOut.checkError()) {
+                                        System.out.println("Il nodo con porta: " + p + " ha chiuso le connessioni");
+                                        socketManager = new Socket("localhost", 5555);
+                                        outToManager.writeBytes("Il nodo con porta:" + p + " ha chiuso le connessioni"+'\n');
+                                    } else {
+                                        DataOutputStream out = new DataOutputStream(socket.getOutputStream());
+                                        out.writeBytes(richiesta + '\n');
+                                        BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                                        int res = br.read();
+                                        map.put(p, res);
+                                    }
+                                }
+                                catch (ConnectException e) {
+                                    System.out.println("ConnectException 1");
 
-                        } catch (IOException e) {
+                                }
+                            }
+                        }
+                        catch (ConnectException e) {
+                            /**lancio l'eccezione se il nodo ha chiuso la serversocket**/
+                            System.out.println("ConnectException 2");
+                            try {
+                                socketManager = new Socket("localhost", 5555);
+                                outToManager.writeBytes("Il nodo con porta:" + p + " ha chiuso le connessioni"+'\n');
+                                socketManager.close();
+                            } catch (IOException e1) {
+                                e1.printStackTrace();
+                            }
+
+                        }
+                        catch (IOException e) {
                             e.printStackTrace();
                         }
                     }
@@ -149,19 +196,21 @@ public class SinkThread implements Runnable {
                     System.out.println("Nessun nodo ha la batteria >25%");
 
                     try {
-                        if(max>SingletonBattery.getInstance().getLevel()) {
+                        if (max > SingletonBattery.getInstance().getLevel()) {
                             outToMax = new DataOutputStream(socketNewSink.getOutputStream());
                             outToMax.writeBytes("msgManager");
-                        }
-                        else{
-                            outToManager.writeBytes("La rete di sensori non e' piu' disponibile");
+                        } else {
+                            socketManager = new Socket("localhost", 5555);
+                            outToManager = new DataOutputStream(socketManager.getOutputStream());
+                            outToManager.writeBytes("La rete di sensori non e' piu' disponibile"+'\n');
+                            socketManager.close();
                             Nodo.updateBattery("trasmissioneGestore");
                             System.out.println("Ho notificato il gestore di rete non disponibile");
                         }
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-
+                    stopRequest();
                 }
             }
         }
