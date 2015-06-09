@@ -1,220 +1,174 @@
 PROCESSO NODO AVVIATO
 ********************************
-Tipo: Temperature 0 Valore: 21.956610143854462
+Tipo: Temperature 0 Valore: 24.852833432210236
 Livello batteria: 300 Percentuale: 30.0%
-Tipo: Temperature 1 Valore: 22.09482089702227
+Tipo: Temperature 1 Valore: 24.97972441837695
 Livello batteria: 298 Percentuale: 29.0%
-Tipo: Temperature 2 Valore: 22.086850084944587
+Tipo: Temperature 2 Valore: 24.878355206596037
 Livello batteria: 296 Percentuale: 29.0%
-Tipo: Temperature 3 Valore: 22.215392738619602
+Tipo: Temperature 3 Valore: 25.43469746415265
 Livello batteria: 294 Percentuale: 29.0%
-Tipo: Temperature 4 Valore: 22.161671503571473
+Tipo: Temperature 4 Valore: 25.674983365512297
 Livello batteria: 292 Percentuale: 29.0%
-Tipo: Temperature 5 Valore: 22.34566633695559
+Tipo: Temperature 5 Valore: 25.16768599784499
 Livello batteria: 290 Percentuale: 29.0%
-Tipo: Temperature 6 Valore: 22.273730361424814
+Tipo: Temperature 6 Valore: 25.4289861402748
 Livello batteria: 288 Percentuale: 28.0%
-Tipo: Temperature 7 Valore: 22.452641968626622
+Tipo: Temperature 7 Valore: 25.616089886857385
 Livello batteria: 286 Percentuale: 28.0%
+Tipo: Temperature 8 Valore: 25.550790523887414
 Livello batteria: 284 Percentuale: 28.0%
+Livello batteria: 282 Percentuale: 28.0%
 Leggo le misurazioni
-[{"type":"Light","value":"356.5393230873604","timestamp":4},{"type":"Light","value":"347.00728287179646","timestamp":3223},{"type":"Light","value":"366.87572698323635","timestamp":4801},{"type":"Light","value":"354.99216477696217","timestamp":7555},{"type":"Light","value":"367.173541345743","timestamp":8764},{"type":"Light","value":"368.4461102081339","timestamp":12421},{"type":"Light","value":"366.7662439190333","timestamp":13729},{"type":"Light","value":"375.6352585275825","timestamp":16996}]
+[{"type":"Light","value":"358.9774866725012","timestamp":4},{"type":"Light","value":"367.6743767575941","timestamp":1104},{"type":"Light","value":"367.2696495486075","timestamp":3959},{"type":"Light","value":"367.14353167591025","timestamp":7795},{"type":"Light","value":"375.9589037973313","timestamp":11564},{"type":"Light","value":"378.3635089665436","timestamp":13627},{"type":"Light","value":"384.0635773631535","timestamp":15413},{"type":"Light","value":"379.05629623389063","timestamp":19035}]
 
-Livello batteria: 279 Percentuale: 27.0%
+Livello batteria: 277 Percentuale: 27.0%
 Leggo le misurazioni
-[{"type":"PIR1","value":"ON","timestamp":9693},{"type":"PIR1","value":"ON","timestamp":19929}]
+[{"type":"PIR1","value":"ON","timestamp":3686},{"type":"PIR1","value":"ON","timestamp":4714},{"type":"PIR1","value":"ON","timestamp":10384},{"type":"PIR1","value":"ON","timestamp":13498},{"type":"PIR1","value":"ON","timestamp":18151},{"type":"PIR1","value":"ON","timestamp":19244}]
 
-Livello batteria: 274 Percentuale: 27.0%
+Livello batteria: 272 Percentuale: 27.0%
 Leggo le misurazioni
-[{"type":"PIR2","value":"ON","timestamp":2019},{"type":"PIR2","value":"ON","timestamp":5061},{"type":"PIR2","value":"ON","timestamp":6693},{"type":"PIR2","value":"ON","timestamp":8891},{"type":"PIR2","value":"ON","timestamp":12334},{"type":"PIR2","value":"ON","timestamp":14069},{"type":"PIR2","value":"ON","timestamp":17077},{"type":"PIR2","value":"ON","timestamp":18664}]
+[{"type":"PIR2","value":"ON","timestamp":2282},{"type":"PIR2","value":"ON","timestamp":3777},{"type":"PIR2","value":"ON","timestamp":7146},{"type":"PIR2","value":"ON","timestamp":9088},{"type":"PIR2","value":"ON","timestamp":12563},{"type":"PIR2","value":"ON","timestamp":13621},{"type":"PIR2","value":"ON","timestamp":15916},{"type":"PIR2","value":"ON","timestamp":17349},{"type":"PIR2","value":"ON","timestamp":18616}]
 
-Livello batteria: 269 Percentuale: 26.0%
-Tipo: Temperature 0 Valore: 22.627896324126365
-Livello batteria: 249 Percentuale: 24.0%
-Tipo: Temperature 1 Valore: 22.890750458051386
+Livello batteria: 267 Percentuale: 26.0%
+Tipo: Temperature 0 Valore: 25.660102718723785
 Livello batteria: 247 Percentuale: 24.0%
-Tipo: Temperature 2 Valore: 22.763361232000978
+Tipo: Temperature 1 Valore: 25.978110321670133
 Livello batteria: 245 Percentuale: 24.0%
-Tipo: Temperature 3 Valore: 22.716854386457488
+Tipo: Temperature 2 Valore: 26.067714970425513
 Livello batteria: 243 Percentuale: 24.0%
-Tipo: Temperature 4 Valore: 23.168165246874803
+Tipo: Temperature 3 Valore: 25.83974443545235
 Livello batteria: 241 Percentuale: 24.0%
-Tipo: Temperature 5 Valore: 23.31743667933385
+Tipo: Temperature 4 Valore: 25.93132765150118
 Livello batteria: 239 Percentuale: 23.0%
-Tipo: Temperature 6 Valore: 23.20814222266863
+Tipo: Temperature 5 Valore: 26.3358751826027
 Livello batteria: 237 Percentuale: 23.0%
-Tipo: Temperature 7 Valore: 23.238858474124086
+Tipo: Temperature 6 Valore: 26.23387929962624
 Livello batteria: 235 Percentuale: 23.0%
 Ho indetto un'elezione
-Livello batteria piu' carica': 42
+Livello batteria piu' carica': 43
 La porta corrispondente e': 3333
 Ho eletto il nodo con la porta 3333 come nuovo sink
 In ascolto...
-Tipo: Temperature 8 Valore: 23.279349069642585
+Tipo: Temperature 7 Valore: 26.475560427834356
 Livello batteria: 233 Percentuale: 23.0%
-Tipo: Temperature 9 Valore: 23.41918962742412
+Tipo: Temperature 8 Valore: 26.109722103642824
 Livello batteria: 231 Percentuale: 23.0%
-Tipo: Temperature 0 Valore: 23.669001393768315
+Tipo: Temperature 9 Valore: 26.48786037087181
 Livello batteria: 229 Percentuale: 22.0%
-Tipo: Temperature 1 Valore: 23.60931445706816
+Tipo: Temperature 0 Valore: 26.753995631476336
 Livello batteria: 227 Percentuale: 22.0%
-Tipo: Temperature 2 Valore: 24.07927196154263
+Tipo: Temperature 1 Valore: 26.62699237180375
 Livello batteria: 225 Percentuale: 22.0%
-Tipo: Temperature 3 Valore: 23.903759631262396
+Tipo: Temperature 2 Valore: 26.65399397618211
 Livello batteria: 223 Percentuale: 22.0%
-Tipo: Temperature 4 Valore: 24.048029014785513
+Tipo: Temperature 3 Valore: 26.92074968240362
 Livello batteria: 221 Percentuale: 22.0%
+Tipo: Temperature 4 Valore: 27.04227926937717
+Livello batteria: 219 Percentuale: 21.0%
 Connessione con il sink...
 Richiesta: misurazioni
-Livello batteria: 219 Percentuale: 21.0%
+Livello batteria: 217 Percentuale: 21.0%
 In ascolto...
-Tipo: Temperature 0 Valore: 24.09063578014573
-Livello batteria: 214 Percentuale: 21.0%
-Tipo: Temperature 1 Valore: 23.970003148569887
+Tipo: Temperature 0 Valore: 27.285838323749605
 Livello batteria: 212 Percentuale: 21.0%
-Tipo: Temperature 2 Valore: 24.280600857494257
+Tipo: Temperature 1 Valore: 27.02659832393849
 Livello batteria: 210 Percentuale: 21.0%
-Tipo: Temperature 3 Valore: 24.283016296266403
+Tipo: Temperature 2 Valore: 26.624660622466315
 Livello batteria: 208 Percentuale: 20.0%
-Tipo: Temperature 4 Valore: 24.474232069400056
+Tipo: Temperature 3 Valore: 27.331503762527763
 Livello batteria: 206 Percentuale: 20.0%
-Tipo: Temperature 5 Valore: 24.76108489658923
+Tipo: Temperature 4 Valore: 26.85376221531384
 Livello batteria: 204 Percentuale: 20.0%
-Tipo: Temperature 6 Valore: 24.90317379220421
+Tipo: Temperature 5 Valore: 27.251269541349032
 Livello batteria: 202 Percentuale: 20.0%
-Tipo: Temperature 7 Valore: 24.464278366007356
+Tipo: Temperature 6 Valore: 27.43570362974526
 Livello batteria: 200 Percentuale: 20.0%
 Connessione con il sink...
 Richiesta: misurazioni
 Livello batteria: 198 Percentuale: 19.0%
 In ascolto...
-Tipo: Temperature 0 Valore: 24.859300433402726
+Tipo: Temperature 0 Valore: 27.103375736020052
 Livello batteria: 193 Percentuale: 19.0%
-Tipo: Temperature 1 Valore: 24.707133737875917
+Tipo: Temperature 1 Valore: 27.45168926552279
 Livello batteria: 191 Percentuale: 19.0%
-Tipo: Temperature 2 Valore: 24.98516242827652
+Tipo: Temperature 2 Valore: 27.145538278672444
 Livello batteria: 189 Percentuale: 18.0%
-Tipo: Temperature 3 Valore: 25.28106452995906
+Tipo: Temperature 3 Valore: 27.45680837792461
 Livello batteria: 187 Percentuale: 18.0%
-Tipo: Temperature 4 Valore: 24.814328066189255
+Tipo: Temperature 4 Valore: 27.621910669268992
 Livello batteria: 185 Percentuale: 18.0%
-Tipo: Temperature 5 Valore: 25.535541435906786
+Tipo: Temperature 5 Valore: 27.61211307815
 Livello batteria: 183 Percentuale: 18.0%
-Connessione con il sink...
-Richiesta: misurazioni
+Tipo: Temperature 6 Valore: 27.899540691496078
 Livello batteria: 181 Percentuale: 18.0%
-In ascolto...
-Tipo: Temperature 0 Valore: 25.18269079023355
-Livello batteria: 176 Percentuale: 17.0%
-Tipo: Temperature 1 Valore: 25.664715551575394
-Livello batteria: 174 Percentuale: 17.0%
-Tipo: Temperature 2 Valore: 25.57698684536193
-Livello batteria: 172 Percentuale: 17.0%
-Tipo: Temperature 3 Valore: 26.04287681840864
-Livello batteria: 170 Percentuale: 17.0%
-Tipo: Temperature 4 Valore: 25.864419055319146
-Livello batteria: 168 Percentuale: 16.0%
-Tipo: Temperature 5 Valore: 25.80368434105278
-Livello batteria: 166 Percentuale: 16.0%
-Tipo: Temperature 6 Valore: 25.60996055174717
-Livello batteria: 164 Percentuale: 16.0%
+Tipo: Temperature 7 Valore: 27.82468162330316
+Livello batteria: 179 Percentuale: 17.0%
 Connessione con il sink...
 Richiesta: misurazioni
-Livello batteria: 162 Percentuale: 16.0%
+Livello batteria: 177 Percentuale: 17.0%
 In ascolto...
-Tipo: Temperature 0 Valore: 25.822273032397955
-Livello batteria: 157 Percentuale: 15.0%
-Tipo: Temperature 1 Valore: 26.173200877862442
-Livello batteria: 155 Percentuale: 15.0%
-Tipo: Temperature 2 Valore: 25.780621135631197
-Livello batteria: 153 Percentuale: 15.0%
-Tipo: Temperature 3 Valore: 26.16351687004715
-Livello batteria: 151 Percentuale: 15.0%
-Tipo: Temperature 4 Valore: 26.220490932965376
+Tipo: Temperature 0 Valore: 27.90115645715058
+Livello batteria: 172 Percentuale: 17.0%
+Tipo: Temperature 1 Valore: 27.715933347253735
+Livello batteria: 170 Percentuale: 17.0%
+Tipo: Temperature 2 Valore: 28.101788763359792
+Livello batteria: 168 Percentuale: 16.0%
+Tipo: Temperature 3 Valore: 27.919561591489423
+Livello batteria: 166 Percentuale: 16.0%
+Tipo: Temperature 4 Valore: 27.998397500214534
+Livello batteria: 164 Percentuale: 16.0%
+Tipo: Temperature 5 Valore: 28.2860278261447
+Livello batteria: 162 Percentuale: 16.0%
+Tipo: Temperature 6 Valore: 28.18984596065148
+Livello batteria: 160 Percentuale: 16.0%
+Tipo: Temperature 7 Valore: 28.15775665606307
+Livello batteria: 158 Percentuale: 15.0%
+Tipo: Temperature 8 Valore: 28.28740781249957
+Livello batteria: 156 Percentuale: 15.0%
+Connessione con il sink...
+Richiesta: misurazioni
+Livello batteria: 154 Percentuale: 15.0%
+In ascolto...
+Tipo: Temperature 0 Valore: 28.37690374179065
 Livello batteria: 149 Percentuale: 14.0%
-Tipo: Temperature 5 Valore: 26.390064951171343
+Tipo: Temperature 1 Valore: 28.386606509260172
 Livello batteria: 147 Percentuale: 14.0%
-Tipo: Temperature 6 Valore: 26.229166961299093
+Tipo: Temperature 2 Valore: 28.27404653198481
 Livello batteria: 145 Percentuale: 14.0%
+Tipo: Temperature 3 Valore: 28.45374378326425
+Livello batteria: 143 Percentuale: 14.0%
+Tipo: Temperature 4 Valore: 28.2905395702162
+Livello batteria: 141 Percentuale: 14.0%
+Tipo: Temperature 5 Valore: 28.448168858446017
+Livello batteria: 139 Percentuale: 13.0%
+Tipo: Temperature 6 Valore: 28.65316292162357
+Livello batteria: 137 Percentuale: 13.0%
+Tipo: Temperature 7 Valore: 28.700492276091218
+Livello batteria: 135 Percentuale: 13.0%
 Connessione con il sink...
 Richiesta: elezione
-Livello batteria: 143 Percentuale: 14.0%
+Livello batteria: 133 Percentuale: 13.0%
 In ascolto...
-Tipo: Temperature 7 Valore: 26.53259710781288
-Livello batteria: 138 Percentuale: 13.0%
-Tipo: Temperature 8 Valore: 26.7122458057753
-Livello batteria: 136 Percentuale: 13.0%
-Tipo: Temperature 9 Valore: 26.659528432408624
-Livello batteria: 134 Percentuale: 13.0%
-Tipo: Temperature 0 Valore: 26.437996878453486
-Livello batteria: 132 Percentuale: 13.0%
-Tipo: Temperature 1 Valore: 26.929140047410492
-Livello batteria: 130 Percentuale: 13.0%
-Tipo: Temperature 2 Valore: 27.016880216064664
+Tipo: Temperature 8 Valore: 28.30986664678486
 Livello batteria: 128 Percentuale: 12.0%
-Tipo: Temperature 3 Valore: 26.65891845724421
+Tipo: Temperature 9 Valore: 29.23054938262747
 Livello batteria: 126 Percentuale: 12.0%
-Tipo: Temperature 4 Valore: 26.99075111417
+Tipo: Temperature 0 Valore: 28.85306137472886
 Livello batteria: 124 Percentuale: 12.0%
-Tipo: Temperature 5 Valore: 27.210397299446093
+Tipo: Temperature 1 Valore: 29.067875250505967
 Livello batteria: 122 Percentuale: 12.0%
-Tipo: Temperature 6 Valore: 27.018508244174328
+Tipo: Temperature 2 Valore: 29.084335080174608
 Livello batteria: 120 Percentuale: 12.0%
-Tipo: Temperature 7 Valore: 27.43345312761607
+Tipo: Temperature 3 Valore: 28.610094572237468
 Livello batteria: 118 Percentuale: 11.0%
-Tipo: Temperature 8 Valore: 27.119536363282393
+Tipo: Temperature 4 Valore: 29.307056787594476
 Livello batteria: 116 Percentuale: 11.0%
-Tipo: Temperature 9 Valore: 27.194265490081364
+Tipo: Temperature 5 Valore: 28.72012106345671
 Livello batteria: 114 Percentuale: 11.0%
-Tipo: Temperature 0 Valore: 27.559777009397077
+Tipo: Temperature 6 Valore: 29.10187963518243
 Livello batteria: 112 Percentuale: 11.0%
-Tipo: Temperature 1 Valore: 27.09773935432579
+Tipo: Temperature 7 Valore: 29.30738369955486
 Livello batteria: 110 Percentuale: 11.0%
-Tipo: Temperature 2 Valore: 27.320285892693935
+Tipo: Temperature 8 Valore: 28.902666010029456
 Livello batteria: 108 Percentuale: 10.0%
-Tipo: Temperature 3 Valore: 27.446794217873194
-Livello batteria: 106 Percentuale: 10.0%
-Tipo: Temperature 4 Valore: 27.858652204799967
-Livello batteria: 104 Percentuale: 10.0%
-Tipo: Temperature 5 Valore: 27.993970250930136
-Livello batteria: 102 Percentuale: 10.0%
-Tipo: Temperature 6 Valore: 27.521805610322996
-Livello batteria: 100 Percentuale: 10.0%
-Tipo: Temperature 7 Valore: 27.758769947550082
-Livello batteria: 98 Percentuale: 9.0%
-Tipo: Temperature 8 Valore: 27.588190772958775
-Livello batteria: 96 Percentuale: 9.0%
-Tipo: Temperature 9 Valore: 27.952350546032946
-Livello batteria: 94 Percentuale: 9.0%
-Tipo: Temperature 0 Valore: 28.279090489300007
-Livello batteria: 92 Percentuale: 9.0%
-Tipo: Temperature 1 Valore: 28.230061479920266
-Livello batteria: 90 Percentuale: 9.0%
-Tipo: Temperature 2 Valore: 28.124058226121743
-Livello batteria: 88 Percentuale: 8.0%
-Tipo: Temperature 3 Valore: 28.32777501159454
-Livello batteria: 86 Percentuale: 8.0%
-Tipo: Temperature 4 Valore: 28.38593710733265
-Livello batteria: 84 Percentuale: 8.0%
-Tipo: Temperature 5 Valore: 28.353285290589927
-Livello batteria: 82 Percentuale: 8.0%
-Tipo: Temperature 6 Valore: 28.468266337014864
-Livello batteria: 80 Percentuale: 8.0%
-Tipo: Temperature 7 Valore: 28.4056204417118
-Livello batteria: 78 Percentuale: 7.0%
-Tipo: Temperature 8 Valore: 28.52109631472328
-Livello batteria: 76 Percentuale: 7.0%
-Tipo: Temperature 9 Valore: 28.412356264382606
-Livello batteria: 74 Percentuale: 7.0%
-Tipo: Temperature 0 Valore: 28.640800304577052
-Livello batteria: 72 Percentuale: 7.0%
-Tipo: Temperature 1 Valore: 28.99975651632664
-Livello batteria: 70 Percentuale: 7.0%
-Tipo: Temperature 2 Valore: 28.58287945627674
-Livello batteria: 68 Percentuale: 6.0%
-Tipo: Temperature 3 Valore: 29.024119225323528
-Livello batteria: 66 Percentuale: 6.0%
-Tipo: Temperature 4 Valore: 28.84865973988501
-Livello batteria: 64 Percentuale: 6.0%
-Tipo: Temperature 5 Valore: 28.852099756683124
-Livello batteria: 62 Percentuale: 6.0%

@@ -51,7 +51,8 @@ public class SinkThread implements Runnable {
             DataOutputStream outToMSGManager;
             if (Nodo.getPercentBattery() > 25.0) {
                 /*********************chiedo le misurazioni***********************/
-                List<String> listeMisurazioni = new ArrayList<>();
+                List<Misurazione> listeMisurazioni = new ArrayList<>();
+                ArrayList<String> listToSend = null;
                 for (int p : porte) {
                     if (p != porta) {
                         try {
@@ -70,9 +71,11 @@ public class SinkThread implements Runnable {
                                         BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                                         System.out.println("Leggo le misurazioni");
                                         String res = br.readLine();
+                                        ArrayList<Misurazione> lista = gson.fromJson(res,ArrayList.class);
                                         System.out.println(res + '\n');
-                                        listeMisurazioni.add(res);
-
+                                        for(int i=0;i<lista.size()-1;i++) {
+                                            listeMisurazioni.add(lista.get(i));
+                                        }
 
                                     }
                                 } catch (ConnectException e) {
@@ -102,9 +105,10 @@ public class SinkThread implements Runnable {
                 }
 
                 /*genero la stringa con le mie misurazioni*/
-                ArrayList<Misurazione> lista = (ArrayList<Misurazione>) Nodo.getBuffer().leggi();
-                String gsonList = gson.toJson(lista);
-                listeMisurazioni.add(gsonList);
+                ArrayList<Misurazione> listaSink = (ArrayList<Misurazione>) Nodo.getBuffer().leggi();
+                for(int i=0;i<listaSink.size()-1;i++) {
+                    listeMisurazioni.add(listaSink.get(i));
+                }
                 String all = gson.toJson(listeMisurazioni);
 
                 try {
