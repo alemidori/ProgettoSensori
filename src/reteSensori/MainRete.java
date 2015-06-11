@@ -43,7 +43,7 @@ public class MainRete {
             List<String> command = new ArrayList<>();
             command.add("java");
             command.add("-cp");
-            command.add(pathGson + ":" + "/Users/Alessandra/Documents/workspace/ProgettoSensori/bin/");
+            command.add(pathGson + ":" + "/Users/Alessandra/Documents/workspace/ProgettoSensori/target/classes/");
             command.add("reteSensori.MainNodo");
             command.add(t);
             switch (t) {

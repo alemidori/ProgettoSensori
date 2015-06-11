@@ -17,7 +17,7 @@ public class SingletonBattery {
         maxLevel = 1000;
     }
 
-    public void setLevel(int l) {
+    public synchronized void setLevel(int l) {
         level = l;
     }
     public int getLevel(){return level;}

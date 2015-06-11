@@ -8,7 +8,6 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 import com.google.gson.Gson;
-import reteSensori.classi.Messaggio;
 import reteSensori.classi.Nodo;
 import reteSensori.simulatori.Buffer;
 import reteSensori.simulatori.Misurazione;
@@ -88,12 +87,6 @@ public class NotSinkThread implements Runnable {
                 }
             }
             else {
-                try {
-                    out.writeBytes("scarico");
-
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
                 stopListening();
 
             }

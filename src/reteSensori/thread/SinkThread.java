@@ -39,7 +39,12 @@ public class SinkThread implements Runnable {
 
     @Override
     public void run() {
-        int[] porte = {1111, 2222, 3333, 4444};
+        ArrayList<Integer> porte = new ArrayList<>();
+        porte.add(1111);
+        porte.add(2222);
+        porte.add(3333);
+        porte.add(4444);
+
         while (!stop) {
             try {
                 int freq = frequenza * 1000;
@@ -50,10 +55,11 @@ public class SinkThread implements Runnable {
 
             DataOutputStream outToMSGManager;
             if (Nodo.getPercentBattery() > 25.0) {
+                Iterator<Integer> iter = porte.iterator();
                 /*********************chiedo le misurazioni***********************/
                 List<Misurazione> listeMisurazioni = new ArrayList<>();
-                ArrayList<String> listToSend = null;
-                for (int p : porte) {
+                while (iter.hasNext()) {
+                    int p = iter.next();
                     if (p != porta) {
                         try {
                             //creo una socket ancora disconnessa
@@ -88,10 +94,12 @@ public class SinkThread implements Runnable {
                             /**lancio l'eccezione se il nodo ha chiuso la serversocket**/
                             System.out.println("ConnectException 2");
 
+
                             try {
                                 socketMSGManager = new Socket("localhost", 6666);
                                 outToMSGManager = new DataOutputStream(socketMSGManager.getOutputStream());
                                 outToMSGManager.writeBytes("Il nodo con porta:" + p + " ha chiuso le connessioni");
+                                iter.remove();
                                 socketMSGManager.close();
                             } catch (IOException e1) {
                                 e1.printStackTrace();
@@ -104,7 +112,6 @@ public class SinkThread implements Runnable {
                     }
                 }
 
-                /*genero la stringa con le mie misurazioni*/
                 ArrayList<Misurazione> listaSink = (ArrayList<Misurazione>) Nodo.getBuffer().leggi();
                 for(int i=0;i<listaSink.size()-1;i++) {
                     listeMisurazioni.add(listaSink.get(i));
@@ -122,12 +129,13 @@ public class SinkThread implements Runnable {
                 }
             } /***********************************************************************/
             else {
-
+                Iterator<Integer> iter = porte.iterator();
                 /**************elezione*******************/
                 System.out.println("Ho indetto un'elezione");
                 richiesta = "elezione";
                 Map<Integer, Integer> map = new HashMap<>();
-                for (int p : porte) {
+                while (iter.hasNext()) {
+                    int p = iter.next();
                     if (p != porta) {
                         try {
                             //creo una socket ancora disconnessa
@@ -148,16 +156,19 @@ public class SinkThread implements Runnable {
                                 catch (ConnectException e) {
                                     System.out.println("ConnectException 1");
 
+
                                 }
                             }
                         }
                         catch (ConnectException e) {
                             /**lancio l'eccezione se il nodo ha chiuso la serversocket**/
                             System.out.println("ConnectException 2");
+
                             try {
                                 socketMSGManager = new Socket("localhost", 6666);
                                 outToMSGManager = new DataOutputStream(socketMSGManager.getOutputStream());
                                 outToMSGManager.writeBytes("Il nodo con porta:" + p + " ha chiuso le connessioni");
+                                iter.remove();
                                 socketMSGManager.close();
                             } catch (IOException e1) {
                                 e1.printStackTrace();
