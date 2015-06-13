@@ -15,7 +15,6 @@ public class TemperatureSimulator extends Simulator implements Runnable {
         this.measurementsQueue = meausrementsQueue;
     }
 
-
     @Override
     public void run() {
         setStartTime();
@@ -23,7 +22,7 @@ public class TemperatureSimulator extends Simulator implements Runnable {
         double i = 0.1;
         long waitingTime;
 
-        while(!needToStop){
+        while(!needToStop()){
 
             double temperature = getTemperature(i);
             measurementsQueue.aggiungi(new Misurazione("Temperature", temperature + "", deltaTime()));

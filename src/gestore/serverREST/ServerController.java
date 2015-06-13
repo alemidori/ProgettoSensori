@@ -44,7 +44,7 @@ public class ServerController {
 
             out = new DataOutputStream(toGateway.getOutputStream());
             br = new BufferedReader(new InputStreamReader(toGateway.getInputStream()));
-            System.out.println("chiamo getMisurazioneRecente");
+            
 
             if (Objects.equals(tipo, "temperatura")) {
                 out.writeBytes("recenteTemp"+'\n');

@@ -1,4 +1,3 @@
-
 package reteSensori.simulatori;
 
 /**
@@ -23,7 +22,7 @@ public class LightSimulator extends Simulator implements Runnable {
         double i = 0.1;
         long waitingTime;
 
-        while(!needToStop){
+        while(!needToStop()){
 
             double light = getLight(i);
             measurementsQueue.aggiungi(new Misurazione("Light", light + "", deltaTime()));

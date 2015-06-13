@@ -9,7 +9,7 @@ public class PIR1Simulator extends Simulator implements Runnable {
     private final double H = 15;
     private final double L = 1;
     private final double ALPHA = 0.9;
-    
+
     public PIR1Simulator(Buffer measurementsQueue){
         this.measurementsQueue =measurementsQueue;
     }
@@ -21,7 +21,7 @@ public class PIR1Simulator extends Simulator implements Runnable {
 
         long waitingTime;
 
-        while(!needToStop) {
+        while(!needToStop()) {
             waitingTime = generateWaitingTime();
 
             try {

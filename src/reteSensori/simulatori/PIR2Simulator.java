@@ -3,8 +3,7 @@ package reteSensori.simulatori;
 /**
  * Created by civi on 06/05/15.
  */
-public class
-        PIR2Simulator extends Simulator implements Runnable {
+public class PIR2Simulator extends Simulator implements Runnable {
 
     private Buffer measurementsQueue;
     private final double H = 4;
@@ -22,7 +21,7 @@ public class
 
         long waitingTime;
 
-        while(!needToStop) {
+        while(!needToStop()) {
             waitingTime = generateWaitingTime();
 
             try {

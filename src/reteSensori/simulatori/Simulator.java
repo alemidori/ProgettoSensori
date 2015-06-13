@@ -1,5 +1,4 @@
 package reteSensori.simulatori;
-
 import java.util.Random;
 
 /**
@@ -7,9 +6,8 @@ import java.util.Random;
  */
 public abstract class Simulator implements Runnable {
     protected long startTime;
-    protected boolean needToStop=false;
+    private boolean stopCondition =false;
     protected Random rnd = new Random();
-
 
     public void setStartTime(){
         startTime=System.currentTimeMillis();
@@ -19,7 +17,12 @@ public abstract class Simulator implements Runnable {
         return System.currentTimeMillis()-startTime;
     }
 
-    public void stopMeGently(){
-        needToStop=true;
+    public synchronized void stopMeGently() {
+        stopCondition = true;
+    }
+
+    protected synchronized boolean needToStop() {
+        return stopCondition;
     }
 }
+
