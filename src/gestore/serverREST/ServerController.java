@@ -47,15 +47,12 @@ public class ServerController {
             System.out.println("chiamo getMisurazioneRecente");
 
             if (Objects.equals(tipo, "temperatura")) {
-                System.out.println("sono in temp");
-                out.writeBytes("recenteTemp\n");
-                System.out.println("sono in temp e ho scritto sulla socket");
+                out.writeBytes("recenteTemp"+'\n');
                 String recentString = br.readLine();
                 recentMis = gson.fromJson(recentString, Misurazione.class);
             }
             if (Objects.equals(tipo, "luminosita")) {
-                System.out.println("sono in lum");
-                out.writeBytes("recenteLum");
+                out.writeBytes("recenteLum"+'\n');
                 String recentString = br.readLine();
                 recentMis = gson.fromJson(recentString, Misurazione.class);
             }

@@ -26,7 +26,6 @@ public class ReadRequestThread implements Runnable {
                 Socket socket= serverSocket.accept();
                 BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                 DataOutputStream out = new DataOutputStream(socket.getOutputStream());
-                System.out.println("Prima della read");
                 String req = br.readLine();
 
                 System.out.println("Richiesta per Server REST: "+req);
