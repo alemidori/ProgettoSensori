@@ -1,4 +1,4 @@
-package gestore.serverREST;
+package gestore.REST;
 
 public class User {
 

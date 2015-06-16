@@ -3,54 +3,48 @@ PROCESSO NODO AVVIATO
 In ascolto...
 Tipo: PIR2 0 Valore: ON
 Livello batteria: 50 Percentuale: 5.0%
-Tipo: PIR2 1 Valore: ON
+Connessione con il sink...
+Richiesta: misurazioni
 Livello batteria: 48 Percentuale: 4.0%
-Tipo: PIR2 2 Valore: ON
-Livello batteria: 46 Percentuale: 4.0%
-Tipo: PIR2 3 Valore: ON
-Livello batteria: 44 Percentuale: 4.0%
-Connessione con il sink...
-Richiesta: misurazioni
-Livello batteria: 42 Percentuale: 4.0%
 In ascolto...
 Tipo: PIR2 0 Valore: ON
+Livello batteria: 43 Percentuale: 4.0%
+Tipo: PIR2 1 Valore: ON
+Livello batteria: 41 Percentuale: 4.0%
+Tipo: PIR2 2 Valore: ON
+Livello batteria: 39 Percentuale: 3.0%
+Connessione con il sink...
+Richiesta: misurazioni
 Livello batteria: 37 Percentuale: 3.0%
-Tipo: PIR2 1 Valore: ON
-Livello batteria: 35 Percentuale: 3.0%
-Tipo: PIR2 2 Valore: ON
-Livello batteria: 33 Percentuale: 3.0%
-Tipo: PIR2 3 Valore: ON
-Livello batteria: 31 Percentuale: 3.0%
-Tipo: PIR2 4 Valore: ON
-Livello batteria: 29 Percentuale: 2.0%
-Tipo: PIR2 5 Valore: ON
-Livello batteria: 27 Percentuale: 2.0%
-Connessione con il sink...
-Richiesta: misurazioni
-Livello batteria: 25 Percentuale: 2.0%
 In ascolto...
 Tipo: PIR2 0 Valore: ON
-Livello batteria: 20 Percentuale: 2.0%
+Livello batteria: 32 Percentuale: 3.0%
 Tipo: PIR2 1 Valore: ON
-Livello batteria: 18 Percentuale: 1.0%
+Livello batteria: 30 Percentuale: 3.0%
 Tipo: PIR2 2 Valore: ON
-Livello batteria: 16 Percentuale: 1.0%
-Tipo: PIR2 3 Valore: ON
-Livello batteria: 14 Percentuale: 1.0%
-Tipo: PIR2 4 Valore: ON
+Livello batteria: 28 Percentuale: 2.0%
+Connessione con il sink...
+Richiesta: misurazioni
+Livello batteria: 26 Percentuale: 2.0%
+In ascolto...
+Tipo: PIR2 0 Valore: ON
+Livello batteria: 21 Percentuale: 2.0%
+Tipo: PIR2 1 Valore: ON
+Livello batteria: 19 Percentuale: 1.0%
+Connessione con il sink...
+Richiesta: misurazioni
+Livello batteria: 17 Percentuale: 1.0%
+In ascolto...
+Tipo: PIR2 0 Valore: ON
 Livello batteria: 12 Percentuale: 1.0%
-Connessione con il sink...
-Richiesta: misurazioni
-Livello batteria: 10 Percentuale: 1.0%
-In ascolto...
-Tipo: PIR2 0 Valore: ON
-Livello batteria: 5 Percentuale: 0.0%
 Tipo: PIR2 1 Valore: ON
-Livello batteria: 3 Percentuale: 0.0%
+Livello batteria: 10 Percentuale: 1.0%
 Tipo: PIR2 2 Valore: ON
-Livello batteria: 1 Percentuale: 0.0%
+Livello batteria: 8 Percentuale: 0.0%
 Tipo: PIR2 3 Valore: ON
-Sensore stoppato
+Livello batteria: 6 Percentuale: 0.0%
 Connessione con il sink...
 Richiesta: misurazioni
+Livello batteria: 4 Percentuale: 0.0%
+Tipo: PIR2 0 Valore: ON
 Sensore stoppato
