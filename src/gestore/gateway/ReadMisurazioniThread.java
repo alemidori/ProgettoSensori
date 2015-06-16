@@ -62,30 +62,6 @@ public class ReadMisurazioniThread implements Runnable {
                     }
                 }
 
-                System.out.println("Prendo l'ultimo elemento di ogni lista(che non è il più recente)");
-
-                if (!listaTemp.isEmpty()) {
-                    System.out.println("Tipo: " + listaTemp.get(listaTemp.size() - 1).getType()
-                            + " Valore: " + listaTemp.get(listaTemp.size() - 1).getValue()
-                            + " Timestamp " + listaTemp.get(listaTemp.size() - 1).getTimestamp());
-                }
-                if (!listaLum.isEmpty()) {
-                    System.out.println("Tipo: " + listaLum.get(listaLum.size() - 1).getType()
-                            + " Valore: " + listaLum.get(listaLum.size() - 1).getValue()
-                            + " Timestamp " + listaLum.get(listaLum.size() - 1).getTimestamp());
-                }
-                if (!listaPIR1.isEmpty()) {
-                    System.out.println("Tipo: " + listaPIR1.get(listaPIR1.size() - 1).getType()
-                            + " Valore: " + listaPIR1.get(listaPIR1.size() - 1).getValue()
-                            + " Timestamp " + listaPIR1.get(listaPIR1.size() - 1).getTimestamp());
-                }
-
-                if (!listaPIR2.isEmpty()) {
-                    System.out.println("Tipo: " + listaPIR2.get(listaPIR2.size() - 1).getType()
-                            + " Valore: " + listaPIR2.get(listaPIR2.size() - 1).getValue()
-                            + " Timestamp " + listaPIR2.get(listaPIR2.size() - 1).getTimestamp());
-                }
-                System.out.println("***************************************");
             }
 
         } catch (IOException e) {

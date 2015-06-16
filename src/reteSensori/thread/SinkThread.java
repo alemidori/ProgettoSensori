@@ -2,6 +2,7 @@ package reteSensori.thread;
 
 import com.google.gson.Gson;
 
+import reteSensori.classi.Messaggi;
 import reteSensori.classi.Nodo;
 import reteSensori.simulatori.Misurazione;
 
@@ -11,6 +12,7 @@ import javax.net.SocketFactory;
 import java.io.*;
 import java.net.ConnectException;
 import java.net.Socket;
+import java.net.SocketAddress;
 import java.util.*;
 
 import reteSensori.singleton.SingletonBattery;
@@ -25,12 +27,9 @@ public class SinkThread implements Runnable {
     private Socket socketMSGManager;
     private Socket socketMISManager;
     private Gson gson;
-    private String richiesta, elezione;
     private Socket socketNewSink;
 
     public SinkThread(int p, int f) {
-        richiesta = "misurazioni";
-        elezione = "eletto";
         porta = p;
         frequenza = f;
         gson = new Gson();
@@ -39,6 +38,7 @@ public class SinkThread implements Runnable {
 
     @Override
     public void run() {
+
         ArrayList<Integer> porte = new ArrayList<>();
         porte.add(1111);
         porte.add(2222);
@@ -55,15 +55,16 @@ public class SinkThread implements Runnable {
 
             DataOutputStream outToMSGManager;
             if (Nodo.getPercentBattery() > 25.0) {
+
+                /*********************misurazioni***********************/
                 Iterator<Integer> iter = porte.iterator();
-                /*********************chiedo le misurazioni***********************/
                 List<Misurazione> listeMisurazioni = new ArrayList<>();
                 while (iter.hasNext()) {
                     int p = iter.next();
                     if (p != porta) {
                         try {
                             //creo una socket ancora disconnessa
-                            Socket socket = SocketFactory.getDefault().createSocket("localhost",p);
+                            Socket socket = SocketFactory.getDefault().createSocket("localhost", p);
                             if (socket.isConnected()) {
                                 try {
                                     PrintWriter checkOut = new PrintWriter(socket.getOutputStream(), true);
@@ -72,14 +73,13 @@ public class SinkThread implements Runnable {
                                     } else {
 
                                         DataOutputStream out = new DataOutputStream(socket.getOutputStream());
-                                        out.writeBytes(richiesta + '\n');
+                                        out.writeBytes(Messaggi.MISURAZIONI + '\n');
                                         Nodo.updateBattery("trasmissione");
                                         BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-                                        System.out.println("Leggo le misurazioni");
                                         String res = br.readLine();
-                                        ArrayList<Misurazione> lista = gson.fromJson(res,ArrayList.class);
+                                        ArrayList<Misurazione> lista = gson.fromJson(res, ArrayList.class);
                                         System.out.println(res + '\n');
-                                        for(int i=0;i<lista.size()-1;i++) {
+                                        for (int i = 0; i < lista.size() - 1; i++) {
                                             listeMisurazioni.add(lista.get(i));
                                         }
 
@@ -90,22 +90,26 @@ public class SinkThread implements Runnable {
                                 }
 
                             }
-                        }catch (ConnectException e) {
+                        } catch (ConnectException e) {
                             /**lancio l'eccezione se il nodo ha chiuso la serversocket**/
                             System.out.println("ConnectException 2");
 
 
                             try {
                                 socketMSGManager = new Socket("localhost", 6666);
+                                String tipoClosed = null;
+                                if (p == 1111) tipoClosed = "temperatura";
+                                if (p == 2222) tipoClosed = "luminosita";
+                                if (p == 3333) tipoClosed = "pir1";
+                                if (p == 4444) tipoClosed = "pir2";
                                 outToMSGManager = new DataOutputStream(socketMSGManager.getOutputStream());
-                                outToMSGManager.writeBytes("Il nodo con porta:" + p + " ha chiuso le connessioni");
+                                outToMSGManager.writeBytes("Il nodo " + tipoClosed + Messaggi.NODO_STOPPATO);
                                 iter.remove();
                                 socketMSGManager.close();
                             } catch (IOException e1) {
                                 e1.printStackTrace();
                             }
-                        }
-                        catch (IOException e) {
+                        } catch (IOException e) {
                             e.printStackTrace();
                         }
 
@@ -113,7 +117,15 @@ public class SinkThread implements Runnable {
                 }
 
                 ArrayList<Misurazione> listaSink = (ArrayList<Misurazione>) Nodo.getBuffer().leggi();
-                for(int i=0;i<listaSink.size()-1;i++) {
+                //se la lista è vuota mi metto in attesa di misurazioni
+                if (listaSink == null) {
+                    try {
+                        wait();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+                for (int i = 0; i < listaSink.size() - 1; i++) {
                     listeMisurazioni.add(listaSink.get(i));
                 }
                 String all = gson.toJson(listeMisurazioni);
@@ -129,17 +141,17 @@ public class SinkThread implements Runnable {
                 }
             } /***********************************************************************/
             else {
-                Iterator<Integer> iter = porte.iterator();
+
                 /**************elezione*******************/
+                Iterator<Integer> iter = porte.iterator();
                 System.out.println("Ho indetto un'elezione");
-                richiesta = "elezione";
                 Map<Integer, Integer> map = new HashMap<>();
                 while (iter.hasNext()) {
                     int p = iter.next();
                     if (p != porta) {
                         try {
                             //creo una socket ancora disconnessa
-                            Socket socket = SocketFactory.getDefault().createSocket("localhost",p);
+                            Socket socket = SocketFactory.getDefault().createSocket("localhost", p);
                             if (socket.isConnected()) {
                                 try {
                                     PrintWriter checkOut = new PrintWriter(socket.getOutputStream(), true);
@@ -147,35 +159,37 @@ public class SinkThread implements Runnable {
                                         System.out.println("Errore in checkError");
                                     } else {
                                         DataOutputStream out = new DataOutputStream(socket.getOutputStream());
-                                        out.writeBytes(richiesta + '\n');
+                                        out.writeBytes(Messaggi.ELEZIONE + '\n');
                                         BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                                         int res = br.read();
                                         map.put(p, res);
                                     }
-                                }
-                                catch (ConnectException e) {
+                                } catch (ConnectException e) {
                                     System.out.println("ConnectException 1");
 
 
                                 }
                             }
-                        }
-                        catch (ConnectException e) {
+                        } catch (ConnectException e) {
                             /**lancio l'eccezione se il nodo ha chiuso la serversocket**/
                             System.out.println("ConnectException 2");
 
                             try {
                                 socketMSGManager = new Socket("localhost", 6666);
                                 outToMSGManager = new DataOutputStream(socketMSGManager.getOutputStream());
-                                outToMSGManager.writeBytes("Il nodo con porta:" + p + " ha chiuso le connessioni");
+                                String tipoClosed = null;
+                                if (p == 1111) tipoClosed = "temperatura";
+                                if (p == 2222) tipoClosed = "luminosita";
+                                if (p == 3333) tipoClosed = "pir1";
+                                if (p == 4444) tipoClosed = "pir2";
+                                outToMSGManager.writeBytes("Il nodo " + tipoClosed + Messaggi.NODO_STOPPATO);
                                 iter.remove();
                                 socketMSGManager.close();
                             } catch (IOException e1) {
                                 e1.printStackTrace();
                             }
 
-                        }
-                        catch (IOException e) {
+                        } catch (IOException e) {
                             e.printStackTrace();
                         }
                     }
@@ -199,7 +213,7 @@ public class SinkThread implements Runnable {
                     try {
                         socketNewSink = new Socket("localhost", portToSendMessage);
                         outToMax = new DataOutputStream(socketNewSink.getOutputStream());
-                        outToMax.writeBytes(elezione + '\n');
+                        outToMax.writeBytes(Messaggi.ELETTO + '\n');
                         System.out.println("Ho eletto il nodo con la porta " + portToSendMessage + " come nuovo sink");
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -208,19 +222,19 @@ public class SinkThread implements Runnable {
                     stopRequest();
                     new Thread(new NotSinkThread(porta, frequenza)).start();
                 } else {
-                    System.out.println("Nessun nodo ha la batteria >25%");
+                    System.out.println(Messaggi.ELEZIONE_FALLITA);
 
                     try {
                         if (max > SingletonBattery.getInstance().getLevel()) {
                             outToMax = new DataOutputStream(socketNewSink.getOutputStream());
-                            outToMax.writeBytes("msgManager");
+                            outToMax.writeBytes(Messaggi.NOTIFICA_GESTORE);
                         } else {
                             socketMSGManager = new Socket("localhost", 6666);
                             outToMSGManager = new DataOutputStream(socketMSGManager.getOutputStream());
-                            outToMSGManager.writeBytes("La rete sensori non e' piu' disponibile");
-                            socketMSGManager.close();
+                            outToMSGManager.writeBytes(Messaggi.RETE_NON_DISPONIBILE);
+                                    socketMSGManager.close();
                             Nodo.updateBattery("trasmissioneGestore");
-                            System.out.println("Ho notificato il gestore di rete non disponibile");
+
                         }
                     } catch (IOException e) {
                         e.printStackTrace();

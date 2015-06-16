@@ -11,18 +11,16 @@ import java.util.List;
 public class BufferMisurazioni<M> implements Buffer {
 
     private List<Misurazione> misurazioni;
-    private List<Misurazione> list;
     int i;
 
     public BufferMisurazioni() {
         misurazioni = new ArrayList<>(10);
-        list = new ArrayList<>();
         i = 0;
     }
 
     @Override
     public synchronized void aggiungi(Object o) {
-
+        notify();
         if (i < 10) {
             misurazioni.add(i, (Misurazione) o);
             System.out.println("Tipo: " + misurazioni.get(i).getType() + " " + i + " Valore: " + misurazioni.get(i).getValue());
@@ -41,6 +39,7 @@ public class BufferMisurazioni<M> implements Buffer {
 
     @Override
     public synchronized List leggi() {
+
         List <?> toReturn = new ArrayList<>(misurazioni);
 
         misurazioni.clear();

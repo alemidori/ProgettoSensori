@@ -19,7 +19,7 @@ public class ReadMessageThread implements Runnable {
             while(true) {
                 Socket socket = serverSocket.accept();
                 BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-                System.out.println("Nuovo messaggio dalla rete: \n" + br.readLine());
+                System.out.println("NUOVO MESSAGGIO DALLA RETE: \n" + br.readLine());
                 System.out.println("***************************************");
 
 

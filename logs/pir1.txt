@@ -9,45 +9,43 @@ Tipo: PIR1 2 Valore: ON
 Livello batteria: 496 Percentuale: 49.0%
 Tipo: PIR1 3 Valore: ON
 Livello batteria: 494 Percentuale: 49.0%
-Tipo: PIR1 4 Valore: ON
+Connessione con il sink...
+Richiesta: misurazioni
 Livello batteria: 492 Percentuale: 49.0%
-Tipo: PIR1 5 Valore: ON
-Livello batteria: 490 Percentuale: 49.0%
-Tipo: PIR1 6 Valore: ON
-Livello batteria: 488 Percentuale: 48.0%
-Tipo: PIR1 7 Valore: ON
-Livello batteria: 486 Percentuale: 48.0%
-Connessione con il sink...
-Richiesta: misurazioni
-Livello batteria: 484 Percentuale: 48.0%
 In ascolto...
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 479 Percentuale: 47.0%
+Livello batteria: 487 Percentuale: 48.0%
 Tipo: PIR1 1 Valore: ON
-Livello batteria: 477 Percentuale: 47.0%
+Livello batteria: 485 Percentuale: 48.0%
 Tipo: PIR1 2 Valore: ON
-Livello batteria: 475 Percentuale: 47.0%
-Tipo: PIR1 3 Valore: ON
-Livello batteria: 473 Percentuale: 47.0%
-Tipo: PIR1 4 Valore: ON
-Livello batteria: 471 Percentuale: 47.0%
-Tipo: PIR1 5 Valore: ON
-Livello batteria: 469 Percentuale: 46.0%
-Tipo: PIR1 6 Valore: ON
+Livello batteria: 483 Percentuale: 48.0%
+Connessione con il sink...
+Richiesta: misurazioni
+Livello batteria: 481 Percentuale: 48.0%
+In ascolto...
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 476 Percentuale: 47.0%
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 474 Percentuale: 47.0%
+Connessione con il sink...
+Richiesta: misurazioni
+Livello batteria: 472 Percentuale: 47.0%
+In ascolto...
+Tipo: PIR1 0 Valore: ON
 Livello batteria: 467 Percentuale: 46.0%
-Tipo: PIR1 7 Valore: ON
+Tipo: PIR1 1 Valore: ON
 Livello batteria: 465 Percentuale: 46.0%
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 463 Percentuale: 46.0%
 Connessione con il sink...
 Richiesta: misurazioni
-Livello batteria: 463 Percentuale: 46.0%
+Livello batteria: 461 Percentuale: 46.0%
 In ascolto...
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 458 Percentuale: 45.0%
-Tipo: PIR1 1 Valore: ON
 Livello batteria: 456 Percentuale: 45.0%
-Tipo: PIR1 2 Valore: ON
+Tipo: PIR1 1 Valore: ON
 Livello batteria: 454 Percentuale: 45.0%
-Tipo: PIR1 3 Valore: ON
+Tipo: PIR1 2 Valore: ON
 Livello batteria: 452 Percentuale: 45.0%
 Connessione con il sink...
 Richiesta: misurazioni
@@ -59,381 +57,332 @@ Tipo: PIR1 1 Valore: ON
 Livello batteria: 443 Percentuale: 44.0%
 Tipo: PIR1 2 Valore: ON
 Livello batteria: 441 Percentuale: 44.0%
-Tipo: PIR1 3 Valore: ON
+Connessione con il sink...
+Richiesta: misurazioni
 Livello batteria: 439 Percentuale: 43.0%
-Tipo: PIR1 4 Valore: ON
-Livello batteria: 437 Percentuale: 43.0%
-Tipo: PIR1 5 Valore: ON
-Livello batteria: 435 Percentuale: 43.0%
-Tipo: PIR1 6 Valore: ON
-Livello batteria: 433 Percentuale: 43.0%
-Tipo: PIR1 7 Valore: ON
-Livello batteria: 431 Percentuale: 43.0%
-Tipo: PIR1 8 Valore: ON
-Livello batteria: 429 Percentuale: 42.0%
-Connessione con il sink...
-Richiesta: misurazioni
-Livello batteria: 427 Percentuale: 42.0%
 In ascolto...
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 422 Percentuale: 42.0%
+Livello batteria: 434 Percentuale: 43.0%
 Tipo: PIR1 1 Valore: ON
-Livello batteria: 420 Percentuale: 42.0%
+Livello batteria: 432 Percentuale: 43.0%
 Tipo: PIR1 2 Valore: ON
-Livello batteria: 418 Percentuale: 41.0%
+Livello batteria: 430 Percentuale: 43.0%
 Tipo: PIR1 3 Valore: ON
-Livello batteria: 416 Percentuale: 41.0%
-Tipo: PIR1 4 Valore: ON
-Livello batteria: 414 Percentuale: 41.0%
-Connessione con il sink...
-Richiesta: misurazioni
-Livello batteria: 412 Percentuale: 41.0%
-In ascolto...
-Tipo: PIR1 0 Valore: ON
-Livello batteria: 407 Percentuale: 40.0%
-Tipo: PIR1 1 Valore: ON
-Livello batteria: 405 Percentuale: 40.0%
-Tipo: PIR1 2 Valore: ON
-Livello batteria: 403 Percentuale: 40.0%
-Tipo: PIR1 3 Valore: ON
-Livello batteria: 401 Percentuale: 40.0%
+Livello batteria: 428 Percentuale: 42.0%
 Connessione con il sink...
 Richiesta: elezione
-Livello batteria: 399 Percentuale: 39.0%
+Livello batteria: 426 Percentuale: 42.0%
 In ascolto...
 Connessione con il sink...
 Sono stato eletto sink
 Tipo: PIR1 4 Valore: ON
-Livello batteria: 394 Percentuale: 39.0%
+Livello batteria: 421 Percentuale: 42.0%
 Tipo: PIR1 5 Valore: ON
-Livello batteria: 392 Percentuale: 39.0%
+Livello batteria: 419 Percentuale: 41.0%
 Tipo: PIR1 6 Valore: ON
-Livello batteria: 390 Percentuale: 39.0%
-Livello batteria: 388 Percentuale: 38.0%
-Leggo le misurazioni
-[{"type":"Temperature","value":"27.91238662565052","timestamp":123658},{"type":"Temperature","value":"28.39584303015067","timestamp":126021},{"type":"Temperature","value":"27.99085252830135","timestamp":127386},{"type":"Temperature","value":"28.135305821759236","timestamp":128783},{"type":"Temperature","value":"28.127983238408678","timestamp":131962},{"type":"Temperature","value":"28.271726787520947","timestamp":135709},{"type":"Temperature","value":"27.90908141724695","timestamp":137236},{"type":"Temperature","value":"28.423880908883238","timestamp":139699},{"type":"Temperature","value":"27.381796033726157","timestamp":101013},{"type":"Temperature","value":"27.52547991896753","timestamp":103000},{"type":"Temperature","value":"27.342799727215255","timestamp":104044},{"type":"Temperature","value":"27.35987359910223","timestamp":106342},{"type":"Temperature","value":"27.533336532866667","timestamp":107697},{"type":"Temperature","value":"27.889087814672862","timestamp":111473},{"type":"Temperature","value":"27.48884589037043","timestamp":112491},{"type":"Temperature","value":"27.840344899049636","timestamp":115843},{"type":"Temperature","value":"27.8420992762745","timestamp":119360},{"type":"Temperature","value":"27.73610468763166","timestamp":121184}]
+Livello batteria: 417 Percentuale: 41.0%
+Livello batteria: 415 Percentuale: 41.0%
+[{"type":"Temperature","value":"24.421899730375948","timestamp":61797},{"type":"Temperature","value":"24.165436112226605","timestamp":63880},{"type":"Temperature","value":"24.572253506107266","timestamp":66160},{"type":"Temperature","value":"24.721295977960196","timestamp":67955},{"type":"Temperature","value":"24.760133290570604","timestamp":70005},{"type":"Temperature","value":"24.7482371261332","timestamp":71313},{"type":"Temperature","value":"24.8046759844108","timestamp":72695},{"type":"Temperature","value":"25.154842477299695","timestamp":76666},{"type":"Temperature","value":"24.91065230719887","timestamp":80468}]
 
+Livello batteria: 410 Percentuale: 41.0%
+[{"type":"Light","value":"389.3858126821752","timestamp":62293},{"type":"Light","value":"393.2298843026738","timestamp":65306},{"type":"Light","value":"384.9280897785859","timestamp":68968},{"type":"Light","value":"390.9540595193764","timestamp":72058},{"type":"Light","value":"387.21548091244273","timestamp":75486},{"type":"Light","value":"397.2066900503598","timestamp":78523}]
+
+ConnectException 2
+Livello batteria: 405 Percentuale: 40.0%
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 385 Percentuale: 38.0%
+Tipo: PIR1 1 Valore: ON
 Livello batteria: 383 Percentuale: 38.0%
-Leggo le misurazioni
-[{"type":"Light","value":"393.4314733979443","timestamp":131130},{"type":"Light","value":"392.9972582209051","timestamp":132640},{"type":"Light","value":"397.4703446496812","timestamp":135803},{"type":"Light","value":"382.06531533861954","timestamp":138256},{"type":"Light","value":"389.7080464938916","timestamp":100929},{"type":"Light","value":"394.8546699839275","timestamp":103268},{"type":"Light","value":"398.2867061901416","timestamp":105603},{"type":"Light","value":"393.5277312033303","timestamp":107284},{"type":"Light","value":"390.2379879077922","timestamp":109809},{"type":"Light","value":"400.0538449462463","timestamp":112425},{"type":"Light","value":"405.8979043612132","timestamp":116359},{"type":"Light","value":"395.7090244771376","timestamp":120086},{"type":"Light","value":"398.5745320826814","timestamp":124069},{"type":"Light","value":"385.5661425476904","timestamp":127217}]
-
-Livello batteria: 378 Percentuale: 37.0%
-Leggo le misurazioni
-[{"type":"PIR2","value":"ON","timestamp":134253},{"type":"PIR2","value":"ON","timestamp":136064},{"type":"PIR2","value":"ON","timestamp":138674},{"type":"PIR2","value":"ON","timestamp":117914},{"type":"PIR2","value":"ON","timestamp":119265},{"type":"PIR2","value":"ON","timestamp":120617},{"type":"PIR2","value":"ON","timestamp":123564},{"type":"PIR2","value":"ON","timestamp":124706},{"type":"PIR2","value":"ON","timestamp":127761},{"type":"PIR2","value":"ON","timestamp":129092},{"type":"PIR2","value":"ON","timestamp":130850},{"type":"PIR2","value":"ON","timestamp":131943},{"type":"PIR2","value":"ON","timestamp":132988},{"type":"PIR2","value":"ON","timestamp":100808},{"type":"PIR2","value":"ON","timestamp":101894},{"type":"PIR2","value":"ON","timestamp":103431},{"type":"PIR2","value":"ON","timestamp":104944},{"type":"PIR2","value":"ON","timestamp":107027},{"type":"PIR2","value":"ON","timestamp":108101},{"type":"PIR2","value":"ON","timestamp":109368},{"type":"PIR2","value":"ON","timestamp":110580},{"type":"PIR2","value":"ON","timestamp":112818},{"type":"PIR2","value":"ON","timestamp":116045}]
-
-Livello batteria: 373 Percentuale: 37.0%
-Tipo: PIR1 0 Valore: ON
-Livello batteria: 353 Percentuale: 35.0%
-Tipo: PIR1 1 Valore: ON
-Livello batteria: 351 Percentuale: 35.0%
 Tipo: PIR1 2 Valore: ON
+Livello batteria: 381 Percentuale: 38.0%
+Livello batteria: 379 Percentuale: 37.0%
+[{"type":"Temperature","value":"25.17710452162786","timestamp":83918},{"type":"Temperature","value":"25.168659587905672","timestamp":86235},{"type":"Temperature","value":"25.231679733467118","timestamp":89216}]
+
+Livello batteria: 374 Percentuale: 37.0%
+[{"type":"Light","value":"388.37319072937413","timestamp":80745},{"type":"Light","value":"394.067963738007","timestamp":83938},{"type":"Light","value":"399.61370616915247","timestamp":86863},{"type":"Light","value":"388.3868506186932","timestamp":89962}]
+
+Livello batteria: 369 Percentuale: 36.0%
+Tipo: PIR1 0 Valore: ON
 Livello batteria: 349 Percentuale: 34.0%
-Tipo: PIR1 3 Valore: ON
+Tipo: PIR1 1 Valore: ON
 Livello batteria: 347 Percentuale: 34.0%
-Tipo: PIR1 4 Valore: ON
 Livello batteria: 345 Percentuale: 34.0%
-Tipo: PIR1 5 Valore: ON
-Livello batteria: 343 Percentuale: 34.0%
-Tipo: PIR1 6 Valore: ON
-Livello batteria: 341 Percentuale: 34.0%
-Tipo: PIR1 7 Valore: ON
-Livello batteria: 339 Percentuale: 33.0%
-Livello batteria: 337 Percentuale: 33.0%
-Leggo le misurazioni
-[{"type":"Temperature","value":"28.558792908090403","timestamp":140897},{"type":"Temperature","value":"28.6116217509588","timestamp":142003},{"type":"Temperature","value":"28.35851583950458","timestamp":145049},{"type":"Temperature","value":"28.558956228146943","timestamp":148939},{"type":"Temperature","value":"28.58793264197539","timestamp":152123},{"type":"Temperature","value":"28.669760233830907","timestamp":153280},{"type":"Temperature","value":"28.480542557631377","timestamp":155493},{"type":"Temperature","value":"28.747531302948506","timestamp":156826},{"type":"Temperature","value":"28.539211216094714","timestamp":160510}]
+[{"type":"Temperature","value":"25.19643714909303","timestamp":92440},{"type":"Temperature","value":"25.548246304382968","timestamp":95948},{"type":"Temperature","value":"25.63939207348741","timestamp":97572}]
 
-Livello batteria: 332 Percentuale: 33.0%
-Leggo le misurazioni
-[{"type":"Light","value":"377.5954323149076","timestamp":141064},{"type":"Light","value":"392.3047738181205","timestamp":144932},{"type":"Light","value":"390.83686100743364","timestamp":146942},{"type":"Light","value":"377.5125096394985","timestamp":148895},{"type":"Light","value":"384.71691996253537","timestamp":150796},{"type":"Light","value":"388.7714636455378","timestamp":153137},{"type":"Light","value":"385.3278256405457","timestamp":156444},{"type":"Light","value":"383.1703125326787","timestamp":159077}]
+Livello batteria: 340 Percentuale: 34.0%
+[{"type":"Light","value":"398.04920235317513","timestamp":92106},{"type":"Light","value":"389.548707782306","timestamp":94083},{"type":"Light","value":"393.25490116495644","timestamp":98054}]
 
-Livello batteria: 327 Percentuale: 32.0%
-Leggo le misurazioni
-[{"type":"PIR2","value":"ON","timestamp":142512},{"type":"PIR2","value":"ON","timestamp":143646},{"type":"PIR2","value":"ON","timestamp":146587},{"type":"PIR2","value":"ON","timestamp":148208},{"type":"PIR2","value":"ON","timestamp":149722},{"type":"PIR2","value":"ON","timestamp":151476},{"type":"PIR2","value":"ON","timestamp":152801},{"type":"PIR2","value":"ON","timestamp":154523},{"type":"PIR2","value":"ON","timestamp":156547},{"type":"PIR2","value":"ON","timestamp":157703}]
-
-Livello batteria: 322 Percentuale: 32.0%
+Livello batteria: 335 Percentuale: 33.0%
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 302 Percentuale: 30.0%
+Livello batteria: 315 Percentuale: 31.0%
 Tipo: PIR1 1 Valore: ON
+Livello batteria: 313 Percentuale: 31.0%
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 311 Percentuale: 31.0%
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 309 Percentuale: 30.0%
+Tipo: PIR1 4 Valore: ON
+Livello batteria: 307 Percentuale: 30.0%
+Livello batteria: 305 Percentuale: 30.0%
+[{"type":"Temperature","value":"25.561181664083627","timestamp":101359},{"type":"Temperature","value":"25.561162248641608","timestamp":104526},{"type":"Temperature","value":"26.035119943132745","timestamp":107613}]
+
 Livello batteria: 300 Percentuale: 30.0%
-Tipo: PIR1 2 Valore: ON
-Livello batteria: 298 Percentuale: 29.0%
-Tipo: PIR1 3 Valore: ON
-Livello batteria: 296 Percentuale: 29.0%
-Tipo: PIR1 4 Valore: ON
-Livello batteria: 294 Percentuale: 29.0%
-Livello batteria: 292 Percentuale: 29.0%
-Leggo le misurazioni
-[{"type":"Temperature","value":"28.790212600352355","timestamp":162414},{"type":"Temperature","value":"28.65582141173594","timestamp":164893},{"type":"Temperature","value":"28.904351428609314","timestamp":168135},{"type":"Temperature","value":"29.03969197587019","timestamp":169604},{"type":"Temperature","value":"29.10500276611591","timestamp":171534},{"type":"Temperature","value":"28.837139983933792","timestamp":175436},{"type":"Temperature","value":"28.969650765001777","timestamp":178005}]
+[{"type":"Light","value":"397.40857136883085","timestamp":101348},{"type":"Light","value":"401.75309107053585","timestamp":102370},{"type":"Light","value":"387.9138076125867","timestamp":106365},{"type":"Light","value":"399.11890653085686","timestamp":109713}]
 
-Livello batteria: 287 Percentuale: 28.0%
-Leggo le misurazioni
-[{"type":"Light","value":"368.1354130946464","timestamp":162300},{"type":"Light","value":"359.1925511066586","timestamp":163858},{"type":"Light","value":"366.52958634612","timestamp":166255},{"type":"Light","value":"363.31586449395115","timestamp":170082},{"type":"Light","value":"373.02417387017545","timestamp":173081},{"type":"Light","value":"364.9969424956829","timestamp":176989},{"type":"Light","value":"356.08666521186603","timestamp":178304}]
-
-Livello batteria: 282 Percentuale: 28.0%
-Leggo le misurazioni
-[{"type":"PIR2","value":"ON","timestamp":160799},{"type":"PIR2","value":"ON","timestamp":162823},{"type":"PIR2","value":"ON","timestamp":164702},{"type":"PIR2","value":"ON","timestamp":166266},{"type":"PIR2","value":"ON","timestamp":167795},{"type":"PIR2","value":"ON","timestamp":170089},{"type":"PIR2","value":"ON","timestamp":172605},{"type":"PIR2","value":"ON","timestamp":174788},{"type":"PIR2","value":"ON","timestamp":177792},{"type":"PIR2","value":"ON","timestamp":179523}]
-
-Livello batteria: 277 Percentuale: 27.0%
+Livello batteria: 295 Percentuale: 29.0%
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 257 Percentuale: 25.0%
+Livello batteria: 275 Percentuale: 27.0%
 Tipo: PIR1 1 Valore: ON
-Livello batteria: 255 Percentuale: 25.0%
+Livello batteria: 273 Percentuale: 27.0%
 Tipo: PIR1 2 Valore: ON
-Livello batteria: 253 Percentuale: 25.0%
+Livello batteria: 271 Percentuale: 27.0%
+Livello batteria: 269 Percentuale: 26.0%
+[{"type":"Temperature","value":"25.56724207258917","timestamp":111434},{"type":"Temperature","value":"25.635024962232226","timestamp":113350},{"type":"Temperature","value":"26.131224723024573","timestamp":114850},{"type":"Temperature","value":"25.75760876980906","timestamp":116334},{"type":"Temperature","value":"26.226728529264197","timestamp":119911}]
+
+Livello batteria: 264 Percentuale: 26.0%
+[{"type":"Light","value":"405.6131375530608","timestamp":113123},{"type":"Light","value":"393.8813387124921","timestamp":114575},{"type":"Light","value":"385.960811096133","timestamp":117046},{"type":"Light","value":"401.1925832842339","timestamp":119651}]
+
+Livello batteria: 259 Percentuale: 25.0%
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 239 Percentuale: 23.0%
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 237 Percentuale: 23.0%
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 235 Percentuale: 23.0%
 Tipo: PIR1 3 Valore: ON
-Livello batteria: 251 Percentuale: 25.0%
+Livello batteria: 233 Percentuale: 23.0%
 Tipo: PIR1 4 Valore: ON
-Livello batteria: 249 Percentuale: 24.0%
-Tipo: PIR1 5 Valore: ON
-Livello batteria: 247 Percentuale: 24.0%
+Livello batteria: 231 Percentuale: 23.0%
 Ho indetto un'elezione
-Livello batteria piu' carica': 29
+Livello batteria piu' carica': 33
 La porta corrispondente e': 2222
 Ho eletto il nodo con la porta 2222 come nuovo sink
 In ascolto...
-Tipo: PIR1 6 Valore: ON
-Livello batteria: 245 Percentuale: 24.0%
-Tipo: PIR1 7 Valore: ON
-Livello batteria: 243 Percentuale: 24.0%
-Tipo: PIR1 8 Valore: ON
-Livello batteria: 241 Percentuale: 24.0%
-Tipo: PIR1 9 Valore: ON
-Livello batteria: 239 Percentuale: 23.0%
-Tipo: PIR1 0 Valore: ON
-Livello batteria: 237 Percentuale: 23.0%
-Tipo: PIR1 1 Valore: ON
-Livello batteria: 235 Percentuale: 23.0%
-Tipo: PIR1 2 Valore: ON
-Livello batteria: 233 Percentuale: 23.0%
-Tipo: PIR1 3 Valore: ON
-Livello batteria: 231 Percentuale: 23.0%
-Tipo: PIR1 4 Valore: ON
+Tipo: PIR1 5 Valore: ON
 Livello batteria: 229 Percentuale: 22.0%
+Tipo: PIR1 6 Valore: ON
+Livello batteria: 227 Percentuale: 22.0%
+Tipo: PIR1 7 Valore: ON
+Livello batteria: 225 Percentuale: 22.0%
+Tipo: PIR1 8 Valore: ON
+Livello batteria: 223 Percentuale: 22.0%
 Connessione con il sink...
 Richiesta: misurazioni
-Livello batteria: 227 Percentuale: 22.0%
+Livello batteria: 221 Percentuale: 22.0%
 In ascolto...
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 222 Percentuale: 22.0%
+Livello batteria: 216 Percentuale: 21.0%
 Tipo: PIR1 1 Valore: ON
-Livello batteria: 220 Percentuale: 22.0%
+Livello batteria: 214 Percentuale: 21.0%
 Tipo: PIR1 2 Valore: ON
-Livello batteria: 218 Percentuale: 21.0%
+Livello batteria: 212 Percentuale: 21.0%
+Tipo: PIR1 3 Valore: ON
+Livello batteria: 210 Percentuale: 21.0%
+Connessione con il sink...
+Richiesta: misurazioni
+Livello batteria: 208 Percentuale: 20.0%
+In ascolto...
+Tipo: PIR1 0 Valore: ON
+Livello batteria: 203 Percentuale: 20.0%
+Tipo: PIR1 1 Valore: ON
+Livello batteria: 201 Percentuale: 20.0%
+Tipo: PIR1 2 Valore: ON
+Livello batteria: 199 Percentuale: 19.0%
 Connessione con il sink...
 Richiesta: elezione
-Livello batteria: 216 Percentuale: 21.0%
+Livello batteria: 197 Percentuale: 19.0%
 In ascolto...
 Tipo: PIR1 3 Valore: ON
-Livello batteria: 211 Percentuale: 21.0%
+Livello batteria: 192 Percentuale: 19.0%
 Tipo: PIR1 4 Valore: ON
-Livello batteria: 209 Percentuale: 20.0%
+Livello batteria: 190 Percentuale: 19.0%
 Tipo: PIR1 5 Valore: ON
-Livello batteria: 207 Percentuale: 20.0%
+Livello batteria: 188 Percentuale: 18.0%
 Tipo: PIR1 6 Valore: ON
-Livello batteria: 205 Percentuale: 20.0%
+Livello batteria: 186 Percentuale: 18.0%
 Tipo: PIR1 7 Valore: ON
-Livello batteria: 203 Percentuale: 20.0%
+Livello batteria: 184 Percentuale: 18.0%
 Tipo: PIR1 8 Valore: ON
-Livello batteria: 201 Percentuale: 20.0%
+Livello batteria: 182 Percentuale: 18.0%
 Tipo: PIR1 9 Valore: ON
-Livello batteria: 199 Percentuale: 19.0%
+Livello batteria: 180 Percentuale: 18.0%
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 197 Percentuale: 19.0%
+Livello batteria: 178 Percentuale: 17.0%
 Tipo: PIR1 1 Valore: ON
-Livello batteria: 195 Percentuale: 19.0%
+Livello batteria: 176 Percentuale: 17.0%
 Tipo: PIR1 2 Valore: ON
-Livello batteria: 193 Percentuale: 19.0%
+Livello batteria: 174 Percentuale: 17.0%
 Tipo: PIR1 3 Valore: ON
-Livello batteria: 191 Percentuale: 19.0%
+Livello batteria: 172 Percentuale: 17.0%
 Tipo: PIR1 4 Valore: ON
-Livello batteria: 189 Percentuale: 18.0%
+Livello batteria: 170 Percentuale: 17.0%
 Tipo: PIR1 5 Valore: ON
-Livello batteria: 187 Percentuale: 18.0%
+Livello batteria: 168 Percentuale: 16.0%
 Tipo: PIR1 6 Valore: ON
-Livello batteria: 185 Percentuale: 18.0%
+Livello batteria: 166 Percentuale: 16.0%
 Tipo: PIR1 7 Valore: ON
-Livello batteria: 183 Percentuale: 18.0%
+Livello batteria: 164 Percentuale: 16.0%
 Tipo: PIR1 8 Valore: ON
-Livello batteria: 181 Percentuale: 18.0%
+Livello batteria: 162 Percentuale: 16.0%
 Tipo: PIR1 9 Valore: ON
-Livello batteria: 179 Percentuale: 17.0%
+Livello batteria: 160 Percentuale: 16.0%
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 177 Percentuale: 17.0%
+Livello batteria: 158 Percentuale: 15.0%
 Tipo: PIR1 1 Valore: ON
-Livello batteria: 175 Percentuale: 17.0%
+Livello batteria: 156 Percentuale: 15.0%
 Tipo: PIR1 2 Valore: ON
-Livello batteria: 173 Percentuale: 17.0%
+Livello batteria: 154 Percentuale: 15.0%
 Tipo: PIR1 3 Valore: ON
-Livello batteria: 171 Percentuale: 17.0%
+Livello batteria: 152 Percentuale: 15.0%
 Tipo: PIR1 4 Valore: ON
-Livello batteria: 169 Percentuale: 16.0%
+Livello batteria: 150 Percentuale: 15.0%
 Tipo: PIR1 5 Valore: ON
-Livello batteria: 167 Percentuale: 16.0%
+Livello batteria: 148 Percentuale: 14.0%
 Tipo: PIR1 6 Valore: ON
-Livello batteria: 165 Percentuale: 16.0%
+Livello batteria: 146 Percentuale: 14.0%
 Tipo: PIR1 7 Valore: ON
-Livello batteria: 163 Percentuale: 16.0%
+Livello batteria: 144 Percentuale: 14.0%
 Tipo: PIR1 8 Valore: ON
-Livello batteria: 161 Percentuale: 16.0%
+Livello batteria: 142 Percentuale: 14.0%
 Tipo: PIR1 9 Valore: ON
-Livello batteria: 159 Percentuale: 15.0%
+Livello batteria: 140 Percentuale: 14.0%
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 157 Percentuale: 15.0%
+Livello batteria: 138 Percentuale: 13.0%
 Tipo: PIR1 1 Valore: ON
-Livello batteria: 155 Percentuale: 15.0%
+Livello batteria: 136 Percentuale: 13.0%
 Tipo: PIR1 2 Valore: ON
-Livello batteria: 153 Percentuale: 15.0%
+Livello batteria: 134 Percentuale: 13.0%
 Tipo: PIR1 3 Valore: ON
-Livello batteria: 151 Percentuale: 15.0%
+Livello batteria: 132 Percentuale: 13.0%
 Tipo: PIR1 4 Valore: ON
-Livello batteria: 149 Percentuale: 14.0%
+Livello batteria: 130 Percentuale: 13.0%
 Tipo: PIR1 5 Valore: ON
-Livello batteria: 147 Percentuale: 14.0%
+Livello batteria: 128 Percentuale: 12.0%
 Tipo: PIR1 6 Valore: ON
-Livello batteria: 145 Percentuale: 14.0%
+Livello batteria: 126 Percentuale: 12.0%
 Tipo: PIR1 7 Valore: ON
-Livello batteria: 143 Percentuale: 14.0%
+Livello batteria: 124 Percentuale: 12.0%
 Tipo: PIR1 8 Valore: ON
-Livello batteria: 141 Percentuale: 14.0%
+Livello batteria: 122 Percentuale: 12.0%
 Tipo: PIR1 9 Valore: ON
-Livello batteria: 139 Percentuale: 13.0%
+Livello batteria: 120 Percentuale: 12.0%
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 137 Percentuale: 13.0%
+Livello batteria: 118 Percentuale: 11.0%
 Tipo: PIR1 1 Valore: ON
-Livello batteria: 135 Percentuale: 13.0%
+Livello batteria: 116 Percentuale: 11.0%
 Tipo: PIR1 2 Valore: ON
-Livello batteria: 133 Percentuale: 13.0%
+Livello batteria: 114 Percentuale: 11.0%
 Tipo: PIR1 3 Valore: ON
-Livello batteria: 131 Percentuale: 13.0%
+Livello batteria: 112 Percentuale: 11.0%
 Tipo: PIR1 4 Valore: ON
-Livello batteria: 129 Percentuale: 12.0%
+Livello batteria: 110 Percentuale: 11.0%
 Tipo: PIR1 5 Valore: ON
-Livello batteria: 127 Percentuale: 12.0%
+Livello batteria: 108 Percentuale: 10.0%
 Tipo: PIR1 6 Valore: ON
-Livello batteria: 125 Percentuale: 12.0%
+Livello batteria: 106 Percentuale: 10.0%
 Tipo: PIR1 7 Valore: ON
-Livello batteria: 123 Percentuale: 12.0%
+Livello batteria: 104 Percentuale: 10.0%
 Tipo: PIR1 8 Valore: ON
-Livello batteria: 121 Percentuale: 12.0%
+Livello batteria: 102 Percentuale: 10.0%
 Tipo: PIR1 9 Valore: ON
-Livello batteria: 119 Percentuale: 11.0%
+Livello batteria: 100 Percentuale: 10.0%
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 117 Percentuale: 11.0%
+Livello batteria: 98 Percentuale: 9.0%
 Tipo: PIR1 1 Valore: ON
-Livello batteria: 115 Percentuale: 11.0%
+Livello batteria: 96 Percentuale: 9.0%
 Tipo: PIR1 2 Valore: ON
-Livello batteria: 113 Percentuale: 11.0%
+Livello batteria: 94 Percentuale: 9.0%
 Tipo: PIR1 3 Valore: ON
-Livello batteria: 111 Percentuale: 11.0%
+Livello batteria: 92 Percentuale: 9.0%
 Tipo: PIR1 4 Valore: ON
-Livello batteria: 109 Percentuale: 10.0%
+Livello batteria: 90 Percentuale: 9.0%
 Tipo: PIR1 5 Valore: ON
-Livello batteria: 107 Percentuale: 10.0%
+Livello batteria: 88 Percentuale: 8.0%
 Tipo: PIR1 6 Valore: ON
-Livello batteria: 105 Percentuale: 10.0%
+Livello batteria: 86 Percentuale: 8.0%
 Tipo: PIR1 7 Valore: ON
-Livello batteria: 103 Percentuale: 10.0%
+Livello batteria: 84 Percentuale: 8.0%
 Tipo: PIR1 8 Valore: ON
-Livello batteria: 101 Percentuale: 10.0%
+Livello batteria: 82 Percentuale: 8.0%
 Tipo: PIR1 9 Valore: ON
-Livello batteria: 99 Percentuale: 9.0%
+Livello batteria: 80 Percentuale: 8.0%
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 97 Percentuale: 9.0%
+Livello batteria: 78 Percentuale: 7.0%
 Tipo: PIR1 1 Valore: ON
-Livello batteria: 95 Percentuale: 9.0%
+Livello batteria: 76 Percentuale: 7.0%
 Tipo: PIR1 2 Valore: ON
-Livello batteria: 93 Percentuale: 9.0%
+Livello batteria: 74 Percentuale: 7.0%
 Tipo: PIR1 3 Valore: ON
-Livello batteria: 91 Percentuale: 9.0%
+Livello batteria: 72 Percentuale: 7.0%
 Tipo: PIR1 4 Valore: ON
-Livello batteria: 89 Percentuale: 8.0%
+Livello batteria: 70 Percentuale: 7.0%
 Tipo: PIR1 5 Valore: ON
-Livello batteria: 87 Percentuale: 8.0%
+Livello batteria: 68 Percentuale: 6.0%
 Tipo: PIR1 6 Valore: ON
-Livello batteria: 85 Percentuale: 8.0%
+Livello batteria: 66 Percentuale: 6.0%
 Tipo: PIR1 7 Valore: ON
-Livello batteria: 83 Percentuale: 8.0%
+Livello batteria: 64 Percentuale: 6.0%
 Tipo: PIR1 8 Valore: ON
-Livello batteria: 81 Percentuale: 8.0%
+Livello batteria: 62 Percentuale: 6.0%
 Tipo: PIR1 9 Valore: ON
-Livello batteria: 79 Percentuale: 7.0%
+Livello batteria: 60 Percentuale: 6.0%
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 77 Percentuale: 7.0%
+Livello batteria: 58 Percentuale: 5.0%
 Tipo: PIR1 1 Valore: ON
-Livello batteria: 75 Percentuale: 7.0%
+Livello batteria: 56 Percentuale: 5.0%
 Tipo: PIR1 2 Valore: ON
-Livello batteria: 73 Percentuale: 7.0%
+Livello batteria: 54 Percentuale: 5.0%
 Tipo: PIR1 3 Valore: ON
-Livello batteria: 71 Percentuale: 7.0%
+Livello batteria: 52 Percentuale: 5.0%
 Tipo: PIR1 4 Valore: ON
-Livello batteria: 69 Percentuale: 6.0%
+Livello batteria: 50 Percentuale: 5.0%
 Tipo: PIR1 5 Valore: ON
-Livello batteria: 67 Percentuale: 6.0%
+Livello batteria: 48 Percentuale: 4.0%
 Tipo: PIR1 6 Valore: ON
-Livello batteria: 65 Percentuale: 6.0%
+Livello batteria: 46 Percentuale: 4.0%
 Tipo: PIR1 7 Valore: ON
-Livello batteria: 63 Percentuale: 6.0%
+Livello batteria: 44 Percentuale: 4.0%
 Tipo: PIR1 8 Valore: ON
-Livello batteria: 61 Percentuale: 6.0%
+Livello batteria: 42 Percentuale: 4.0%
 Tipo: PIR1 9 Valore: ON
-Livello batteria: 59 Percentuale: 5.0%
+Livello batteria: 40 Percentuale: 4.0%
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 57 Percentuale: 5.0%
+Livello batteria: 38 Percentuale: 3.0%
 Tipo: PIR1 1 Valore: ON
-Livello batteria: 55 Percentuale: 5.0%
+Livello batteria: 36 Percentuale: 3.0%
 Tipo: PIR1 2 Valore: ON
-Livello batteria: 53 Percentuale: 5.0%
+Livello batteria: 34 Percentuale: 3.0%
 Tipo: PIR1 3 Valore: ON
-Livello batteria: 51 Percentuale: 5.0%
+Livello batteria: 32 Percentuale: 3.0%
 Tipo: PIR1 4 Valore: ON
-Livello batteria: 49 Percentuale: 4.0%
+Livello batteria: 30 Percentuale: 3.0%
 Tipo: PIR1 5 Valore: ON
-Livello batteria: 47 Percentuale: 4.0%
+Livello batteria: 28 Percentuale: 2.0%
 Tipo: PIR1 6 Valore: ON
-Livello batteria: 45 Percentuale: 4.0%
+Livello batteria: 26 Percentuale: 2.0%
 Tipo: PIR1 7 Valore: ON
-Livello batteria: 43 Percentuale: 4.0%
+Livello batteria: 24 Percentuale: 2.0%
 Tipo: PIR1 8 Valore: ON
-Livello batteria: 41 Percentuale: 4.0%
+Livello batteria: 22 Percentuale: 2.0%
 Tipo: PIR1 9 Valore: ON
-Livello batteria: 39 Percentuale: 3.0%
+Livello batteria: 20 Percentuale: 2.0%
 Tipo: PIR1 0 Valore: ON
-Livello batteria: 37 Percentuale: 3.0%
+Livello batteria: 18 Percentuale: 1.0%
 Tipo: PIR1 1 Valore: ON
-Livello batteria: 35 Percentuale: 3.0%
+Livello batteria: 16 Percentuale: 1.0%
 Tipo: PIR1 2 Valore: ON
-Livello batteria: 33 Percentuale: 3.0%
+Livello batteria: 14 Percentuale: 1.0%
 Tipo: PIR1 3 Valore: ON
-Livello batteria: 31 Percentuale: 3.0%
+Livello batteria: 12 Percentuale: 1.0%
 Tipo: PIR1 4 Valore: ON
-Livello batteria: 29 Percentuale: 2.0%
+Livello batteria: 10 Percentuale: 1.0%
 Tipo: PIR1 5 Valore: ON
-Livello batteria: 27 Percentuale: 2.0%
+Livello batteria: 8 Percentuale: 0.0%
 Tipo: PIR1 6 Valore: ON
-Livello batteria: 25 Percentuale: 2.0%
+Livello batteria: 6 Percentuale: 0.0%
 Tipo: PIR1 7 Valore: ON
-Livello batteria: 23 Percentuale: 2.0%
+Livello batteria: 4 Percentuale: 0.0%
 Tipo: PIR1 8 Valore: ON
-Livello batteria: 21 Percentuale: 2.0%
-Tipo: PIR1 9 Valore: ON
-Livello batteria: 19 Percentuale: 1.0%
-Tipo: PIR1 0 Valore: ON
-Livello batteria: 17 Percentuale: 1.0%
-Tipo: PIR1 1 Valore: ON
-Livello batteria: 15 Percentuale: 1.0%
-Tipo: PIR1 2 Valore: ON
-Livello batteria: 13 Percentuale: 1.0%
-Tipo: PIR1 3 Valore: ON
-Livello batteria: 11 Percentuale: 1.0%
-Tipo: PIR1 4 Valore: ON
-Livello batteria: 9 Percentuale: 0.0%
-Tipo: PIR1 5 Valore: ON
-Livello batteria: 7 Percentuale: 0.0%
-Tipo: PIR1 6 Valore: ON
-Livello batteria: 5 Percentuale: 0.0%
-Tipo: PIR1 7 Valore: ON
-Livello batteria: 3 Percentuale: 0.0%
-Tipo: PIR1 8 Valore: ON
-Livello batteria: 1 Percentuale: 0.0%
+Livello batteria: 2 Percentuale: 0.0%
 Tipo: PIR1 9 Valore: ON
 Sensore stoppato

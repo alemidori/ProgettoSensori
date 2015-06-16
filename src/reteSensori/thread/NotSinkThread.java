@@ -8,6 +8,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 import com.google.gson.Gson;
+import reteSensori.classi.Messaggi;
 import reteSensori.classi.Nodo;
 import reteSensori.simulatori.Buffer;
 import reteSensori.simulatori.Misurazione;
@@ -50,34 +51,41 @@ public class NotSinkThread implements Runnable {
                     String req = br.readLine();
                     out = new DataOutputStream(socket.getOutputStream());
 
-                    if (Objects.equals(req, "misurazioni")) {
+                    if (Objects.equals(req, Messaggi.MISURAZIONI)) {
                         System.out.println("Richiesta: " + req);
                         ArrayList<Misurazione> lista = (ArrayList<Misurazione>) buffer.leggi();
+                        //se la lista è vuota mi metto in attesa di misurazioni
+                        if(lista==null){
+                            try {
+                                wait();
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            }
+                        }
                         Gson gson = new Gson();
                         String gsonList = gson.toJson(lista);
                         out.writeBytes(gsonList + '\n');
                         Nodo.updateBattery("trasmissione");
                     }
 
-                    if (Objects.equals(req, "elezione")) {
+                    if (Objects.equals(req, Messaggi.ELEZIONE)) {
                         System.out.println("Richiesta: " + req);
                         out = new DataOutputStream(socket.getOutputStream());
                         int perc = (int) (Nodo.getPercentBattery());
                         out.writeByte(perc);
                         Nodo.updateBattery("trasmissione");
                     }
-                    if (Objects.equals(req, "eletto")) {
+                    if (Objects.equals(req, Messaggi.ELETTO)) {
                         System.out.println("Sono stato eletto sink");
                         stopListening();
                         new Thread(new SinkThread(porta, frequenza)).start();
                     }
-                    if (Objects.equals(req, "msgManager")) {
+                    if (Objects.equals(req, Messaggi.NOTIFICA_GESTORE)) {
                         Socket socketManager = new Socket("localhost",5555);
                         DataOutputStream outToManager = new DataOutputStream(socketManager.getOutputStream());
                         outToManager.writeBytes("La rete di sensori non e' piu' disponibile");
                         socketManager.close();
                         Nodo.updateBattery("trasmissioneGestore");
-                        System.out.println("Ho notificato il gestore di rete non disponibile");
                         stopListening();
                     }
 

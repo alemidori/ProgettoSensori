@@ -77,14 +77,6 @@ public class Nodo {
         return buffer;
     }
 
-    public static void setSink() {
-        sink = true;
-    }
-
-    public static void setNotSink() {
-        sink = false;
-    }
-
     public static float getPercentBattery() {
         return percentBattery;
     }
