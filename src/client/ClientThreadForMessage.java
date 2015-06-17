@@ -24,8 +24,8 @@ public class ClientThreadForMessage implements Runnable {
                 Socket socket = serverSocket.accept();
                 BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                 String messaggio = br.readLine();
-                System.out.println("********************************");
                 System.out.println("NUOVO MESSAGGIO DAL GESTORE:\n"+messaggio);
+                System.out.println("********************************");
 
             } catch (IOException e) {
                 e.printStackTrace();

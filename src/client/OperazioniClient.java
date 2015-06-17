@@ -24,6 +24,7 @@ public class OperazioniClient implements Runnable {
                 "3. Ottieni minimo e massimo dal tempo t1 al tempo t2.\n" +
                 "4. Effettua il logout.\n" +
                 "5. Effettua il login con un altro nome utente.");
+        System.out.println("********************************");
         Scanner oper = new Scanner(System.in);
         int numOper = oper.nextInt();
         if (numOper == 1) {
@@ -45,13 +46,12 @@ public class OperazioniClient implements Runnable {
                 BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream())));
 
                 String output;
-                System.out.println(" \n");
                 while ((output = br.readLine()) != null) {
-                    System.out.println(output);
+                    System.out.println(output+'\n');
                 }
 
                 conn.disconnect();
-
+                this.run();
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -60,7 +60,7 @@ public class OperazioniClient implements Runnable {
 
         //........
 
-        if(numOper==4){
+        if (numOper == 4) {
 
             try {
                 URL url = new URL("http://localhost:8080/logout");
