@@ -2,6 +2,7 @@ package gestore.REST;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import reteSensori.classi.Messaggi;
 import reteSensori.simulatori.Misurazione;
 import com.google.gson.Gson;
 import org.springframework.http.HttpStatus;
@@ -29,27 +30,44 @@ public class ServerController {
     //o POST o PUT a seconda della necessità
 
 
-    private ArrayList<String> utenti = new ArrayList<>();
+    private ArrayList<String[]> indirizziUtenti = new ArrayList<>();
 
-    @RequestMapping("/login/{utente}")
+    @RequestMapping(value = "/login/{utente}/{ip}/{porta}", method = RequestMethod.POST)
     public
     @ResponseBody
-    ResponseEntity insertUser(@PathVariable String utente) {
-
-        if (!utenti.isEmpty() && utenti.contains(utente)) {
-            return new ResponseEntity(HttpStatus.CONFLICT);
+    ResponseEntity insertUser(@PathVariable String utente, String ip, String porta) {
+        int flag = 0;
+        if (!indirizziUtenti.isEmpty()) {
+            for (String[] i : indirizziUtenti) {
+                if (Objects.equals(i[0], utente)) {
+                    flag = 1;
+                }
+            }
+            if (flag == 1) return new ResponseEntity(HttpStatus.CONFLICT);
+            else {
+                String[] user = {utente, ip, porta};
+                indirizziUtenti.add(user);
+                System.out.println("Nuovo utente: " + user[0]);
+                return new ResponseEntity(HttpStatus.CREATED);
+            }
         } else {
-            System.out.println("Nuovo utente: " + utente);
-            utenti.add(utente);
+            String[] user = {utente, ip, porta};
+            indirizziUtenti.add(user);
+            System.out.println("Nuovo utente: " + user[0]);
             return new ResponseEntity(HttpStatus.CREATED);
         }
     }
 
-    @RequestMapping("/logout")
+    @RequestMapping(value = "/logout/{utente}", method = RequestMethod.DELETE)
     public
     @ResponseBody
-    ResponseEntity deleteUser() {
-        utenti.remove(utenti.size()-1);
+    ResponseEntity deleteUser(@PathVariable String utente) {
+        for (String[] i : indirizziUtenti) {
+            if (Objects.equals(i[0], utente)) {
+                indirizziUtenti.remove(i);
+            }
+        }
+
         return new ResponseEntity(HttpStatus.ACCEPTED);
     }
 
@@ -61,19 +79,19 @@ public class ServerController {
         Misurazione recentMis = null;
         gson = new Gson();
         try {
-            toGateway = new Socket("localhost", 7777);
+            toGateway = new Socket("localhost", 5555);
 
             out = new DataOutputStream(toGateway.getOutputStream());
             br = new BufferedReader(new InputStreamReader(toGateway.getInputStream()));
 
 
             if (Objects.equals(tipo, "temperatura")) {
-                out.writeBytes("recenteTemp" + '\n');
+                out.writeBytes(Messaggi.USER_REQUEST+"-"+"recenteTemp" + '\n');
                 String recentString = br.readLine();
                 recentMis = gson.fromJson(recentString, Misurazione.class);
             }
             if (Objects.equals(tipo, "luminosita")) {
-                out.writeBytes("recenteLum" + '\n');
+                out.writeBytes(Messaggi.USER_REQUEST+"-"+"recenteLum" + '\n');
                 String recentString = br.readLine();
                 recentMis = gson.fromJson(recentString, Misurazione.class);
             }

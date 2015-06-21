@@ -29,7 +29,7 @@ public class ReadMisurazioniThread implements Runnable {
     public void run() {
 
         try {
-            ServerSocket serverSocket = new ServerSocket(5555);
+            ServerSocket serverSocket = new ServerSocket(6666);
             while (true) {
                 Socket socket = serverSocket.accept();
                 BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));

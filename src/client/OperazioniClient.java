@@ -10,10 +10,8 @@ import java.util.Scanner;
  * Created by Alessandra on 16/06/15.
  */
 public class OperazioniClient implements Runnable {
-    private ServerSocket serverSocket;
 
-    public OperazioniClient(ServerSocket ss) {
-        serverSocket = ss;
+    public OperazioniClient() {
     }
 
     @Override
@@ -22,8 +20,7 @@ public class OperazioniClient implements Runnable {
         System.out.println("OPERAZIONI:\n1. Ottieni la misurazione piu' recente.\n" +
                 "2. Ottieni media misurazioni dal tempo t1 al tempo t2.\n" +
                 "3. Ottieni minimo e massimo dal tempo t1 al tempo t2.\n" +
-                "4. Effettua il logout.\n" +
-                "5. Effettua il login con un altro nome utente.");
+                "4. Effettua il logout.\n");
         System.out.println("********************************");
         Scanner oper = new Scanner(System.in);
         int numOper = oper.nextInt();
@@ -47,10 +44,11 @@ public class OperazioniClient implements Runnable {
 
                 String output;
                 while ((output = br.readLine()) != null) {
-                    System.out.println(output+'\n');
+                    System.out.println(output + '\n');
                 }
 
                 conn.disconnect();
+                //alla fine dell'operazione faccio una chiamata ricorsiva a run per ridare il controllo all'utente
                 this.run();
             } catch (IOException e) {
                 e.printStackTrace();
@@ -61,21 +59,22 @@ public class OperazioniClient implements Runnable {
         //........
 
         if (numOper == 4) {
-
+            //logout
             try {
-                URL url = new URL("http://localhost:8080/logout");
+                System.out.println("Logout dell'utente: ");
+                Scanner scanUtente = new Scanner(System.in);
+                String utente = scanUtente.nextLine();
+                URL url = new URL("http://localhost:8080/logout/"+utente);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-                conn.setRequestMethod("GET");
+                conn.setRequestMethod("DELETE");
                 System.out.println(conn.getResponseCode());
-                new Thread(new LoginThread(serverSocket)).start();
+                new Thread(new LoginThread()).start();
             } catch (IOException e) {
                 e.printStackTrace();
             }
 
         }
 
-        if (numOper == 5) {
-            new Thread(new LoginThread(serverSocket)).start();
-        }
+
     }
 }

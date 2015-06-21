@@ -96,7 +96,7 @@ public class SinkThread implements Runnable {
 
 
                             try {
-                                socketMSGManager = new Socket("localhost", 6666);
+                                socketMSGManager = new Socket("localhost", 5555);
                                 String tipoClosed = null;
                                 if (p == 1111) tipoClosed = "temperatura";
                                 if (p == 2222) tipoClosed = "luminosita";
@@ -131,7 +131,7 @@ public class SinkThread implements Runnable {
                 String all = gson.toJson(listeMisurazioni);
 
                 try {
-                    socketMISManager = new Socket("localhost", 5555);
+                    socketMISManager = new Socket("localhost", 6666);
                     DataOutputStream outToMISManager = new DataOutputStream(socketMISManager.getOutputStream());
                     outToMISManager.writeBytes(all + '\n');
                     socketMISManager.close();
@@ -175,7 +175,7 @@ public class SinkThread implements Runnable {
                             System.out.println("ConnectException 2");
 
                             try {
-                                socketMSGManager = new Socket("localhost", 6666);
+                                socketMSGManager = new Socket("localhost", 5555);
                                 outToMSGManager = new DataOutputStream(socketMSGManager.getOutputStream());
                                 String tipoClosed = null;
                                 if (p == 1111) tipoClosed = "temperatura";
@@ -229,7 +229,7 @@ public class SinkThread implements Runnable {
                             outToMax = new DataOutputStream(socketNewSink.getOutputStream());
                             outToMax.writeBytes(Messaggi.NOTIFICA_GESTORE);
                         } else {
-                            socketMSGManager = new Socket("localhost", 6666);
+                            socketMSGManager = new Socket("localhost", 5555);
                             outToMSGManager = new DataOutputStream(socketMSGManager.getOutputStream());
                             outToMSGManager.writeBytes(Messaggi.RETE_NON_DISPONIBILE);
                                     socketMSGManager.close();

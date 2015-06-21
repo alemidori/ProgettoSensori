@@ -1,7 +1,5 @@
 package client;
 
-import java.io.IOException;
-import java.net.ServerSocket;
 
 
 /**
@@ -9,13 +7,6 @@ import java.net.ServerSocket;
  */
 public class Client {
     public static void main(String args[]) {
-
-        try {
-            ServerSocket serverSocket = new ServerSocket(8888);
-            new Thread(new LoginThread(serverSocket)).start();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
+        new Thread(new LoginThread()).start();
     }
 }

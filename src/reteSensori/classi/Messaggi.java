@@ -5,6 +5,9 @@ package reteSensori.classi;
  */
 public class Messaggi {
 
+
+    public static final String NEW_UTENTE = "user";
+    public static final String USER_REQUEST = "req";
     public static final String MISURAZIONI= "misurazioni";
     public static final String ELEZIONE = "elezione";
     public static final String ELETTO = "eletto";
