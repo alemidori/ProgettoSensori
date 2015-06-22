@@ -46,31 +46,44 @@ public class ReadMessageThread implements Runnable {
                     String[] parts = incoming.split("-");
                     String[] address = {parts[1], parts[2]};
                     indirizziUtenti.add(address);
-                }
-
-
-                else if (incoming.startsWith(Messaggi.USER_REQUEST)) {
+                } else if (incoming.startsWith(Messaggi.USER_REQUEST)) {
+                    //splitto tutto secondo "-" e avrò che:
+                    //il primo elemento[0] sarà il tipo di messaggio cioè user, il secondo[0] il tipo di richiesta
+                    //a seconda se la richiesta è una media avrò anche il terzo[2] e quarto[3] elemento
+                    //rispettivamente tempo inizio e tempo fine
                     DataOutputStream out = new DataOutputStream(socket.getOutputStream());
                     String[] parts = incoming.split("-");
                     String req = parts[1];
                     System.out.println("Richiesta per Server REST: " + req);
                     switch (req) {
                         case "recenteTemp":
-                            Misurazione temp = ReadMisurazioniThread.getRecente("temperatura");
+                            String temp = ReadMisurazioniThread.getRecente("temperatura");
                             String toSendTemp = gson.toJson(temp);
                             out.writeBytes(toSendTemp + '\n');
+                            socket.close();
                             break;
                         case "recenteLum":
-                            Misurazione lum = ReadMisurazioniThread.getRecente("luminosita");
+                            String lum = ReadMisurazioniThread.getRecente("luminosita");
                             String toSendLum = gson.toJson(lum);
                             out.writeBytes(toSendLum + '\n');
+                            socket.close();
+                            break;
+                        case "mediaTemp":
+                            String mediaTemp = ReadMisurazioniThread.getMedia("temperatura", parts[2], parts[3]);
+                            out.writeBytes(mediaTemp +'\n');
+                            socket.close();
+                            break;
+                        case "mediaLum":
+                            String mediaLum = ReadMisurazioniThread.getMedia("luminosita", parts[2], parts[3]);
+                            out.writeBytes(mediaLum + '\n');
+                            socket.close();
                             break;
                         default:
-                            System.out.println("tipo non specificato");
+                            out.writeBytes("Tipo sconosciuto.\n");
+                            socket.close();
                             break;
                     }
-                }
-                else{
+                } else {
                     System.out.println("NUOVO MESSAGGIO DALLA RETE: \n" + incoming);
                     System.out.println("***************************************");
                     if (!indirizziUtenti.isEmpty()) {

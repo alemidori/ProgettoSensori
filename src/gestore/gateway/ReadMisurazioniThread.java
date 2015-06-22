@@ -69,49 +69,81 @@ public class ReadMisurazioniThread implements Runnable {
         }
     }
 
-    public static Misurazione getRecente(String tipo) {
-        Misurazione recente = null;
+    public static String getRecente(String tipo) {
+        String response = null;
+        Gson gson = new Gson();
+        Misurazione recente;
 
         if(Objects.equals(tipo, "temperatura")) {
             long rec = 0;
-            for (Misurazione m : listaTemp) {
-                long time = m.getTimestamp();
-                if (time > rec) {
-                    rec = time;
-                    recente = m;
+            if(!listaTemp.isEmpty()) {
+                for (Misurazione m : listaTemp) {
+                    long time = m.getTimestamp();
+                    if (time > rec) {
+                        rec = time;
+                        recente = m;
+                        response = gson.toJson(recente);
+                    }
                 }
+            }
+            else{
+                return "Misurazione non disponibile";
             }
         }
         if(Objects.equals(tipo, "luminosita")) {
             long rec = 0;
+            if(!listaLum.isEmpty()) {
+                for (Misurazione m : listaLum) {
+                    long time = m.getTimestamp();
+                    if (time > rec) {
+                        rec = time;
+                        recente = m;
+                        response = gson.toJson(recente);
+                    }
+                }
+            }
+            else{
+                return "Misurazione non disponibile";
+            }
+        }
+
+        return response;
+    }
+
+    public static String getMedia(String tipo, String tempoInizio, String tempoFine){
+        String media = null;
+        ArrayList<Double> valori = new ArrayList<>();
+        int inizio = Integer.parseInt(tempoInizio)*1000;
+        int fine = Integer.parseInt(tempoFine)*1000;
+
+        if(Objects.equals(tipo, "temperatura")) {
+            double somma=0;
+            for (Misurazione m : listaTemp) {
+                if(m.getTimestamp()>=inizio && m.getTimestamp()<=fine){
+                    valori.add(Double.parseDouble(m.getValue()));
+                }
+            }
+            for(int i=0; i<valori.size()-1;i++){
+                somma = somma +valori.get(i);
+            }
+            double med = somma/valori.size();
+            media = String.valueOf(med);
+
+        }
+        if(Objects.equals(tipo, "luminosita")) {
+            double somma=0;
             for (Misurazione m : listaLum) {
-                long time = m.getTimestamp();
-                if (time > rec) {
-                    rec = time;
-                    recente = m;
+                if(m.getTimestamp()>=inizio && m.getTimestamp()<=fine){
+                    valori.add(Double.parseDouble(m.getValue()));
                 }
             }
-        }
-        if(Objects.equals(tipo, "pir1")) {
-            long rec = 0;
-            for (Misurazione m : listaPIR1) {
-                long time = m.getTimestamp();
-                if (time > rec) {
-                    rec = time;
-                    recente = m;
-                }
+            for(int i=0; i<valori.size()-1;i++){
+                somma = somma +valori.get(i);
             }
+            double med = somma/valori.size();
+            media = String.valueOf(med);
+
         }
-        if(Objects.equals(tipo, "pir2")) {
-            long rec = 0;
-            for (Misurazione m : listaPIR2) {
-                long time = m.getTimestamp();
-                if (time > rec) {
-                    rec = time;
-                    recente = m;
-                }
-            }
-        }
-        return recente;
+        return media;
     }
 }

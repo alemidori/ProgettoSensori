@@ -7,6 +7,7 @@ import reteSensori.simulatori.Misurazione;
 import com.google.gson.Gson;
 import org.springframework.http.HttpStatus;
 
+import javax.websocket.server.PathParam;
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -35,7 +36,9 @@ public class ServerController {
     @RequestMapping(value = "/login/{utente}/{ip}/{porta}", method = RequestMethod.POST)
     public
     @ResponseBody
-    ResponseEntity insertUser(@PathVariable String utente, String ip, String porta) {
+    ResponseEntity insertUser(@PathVariable(value = "utente")  String utente,
+                              @PathVariable(value = "ip")  String ip,
+                              @PathVariable(value = "porta")  String porta) {
         int flag = 0;
         if (!indirizziUtenti.isEmpty()) {
             for (String[] i : indirizziUtenti) {
@@ -47,13 +50,13 @@ public class ServerController {
             else {
                 String[] user = {utente, ip, porta};
                 indirizziUtenti.add(user);
-                System.out.println("Nuovo utente: " + user[0]);
+                System.out.println("Nuovo utente: " + user[0]+"-"+user[1]+"-"+user[2]);
                 return new ResponseEntity(HttpStatus.CREATED);
             }
         } else {
             String[] user = {utente, ip, porta};
             indirizziUtenti.add(user);
-            System.out.println("Nuovo utente: " + user[0]);
+            System.out.println("Nuovo utente: " + user[0]+"-"+user[1]+"-"+user[2]);
             return new ResponseEntity(HttpStatus.CREATED);
         }
     }
@@ -71,12 +74,12 @@ public class ServerController {
         return new ResponseEntity(HttpStatus.ACCEPTED);
     }
 
-    @RequestMapping("/misurazione/recente/{tipo}")
+    @RequestMapping(value = "/misurazione/recente/{tipo}", method = RequestMethod.GET)
     public
     @ResponseBody
-    Misurazione getMisurazioneRecente(@PathVariable String tipo) {
+    String getMisurazioneRecente(@PathVariable String tipo) {
 
-        Misurazione recentMis = null;
+        String recentString = null;
         gson = new Gson();
         try {
             toGateway = new Socket("localhost", 5555);
@@ -86,20 +89,51 @@ public class ServerController {
 
 
             if (Objects.equals(tipo, "temperatura")) {
-                out.writeBytes(Messaggi.USER_REQUEST+"-"+"recenteTemp" + '\n');
-                String recentString = br.readLine();
-                recentMis = gson.fromJson(recentString, Misurazione.class);
+                out.writeBytes(Messaggi.USER_REQUEST + "-" + "recenteTemp" + '\n');
+                recentString = br.readLine();
+
             }
             if (Objects.equals(tipo, "luminosita")) {
-                out.writeBytes(Messaggi.USER_REQUEST+"-"+"recenteLum" + '\n');
-                String recentString = br.readLine();
-                recentMis = gson.fromJson(recentString, Misurazione.class);
+                out.writeBytes(Messaggi.USER_REQUEST + "-" + "recenteLum" + '\n');
+                recentString = br.readLine();
+
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return recentMis;
+        return recentString;
     }
 
+    @RequestMapping(value = "/misurazione/media/{tipo}/{tempoInizio}/{tempoFine}", method = RequestMethod.POST)
+    public
+    @ResponseBody
+    String getMediaMisurazioni(@PathVariable(value = "tipo") String tipo,
+                               @PathVariable(value = "tempoInizio")  String tempoInizio,
+                               @PathVariable(value = "tempoFine")  String tempoFine) {
+        String media = null;
+
+        try {
+            toGateway = new Socket("localhost", 5555);
+
+            out = new DataOutputStream(toGateway.getOutputStream());
+            br = new BufferedReader(new InputStreamReader(toGateway.getInputStream()));
+
+
+            if (Objects.equals(tipo, "temperatura")) {
+                System.out.println(tempoInizio+"-"+tempoFine);
+                out.writeBytes(Messaggi.USER_REQUEST + "-" + "mediaTemp" + "-" + tempoInizio + "-" + tempoFine + '\n');
+                media = br.readLine();
+
+            }
+            if (Objects.equals(tipo, "luminosita")) {
+                out.writeBytes(Messaggi.USER_REQUEST + "-" + "mediaLum" + "-" + tempoInizio + "-" + tempoFine + '\n');
+                media = br.readLine();
+
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return media;
+    }
 
 }
