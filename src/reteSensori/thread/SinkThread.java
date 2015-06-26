@@ -2,6 +2,7 @@ package reteSensori.thread;
 
 import com.google.gson.Gson;
 
+import com.google.gson.reflect.TypeToken;
 import reteSensori.classi.Messaggi;
 import reteSensori.classi.Nodo;
 import reteSensori.simulatori.Misurazione;
@@ -10,6 +11,7 @@ import reteSensori.simulatori.Misurazione;
 import javax.net.SocketFactory;
 
 import java.io.*;
+import java.lang.reflect.Type;
 import java.net.ConnectException;
 import java.net.Socket;
 import java.net.SocketAddress;
@@ -24,8 +26,6 @@ public class SinkThread implements Runnable {
     private int porta;
     private int frequenza;
     private boolean stop = false;
-    private Socket socketMSGManager;
-    private Socket socketMISManager;
     private Gson gson;
     private Socket socketNewSink;
 
@@ -54,6 +54,7 @@ public class SinkThread implements Runnable {
             }
 
             DataOutputStream outToMSGManager;
+            Socket socketMSGManager;
             if (Nodo.getPercentBattery() > 25.0) {
 
                 /*********************misurazioni***********************/
@@ -71,13 +72,14 @@ public class SinkThread implements Runnable {
                                     if (checkOut.checkError()) {
                                         System.out.println("Errore in checkError");
                                     } else {
-
                                         DataOutputStream out = new DataOutputStream(socket.getOutputStream());
                                         out.writeBytes(Messaggi.MISURAZIONI + '\n');
-                                        Nodo.updateBattery("trasmissione");
+                                        Nodo.updateBattery(Messaggi.TRASMISSIONE_NODO);
                                         BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                                         String res = br.readLine();
-                                        ArrayList<Misurazione> lista = gson.fromJson(res, ArrayList.class);
+                                        Type listType = new TypeToken<ArrayList<Misurazione>>() {
+                                        }.getType();
+                                        ArrayList<Misurazione> lista = gson.fromJson(res, listType);
                                         System.out.println(res + '\n');
                                         for (int i = 0; i < lista.size() - 1; i++) {
                                             listeMisurazioni.add(lista.get(i));
@@ -104,6 +106,7 @@ public class SinkThread implements Runnable {
                                 if (p == 4444) tipoClosed = "pir2";
                                 outToMSGManager = new DataOutputStream(socketMSGManager.getOutputStream());
                                 outToMSGManager.writeBytes("Il nodo " + tipoClosed + Messaggi.NODO_STOPPATO);
+                                Nodo.updateBattery(Messaggi.TRASMISSIONE_GESTORE);
                                 iter.remove();
                                 socketMSGManager.close();
                             } catch (IOException e1) {
@@ -131,11 +134,12 @@ public class SinkThread implements Runnable {
                 String all = gson.toJson(listeMisurazioni);
 
                 try {
-                    socketMISManager = new Socket("localhost", 6666);
+                    Socket socketMISManager = new Socket("localhost", 6666);
                     DataOutputStream outToMISManager = new DataOutputStream(socketMISManager.getOutputStream());
                     outToMISManager.writeBytes(all + '\n');
+                    Nodo.updateBattery(Messaggi.TRASMISSIONE_GESTORE);
                     socketMISManager.close();
-                    Nodo.updateBattery("trasmissioneGestore");
+
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -160,6 +164,7 @@ public class SinkThread implements Runnable {
                                     } else {
                                         DataOutputStream out = new DataOutputStream(socket.getOutputStream());
                                         out.writeBytes(Messaggi.ELEZIONE + '\n');
+                                        Nodo.updateBattery(Messaggi.TRASMISSIONE_NODO);
                                         BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                                         int res = br.read();
                                         map.put(p, res);
@@ -183,6 +188,7 @@ public class SinkThread implements Runnable {
                                 if (p == 3333) tipoClosed = "pir1";
                                 if (p == 4444) tipoClosed = "pir2";
                                 outToMSGManager.writeBytes("Il nodo " + tipoClosed + Messaggi.NODO_STOPPATO);
+                                Nodo.updateBattery(Messaggi.TRASMISSIONE_GESTORE);
                                 iter.remove();
                                 socketMSGManager.close();
                             } catch (IOException e1) {
@@ -214,6 +220,7 @@ public class SinkThread implements Runnable {
                         socketNewSink = new Socket("localhost", portToSendMessage);
                         outToMax = new DataOutputStream(socketNewSink.getOutputStream());
                         outToMax.writeBytes(Messaggi.ELETTO + '\n');
+                        Nodo.updateBattery(Messaggi.TRASMISSIONE_NODO);
                         System.out.println("Ho eletto il nodo con la porta " + portToSendMessage + " come nuovo sink");
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -221,6 +228,7 @@ public class SinkThread implements Runnable {
 
                     stopRequest();
                     new Thread(new NotSinkThread(porta, frequenza)).start();
+
                 } else {
                     System.out.println(Messaggi.ELEZIONE_FALLITA);
 
@@ -228,12 +236,13 @@ public class SinkThread implements Runnable {
                         if (max > SingletonBattery.getInstance().getLevel()) {
                             outToMax = new DataOutputStream(socketNewSink.getOutputStream());
                             outToMax.writeBytes(Messaggi.NOTIFICA_GESTORE);
+                            Nodo.updateBattery(Messaggi.TRASMISSIONE_NODO);
                         } else {
                             socketMSGManager = new Socket("localhost", 5555);
                             outToMSGManager = new DataOutputStream(socketMSGManager.getOutputStream());
                             outToMSGManager.writeBytes(Messaggi.RETE_NON_DISPONIBILE);
                                     socketMSGManager.close();
-                            Nodo.updateBattery("trasmissioneGestore");
+                            Nodo.updateBattery(Messaggi.TRASMISSIONE_GESTORE);
 
                         }
                     } catch (IOException e) {

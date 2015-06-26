@@ -40,17 +40,20 @@ public class LoginThread implements Runnable {
                 if (conn.getResponseCode() == 409) {
                     System.out.println("Errore: nome utente non disponibile.");
                     flagOK = false;
-                } else if(conn.getResponseCode()== 201) {
+                } else if(conn.getResponseCode()== 406) {
+                    System.out.println("Indirizzo IP non valido.(Usare la forma 'localhost' o '127.0.0.1').");
+                    flagOK = false;
+                }
+                else if(conn.getResponseCode() == 208){
+                    System.out.println("La porta "+porta+" e' già in uso.");
+                    flagOK = false;
+                }
+                else{
                     flagOK = true;
                     System.out.println("Login effettuato con successo.");
                     DataOutputStream outManager = new DataOutputStream(new Socket("localhost", 5555).getOutputStream());
                     outManager.writeBytes(Messaggi.NEW_UTENTE + "-" +ip+"-"+ porta+'\n');
-                    ServerSocket serverSocket = new ServerSocket(Integer.parseInt(porta));
-                    new Thread(new ClientThreadForMessage(serverSocket)).start();
                     new Thread(new OperazioniClient()).start();
-                }
-                else{
-                    System.out.println("Non ottengo risposta dal server.");
                 }
 
                 conn.disconnect();

@@ -70,12 +70,37 @@ public class ReadMessageThread implements Runnable {
                             break;
                         case "mediaTemp":
                             String mediaTemp = ReadMisurazioniThread.getMedia("temperatura", parts[2], parts[3]);
-                            out.writeBytes(mediaTemp +'\n');
+                            out.writeBytes(mediaTemp + '\n');
                             socket.close();
                             break;
                         case "mediaLum":
                             String mediaLum = ReadMisurazioniThread.getMedia("luminosita", parts[2], parts[3]);
                             out.writeBytes(mediaLum + '\n');
+                            socket.close();
+                            break;
+                        case "minMaxTemp":
+                            String minMaxTemp = ReadMisurazioniThread.getMinMax("temperatura", parts[2], parts[3]);
+                            out.writeBytes(minMaxTemp + '\n');
+                            socket.close();
+                            break;
+                        case "minMaxLum":
+                            String minMaxLum = ReadMisurazioniThread.getMinMax("luminosita", parts[2], parts[3]);
+                            out.writeBytes(minMaxLum + '\n');
+                            socket.close();
+                            break;
+                        case "presPir1":
+                            String presPir1 = ReadMisurazioniThread.getPresenza("pir1", parts[2], parts[3]);
+                            out.writeBytes(presPir1 + '\n');
+                            socket.close();
+                            break;
+                        case "presPir2":
+                            String presPir2 = ReadMisurazioniThread.getPresenza("pir2", parts[2], parts[3]);
+                            out.writeBytes(presPir2 + '\n');
+                            socket.close();
+                            break;
+                        case "mediaPres":
+                            String mediaPres = ReadMisurazioniThread.getMediaPres(parts[2], parts[3]);
+                            out.writeBytes(mediaPres + '\n');
                             socket.close();
                             break;
                         default:
@@ -84,6 +109,7 @@ public class ReadMessageThread implements Runnable {
                             break;
                     }
                 } else {
+
                     System.out.println("NUOVO MESSAGGIO DALLA RETE: \n" + incoming);
                     System.out.println("***************************************");
                     if (!indirizziUtenti.isEmpty()) {

@@ -89,15 +89,15 @@ public class Nodo {
         int trasmissionToManager = trasmissionCost * 4;
         if (level > 0) {
             switch (s) {
-                case "lettura":
+                case Messaggi.LETTURA:
                     newLevel = level - readingCost;
                     SingletonBattery.getInstance().setLevel(newLevel);
                     break;
-                case "trasmissione":
+                case Messaggi.TRASMISSIONE_NODO:
                     newLevel = level - trasmissionCost;
                     SingletonBattery.getInstance().setLevel(newLevel);
                     break;
-                case "trasmissioneGestore":
+                case Messaggi.TRASMISSIONE_GESTORE:
                     newLevel = level - trasmissionToManager;
                     SingletonBattery.getInstance().setLevel(newLevel);
                     break;

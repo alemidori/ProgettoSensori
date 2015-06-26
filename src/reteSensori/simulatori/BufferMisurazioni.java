@@ -1,5 +1,6 @@
 package reteSensori.simulatori;
 
+import reteSensori.classi.Messaggi;
 import reteSensori.classi.Nodo;
 
 import java.util.ArrayList;
@@ -33,20 +34,16 @@ public class BufferMisurazioni<M> implements Buffer {
         }
         i++;
 
-        Nodo.updateBattery("lettura");
+        Nodo.updateBattery(Messaggi.LETTURA);
     }
 
 
     @Override
     public synchronized List leggi() {
-
         List <?> toReturn = new ArrayList<>(misurazioni);
-
         misurazioni.clear();
-
         i = 0;
-
+        Nodo.updateBattery(Messaggi.LETTURA);
         return toReturn;
-
     }
 }

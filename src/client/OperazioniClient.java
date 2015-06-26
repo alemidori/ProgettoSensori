@@ -70,7 +70,7 @@ public class OperazioniClient implements Runnable {
             try {
                 URL url = new URL("http://localhost:8080/misurazione/media/"+tipo+"/"+tempoInizio+"/"+tempoFine);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-                conn.setRequestMethod("POST");
+                conn.setRequestMethod("GET");
                 conn.setRequestProperty("Accept", "application/json");
 
                 if (conn.getResponseCode() != 200) {
@@ -93,6 +93,110 @@ public class OperazioniClient implements Runnable {
             }
         }
 
+        if(numOper==3){
+            System.out.println("Minimo e massimo.\nInserisci tipo misurazione:");
+            Scanner scannerTipo = new Scanner(System.in);
+            String tipo = scannerTipo.nextLine();
+            System.out.println("Inserisci tempo inizio in secondi:");
+            Scanner scanTempoInizio = new Scanner(System.in);
+            String tempoInizio = scanTempoInizio.nextLine();
+            System.out.println("Inserisci tempo fine in secondi:");
+            Scanner scanTempoFine = new Scanner(System.in);
+            String tempoFine = scanTempoFine.nextLine();
+            try {
+                URL url = new URL("http://localhost:8080/misurazione/min_max/"+tipo+"/"+tempoInizio+"/"+tempoFine);
+                HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                conn.setRequestMethod("GET");
+                conn.setRequestProperty("Accept", "application/json");
+
+                if (conn.getResponseCode() != 200) {
+                    throw new RuntimeException("Failed : HTTP error code : "
+                            + conn.getResponseCode());
+                }
+
+                BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream())));
+
+                String output;
+                while ((output = br.readLine()) != null) {
+                    System.out.println(output + '\n');
+                }
+
+                conn.disconnect();
+                //alla fine dell'operazione faccio una chiamata ricorsiva a run per ridare il controllo all'utente
+                this.run();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        if(numOper==4){
+            System.out.println("Rilevazione presenza.\nInserisci zona(per ovest:pir1, per est:pir2):");
+            Scanner scannerTipo = new Scanner(System.in);
+            String tipo = scannerTipo.nextLine();
+            System.out.println("Inserisci tempo inizio in secondi:");
+            Scanner scanTempoInizio = new Scanner(System.in);
+            String tempoInizio = scanTempoInizio.nextLine();
+            System.out.println("Inserisci tempo fine in secondi:");
+            Scanner scanTempoFine = new Scanner(System.in);
+            String tempoFine = scanTempoFine.nextLine();
+            try {
+                URL url = new URL("http://localhost:8080/misurazione/presenza/"+tipo+"/"+tempoInizio+"/"+tempoFine);
+                HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                conn.setRequestMethod("GET");
+                conn.setRequestProperty("Accept", "application/json");
+
+                if (conn.getResponseCode() != 200) {
+                    throw new RuntimeException("Failed : HTTP error code : "
+                            + conn.getResponseCode());
+                }
+
+                BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream())));
+
+                String output;
+                while ((output = br.readLine()) != null) {
+                    System.out.println(output + '\n');
+                }
+
+                conn.disconnect();
+                //alla fine dell'operazione faccio una chiamata ricorsiva a run per ridare il controllo all'utente
+                this.run();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        if(numOper==5){
+            System.out.println("Media rilevazioni presenza.\nInserisci tempo inizio in secondi:");
+            Scanner scanTempoInizio = new Scanner(System.in);
+            String tempoInizio = scanTempoInizio.nextLine();
+            System.out.println("Inserisci tempo fine in secondi:");
+            Scanner scanTempoFine = new Scanner(System.in);
+            String tempoFine = scanTempoFine.nextLine();
+            try {
+                URL url = new URL("http://localhost:8080/misurazione/media_presenza/"+tempoInizio+"/"+tempoFine);
+                HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                conn.setRequestMethod("GET");
+                conn.setRequestProperty("Accept", "application/json");
+
+                if (conn.getResponseCode() != 200) {
+                    throw new RuntimeException("Failed : HTTP error code : "
+                            + conn.getResponseCode());
+                }
+
+                BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream())));
+
+                String output;
+                while ((output = br.readLine()) != null) {
+                    System.out.println(output + '\n');
+                }
+
+                conn.disconnect();
+                //alla fine dell'operazione faccio una chiamata ricorsiva a run per ridare il controllo all'utente
+                this.run();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
         if (numOper == 6) {
             //logout
             try {
@@ -103,7 +207,16 @@ public class OperazioniClient implements Runnable {
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("DELETE");
                 System.out.println(conn.getResponseCode());
-                new Thread(new LoginThread()).start();
+                if(conn.getResponseCode() == 202){
+                    System.out.println("Logout effettuato con successo.");
+
+                    //new Thread(new LoginThread()).start();
+                }
+                else{
+                    System.out.println("Utente "+utente+" non trovato.");
+                    this.run();
+                }
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -112,4 +225,5 @@ public class OperazioniClient implements Runnable {
 
 
     }
+
 }

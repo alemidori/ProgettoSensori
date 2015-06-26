@@ -65,7 +65,7 @@ public class NotSinkThread implements Runnable {
                         Gson gson = new Gson();
                         String gsonList = gson.toJson(lista);
                         out.writeBytes(gsonList + '\n');
-                        Nodo.updateBattery("trasmissione");
+                        Nodo.updateBattery(Messaggi.TRASMISSIONE_NODO);
                     }
 
                     if (Objects.equals(req, Messaggi.ELEZIONE)) {
@@ -73,7 +73,7 @@ public class NotSinkThread implements Runnable {
                         out = new DataOutputStream(socket.getOutputStream());
                         int perc = (int) (Nodo.getPercentBattery());
                         out.writeByte(perc);
-                        Nodo.updateBattery("trasmissione");
+                        Nodo.updateBattery(Messaggi.TRASMISSIONE_NODO);
                     }
                     if (Objects.equals(req, Messaggi.ELETTO)) {
                         System.out.println("Sono stato eletto sink");
@@ -83,9 +83,9 @@ public class NotSinkThread implements Runnable {
                     if (Objects.equals(req, Messaggi.NOTIFICA_GESTORE)) {
                         Socket socketManager = new Socket("localhost",5555);
                         DataOutputStream outToManager = new DataOutputStream(socketManager.getOutputStream());
-                        outToManager.writeBytes("La rete di sensori non e' piu' disponibile");
+                        outToManager.writeBytes(Messaggi.RETE_NON_DISPONIBILE);
                         socketManager.close();
-                        Nodo.updateBattery("trasmissioneGestore");
+                        Nodo.updateBattery(Messaggi.TRASMISSIONE_GESTORE);
                         stopListening();
                     }
 
