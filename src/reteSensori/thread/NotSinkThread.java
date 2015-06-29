@@ -24,8 +24,6 @@ public class NotSinkThread implements Runnable {
     private Buffer<Misurazione> buffer;
     private ServerSocket serverSocket;
     private boolean stop = false;
-    private Socket socket;
-    private DataOutputStream out;
     private int porta, frequenza;
 
     public NotSinkThread(int p, int f) {
@@ -45,11 +43,11 @@ public class NotSinkThread implements Runnable {
             if (SingletonBattery.getInstance().getLevel() > 0) {
                 try {
                     System.out.println("In ascolto...");
-                    socket = serverSocket.accept();
+                    Socket socket = serverSocket.accept();
                     System.out.println("Connessione con il sink...");
                     BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                     String req = br.readLine();
-                    out = new DataOutputStream(socket.getOutputStream());
+                    DataOutputStream out = new DataOutputStream(socket.getOutputStream());
 
                     if (Objects.equals(req, Messaggi.MISURAZIONI)) {
                         System.out.println("Richiesta: " + req);

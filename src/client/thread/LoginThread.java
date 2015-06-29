@@ -1,11 +1,11 @@
-package client;
+package client.thread;
 
 import reteSensori.classi.Messaggi;
 
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
-import java.net.ServerSocket;
+
 import java.net.URL;
 import java.util.Scanner;
 import java.net.Socket;
@@ -15,9 +15,6 @@ import java.net.Socket;
  */
 public class LoginThread implements Runnable {
     private boolean flagOK;
-
-    public LoginThread(){
-    }
 
     @Override
     public void run() {
@@ -32,11 +29,10 @@ public class LoginThread implements Runnable {
                 System.out.println("Inserisci porta:");
                 Scanner scanPorta = new Scanner(System.in);
                 String porta = scanPorta.nextLine();
-
                 URL url = new URL("http://localhost:8080/login/"+utente+"/"+ip+"/"+porta);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("POST");
-                System.out.println(conn.getResponseCode());
+
                 if (conn.getResponseCode() == 409) {
                     System.out.println("Errore: nome utente non disponibile.");
                     flagOK = false;
@@ -52,8 +48,8 @@ public class LoginThread implements Runnable {
                     flagOK = true;
                     System.out.println("Login effettuato con successo.");
                     DataOutputStream outManager = new DataOutputStream(new Socket("localhost", 5555).getOutputStream());
-                    outManager.writeBytes(Messaggi.NEW_UTENTE + "-" +ip+"-"+ porta+'\n');
-                    new Thread(new OperazioniClient()).start();
+                    outManager.writeBytes(Messaggi.NEW_UTENTE + "-" + ip + "-" + porta + '\n');
+                    new Thread(new OperazioniClientThread(Integer.parseInt(porta))).start();
                 }
 
                 conn.disconnect();

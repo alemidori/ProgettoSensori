@@ -1,6 +1,9 @@
-package client;
+package client.thread;
+
+import reteSensori.classi.Messaggi;
 
 import java.io.BufferedReader;
+import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.*;
@@ -9,14 +12,18 @@ import java.util.Scanner;
 /**
  * Created by Alessandra on 16/06/15.
  */
-public class OperazioniClient implements Runnable {
-
-    public OperazioniClient() {
+public class OperazioniClientThread implements Runnable {
+    private ClientThreadForMessage listener;
+private int porta;
+    public OperazioniClientThread(int p) {
+        listener = new ClientThreadForMessage(p);
+        porta=p;
     }
 
     @Override
     public void run() {
 
+        new Thread(listener).start();
         System.out.println("OPERAZIONI:\n1. Ottieni la misurazione piu' recente.\n" +
                 "2. Ottieni media misurazioni in un intervallo di tempo.\n" +
                 "3. Ottieni minimo e massimo in un intervallo di tempo.\n" +
@@ -29,7 +36,7 @@ public class OperazioniClient implements Runnable {
         if (numOper == 1) {
             try {
 
-                System.out.println("Misurazione piu' recente.\nInserisci tipo misurazione:");
+                System.out.println("Misurazione piu' recente.\nInserisci tipo misurazione(temperatura - luminosita):");
                 Scanner scannerTipo = new Scanner(System.in);
                 String tipo = scannerTipo.nextLine();
                 URL url = new URL("http://localhost:8080/misurazione/recente/" + tipo);
@@ -37,8 +44,8 @@ public class OperazioniClient implements Runnable {
                 conn.setRequestMethod("GET");
                 conn.setRequestProperty("Accept", "application/json");
 
-                    if (conn.getResponseCode() != 200) {
-                        throw new RuntimeException("Failed : HTTP error code : "
+                if (conn.getResponseCode() != 200) {
+                    throw new RuntimeException("Failed : HTTP error code : "
                             + conn.getResponseCode());
                 }
 
@@ -58,7 +65,7 @@ public class OperazioniClient implements Runnable {
         }
 
         if (numOper == 2) {
-            System.out.println("Media misurazioni.\nInserisci tipo misurazione:");
+            System.out.println("Media misurazioni.\nInserisci tipo misurazione(temperatura - luminosita):");
             Scanner scannerTipo = new Scanner(System.in);
             String tipo = scannerTipo.nextLine();
             System.out.println("Inserisci tempo inizio in secondi:");
@@ -68,7 +75,7 @@ public class OperazioniClient implements Runnable {
             Scanner scanTempoFine = new Scanner(System.in);
             String tempoFine = scanTempoFine.nextLine();
             try {
-                URL url = new URL("http://localhost:8080/misurazione/media/"+tipo+"/"+tempoInizio+"/"+tempoFine);
+                URL url = new URL("http://localhost:8080/misurazione/media/" + tipo + "/" + tempoInizio + "/" + tempoFine);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
                 conn.setRequestProperty("Accept", "application/json");
@@ -93,8 +100,8 @@ public class OperazioniClient implements Runnable {
             }
         }
 
-        if(numOper==3){
-            System.out.println("Minimo e massimo.\nInserisci tipo misurazione:");
+        if (numOper == 3) {
+            System.out.println("Minimo e massimo.\nInserisci tipo misurazione(temperatura - luminosita):");
             Scanner scannerTipo = new Scanner(System.in);
             String tipo = scannerTipo.nextLine();
             System.out.println("Inserisci tempo inizio in secondi:");
@@ -104,7 +111,7 @@ public class OperazioniClient implements Runnable {
             Scanner scanTempoFine = new Scanner(System.in);
             String tempoFine = scanTempoFine.nextLine();
             try {
-                URL url = new URL("http://localhost:8080/misurazione/min_max/"+tipo+"/"+tempoInizio+"/"+tempoFine);
+                URL url = new URL("http://localhost:8080/misurazione/min_max/" + tipo + "/" + tempoInizio + "/" + tempoFine);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
                 conn.setRequestProperty("Accept", "application/json");
@@ -129,7 +136,7 @@ public class OperazioniClient implements Runnable {
             }
         }
 
-        if(numOper==4){
+        if (numOper == 4) {
             System.out.println("Rilevazione presenza.\nInserisci zona(per ovest:pir1, per est:pir2):");
             Scanner scannerTipo = new Scanner(System.in);
             String tipo = scannerTipo.nextLine();
@@ -140,7 +147,7 @@ public class OperazioniClient implements Runnable {
             Scanner scanTempoFine = new Scanner(System.in);
             String tempoFine = scanTempoFine.nextLine();
             try {
-                URL url = new URL("http://localhost:8080/misurazione/presenza/"+tipo+"/"+tempoInizio+"/"+tempoFine);
+                URL url = new URL("http://localhost:8080/misurazione/presenza/" + tipo + "/" + tempoInizio + "/" + tempoFine);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
                 conn.setRequestProperty("Accept", "application/json");
@@ -165,7 +172,7 @@ public class OperazioniClient implements Runnable {
             }
         }
 
-        if(numOper==5){
+        if (numOper == 5) {
             System.out.println("Media rilevazioni presenza.\nInserisci tempo inizio in secondi:");
             Scanner scanTempoInizio = new Scanner(System.in);
             String tempoInizio = scanTempoInizio.nextLine();
@@ -173,7 +180,7 @@ public class OperazioniClient implements Runnable {
             Scanner scanTempoFine = new Scanner(System.in);
             String tempoFine = scanTempoFine.nextLine();
             try {
-                URL url = new URL("http://localhost:8080/misurazione/media_presenza/"+tempoInizio+"/"+tempoFine);
+                URL url = new URL("http://localhost:8080/misurazione/media_presenza/" + tempoInizio + "/" + tempoFine);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
                 conn.setRequestProperty("Accept", "application/json");
@@ -206,14 +213,18 @@ public class OperazioniClient implements Runnable {
                 URL url = new URL("http://localhost:8080/logout/" + utente);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("DELETE");
-                System.out.println(conn.getResponseCode());
-                if(conn.getResponseCode() == 202){
-                    System.out.println("Logout effettuato con successo.");
 
-                    //new Thread(new LoginThread()).start();
-                }
-                else{
-                    System.out.println("Utente "+utente+" non trovato.");
+                if (conn.getResponseCode() == 202) {
+                    //listener.stopListening(); //setta stop=true prima che si metta in ascolto
+
+                    Socket toGateway = new Socket("localhost", 5555);
+                    DataOutputStream outManager = new DataOutputStream(toGateway.getOutputStream());
+                    outManager.writeBytes(Messaggi.USER_REQUEST + "-" + "logout" +"-"+ porta +'\n');
+
+                    System.out.println("Richiesta logout..."+'\n');
+
+                } else {
+                    System.out.println("Utente " + utente + " non trovato.");
                     this.run();
                 }
 

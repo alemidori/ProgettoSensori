@@ -60,52 +60,50 @@ public class ReadMessageThread implements Runnable {
                             String temp = ReadMisurazioniThread.getRecente("temperatura");
                             String toSendTemp = gson.toJson(temp);
                             out.writeBytes(toSendTemp + '\n');
-                            socket.close();
                             break;
                         case "recenteLum":
                             String lum = ReadMisurazioniThread.getRecente("luminosita");
                             String toSendLum = gson.toJson(lum);
                             out.writeBytes(toSendLum + '\n');
-                            socket.close();
                             break;
                         case "mediaTemp":
                             String mediaTemp = ReadMisurazioniThread.getMedia("temperatura", parts[2], parts[3]);
                             out.writeBytes(mediaTemp + '\n');
-                            socket.close();
                             break;
                         case "mediaLum":
                             String mediaLum = ReadMisurazioniThread.getMedia("luminosita", parts[2], parts[3]);
                             out.writeBytes(mediaLum + '\n');
-                            socket.close();
                             break;
                         case "minMaxTemp":
                             String minMaxTemp = ReadMisurazioniThread.getMinMax("temperatura", parts[2], parts[3]);
                             out.writeBytes(minMaxTemp + '\n');
-                            socket.close();
                             break;
                         case "minMaxLum":
                             String minMaxLum = ReadMisurazioniThread.getMinMax("luminosita", parts[2], parts[3]);
                             out.writeBytes(minMaxLum + '\n');
-                            socket.close();
                             break;
                         case "presPir1":
                             String presPir1 = ReadMisurazioniThread.getPresenza("pir1", parts[2], parts[3]);
                             out.writeBytes(presPir1 + '\n');
-                            socket.close();
                             break;
                         case "presPir2":
                             String presPir2 = ReadMisurazioniThread.getPresenza("pir2", parts[2], parts[3]);
                             out.writeBytes(presPir2 + '\n');
-                            socket.close();
                             break;
                         case "mediaPres":
                             String mediaPres = ReadMisurazioniThread.getMediaPres(parts[2], parts[3]);
                             out.writeBytes(mediaPres + '\n');
-                            socket.close();
+                            break;
+                        case "sconosciuto":
+                            out.writeBytes("Tipo non specificato" + '\n');
+                            break;
+                        case "logout":
+                            Socket toClient = new Socket("localhost", Integer.parseInt(parts[2]));
+                            DataOutputStream outClient = new DataOutputStream(toClient.getOutputStream());
+                            outClient.writeBytes("logout"+'\n');
                             break;
                         default:
-                            out.writeBytes("Tipo sconosciuto.\n");
-                            socket.close();
+                            out.writeBytes("Azione sconosciuta.\n");
                             break;
                     }
                 } else {

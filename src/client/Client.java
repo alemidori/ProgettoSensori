@@ -1,6 +1,7 @@
 package client;
 
 
+import client.thread.LoginThread;
 
 /**
  * Created by Alessandra on 16/06/15.

@@ -179,13 +179,13 @@ public class ReadMisurazioniThread implements Runnable {
                 minMax.add(String.valueOf(max));
 
                 double min = valori.get(0);
-                System.out.println(min);
+
                 for (double v : valori) {
                     if (v < min) {
                         min = v;
                     }
                 }
-                System.out.println(min);
+
                 minMax.add(String.valueOf(min));
                 toReturn = gson.toJson(minMax);
             } else {
@@ -210,7 +210,7 @@ public class ReadMisurazioniThread implements Runnable {
                 minMax.add(String.valueOf(max));
 
                 double min = valori.get(0);
-                System.out.println(min);
+
                 for (double v : valori) {
                     if (v < min) {
                         min = v;

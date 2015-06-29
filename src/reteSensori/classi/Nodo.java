@@ -15,8 +15,6 @@ public class Nodo {
     private static boolean sink;
     private static Simulator simulator;
     private static BufferMisurazioni<Misurazione> buffer = new BufferMisurazioni<>();
-    private static SinkThread sinkThread;
-    private static NotSinkThread notSinkThread;
     private static float percentBattery;
 
     public Nodo(String t, int b, boolean s, int f) {
@@ -62,13 +60,13 @@ public class Nodo {
 
         if (sink) {
             //se sono sink invio le richieste e aspetto le risposte
-            sinkThread = new SinkThread(port, frequenza);
+            SinkThread sinkThread = new SinkThread(port, frequenza);
             new Thread(sinkThread).start();
 
 
         } else {
             //se non sono sink mi metto in attesa di una richiesta dal sink
-            notSinkThread = new NotSinkThread(port,frequenza);
+            NotSinkThread notSinkThread = new NotSinkThread(port, frequenza);
             new Thread(notSinkThread).start();
         }
     }

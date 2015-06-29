@@ -1,24 +1,16 @@
 package gestore.REST;
 
-import client.ClientThreadForMessage;
-import client.OperazioniClient;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import reteSensori.classi.Messaggi;
-import reteSensori.simulatori.Misurazione;
-import com.google.gson.Gson;
-import org.springframework.http.HttpStatus;
 
-import javax.websocket.server.PathParam;
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Objects;
 
 //con Spring è sempre necessario che ci sia una classe Controller contrassegnata con l'apposita annotazione RestController
@@ -26,19 +18,11 @@ import java.util.Objects;
 @RestController
 public class ServerController {
     private Socket toGateway;
-    private Gson gson;
+
     private DataOutputStream out;
     private BufferedReader br;
-    private ClientThreadForMessage listener;
-
-
-    //RequestMapping indica il path in cui è possibile trovare lo specifico servizio che non è necessariamente GET
-    //ma può essere anche POST o PUT. Se si vuole specificare il metodo HTTP usato si usa la forma RequestMapping(method=GET)
-    //o POST o PUT a seconda della necessità
-
 
     private ArrayList<String[]> indirizziUtenti = new ArrayList<>();
-    private Map<Integer,ClientThreadForMessage> listeners = new HashMap<>();
 
     @RequestMapping(value = "/login/{utente}/{ip}/{porta}", method = RequestMethod.POST)
     public
@@ -46,6 +30,7 @@ public class ServerController {
     ResponseEntity insertUser(@PathVariable(value = "utente") String utente,
                               @PathVariable(value = "ip") String ip,
                               @PathVariable(value = "porta") String porta) {
+
         int flag = 0;
         if (!indirizziUtenti.isEmpty()) {
             for (String[] i : indirizziUtenti) {
@@ -55,39 +40,31 @@ public class ServerController {
             }
             if (flag == 1) return new ResponseEntity(HttpStatus.CONFLICT);
             else {
-                if(Objects.equals(ip, "localhost") || Objects.equals(ip, "127.0.0.1")) {
+                if (Objects.equals(ip, "localhost") || Objects.equals(ip, "127.0.0.1")) {
                     for (String[] i : indirizziUtenti) {
                         if (Objects.equals(i[2], porta)) {
                             flag = 2;
                         }
                     }
-                    if (flag==2) return new ResponseEntity(HttpStatus.ALREADY_REPORTED);
-                    else{
+                    if (flag == 2) return new ResponseEntity(HttpStatus.ALREADY_REPORTED);
+                    else {
                         String[] user = {utente, ip, porta};
                         indirizziUtenti.add(user);
                         System.out.println("Nuovo utente: " + user[0] + "-" + user[1] + "-" + user[2]);
-                        listener = new ClientThreadForMessage(Integer.parseInt(porta));
-                        listeners.put(Integer.parseInt(porta), listener);
-                        new Thread(listener).start();
                         return new ResponseEntity(HttpStatus.CREATED);
                     }
 
-                }
-                else{
+                } else {
                     return new ResponseEntity(HttpStatus.NOT_ACCEPTABLE);
                 }
             }
         } else {
-            if(Objects.equals(ip, "localhost") || Objects.equals(ip, "127.0.0.1")) {
+            if (Objects.equals(ip, "localhost") || Objects.equals(ip, "127.0.0.1")) {
                 String[] user = {utente, ip, porta};
                 indirizziUtenti.add(user);
                 System.out.println("Nuovo utente: " + user[0] + "-" + user[1] + "-" + user[2]);
-                listener = new ClientThreadForMessage(Integer.parseInt(porta));
-                listeners.put(Integer.parseInt(porta), listener);
-                new Thread(listener).start();
                 return new ResponseEntity(HttpStatus.CREATED);
-            }
-            else{
+            } else {
                 return new ResponseEntity(HttpStatus.NOT_ACCEPTABLE);
             }
         }
@@ -99,7 +76,6 @@ public class ServerController {
     ResponseEntity deleteUser(@PathVariable String utente) {
         for (String[] i : indirizziUtenti) {
             if (Objects.equals(i[0], utente)) {
-                listeners.get(Integer.parseInt(i[2])).stopListening();
                 indirizziUtenti.remove(i);
                 return new ResponseEntity(HttpStatus.ACCEPTED);
             }
@@ -113,7 +89,6 @@ public class ServerController {
     String getMisurazioneRecente(@PathVariable String tipo) {
 
         String recentString = null;
-        gson = new Gson();
         try {
             toGateway = new Socket("localhost", 5555);
 
@@ -126,10 +101,14 @@ public class ServerController {
                 recentString = br.readLine();
 
             }
-            if (Objects.equals(tipo, "luminosita")) {
+            else if (Objects.equals(tipo, "luminosita")) {
                 out.writeBytes(Messaggi.USER_REQUEST + "-" + "recenteLum" + '\n');
                 recentString = br.readLine();
 
+            }
+            else{
+                out.writeBytes(Messaggi.USER_REQUEST + "-" + "sconosciuto" + '\n');
+                recentString = br.readLine();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -158,10 +137,14 @@ public class ServerController {
                 media = br.readLine();
 
             }
-            if (Objects.equals(tipo, "luminosita")) {
+            else if (Objects.equals(tipo, "luminosita")) {
                 out.writeBytes(Messaggi.USER_REQUEST + "-" + "mediaLum" + "-" + tempoInizio + "-" + tempoFine + '\n');
                 media = br.readLine();
 
+            }
+            else{
+                out.writeBytes(Messaggi.USER_REQUEST + "-" + "sconosciuto" + '\n');
+                media = br.readLine();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -183,13 +166,16 @@ public class ServerController {
             br = new BufferedReader(new InputStreamReader(toGateway.getInputStream()));
 
             if (Objects.equals(tipo, "temperatura")) {
-                System.out.println(tempoInizio + "-" + tempoFine);
                 out.writeBytes(Messaggi.USER_REQUEST + "-" + "minMaxTemp" + "-" + tempoInizio + "-" + tempoFine + '\n');
                 minMax = br.readLine();
 
             }
-            if (Objects.equals(tipo, "luminosita")) {
+            else if (Objects.equals(tipo, "luminosita")) {
                 out.writeBytes(Messaggi.USER_REQUEST + "-" + "minMaxLum" + "-" + tempoInizio + "-" + tempoFine + '\n');
+                minMax = br.readLine();
+            }
+            else{
+                out.writeBytes(Messaggi.USER_REQUEST + "-" + "sconosciuto" + '\n');
                 minMax = br.readLine();
             }
         } catch (IOException e) {
@@ -202,8 +188,8 @@ public class ServerController {
     public
     @ResponseBody
     String getRilevazionePresenza(@PathVariable(value = "tipo") String tipo,
-                                @PathVariable(value = "tempoInizio") String tempoInizio,
-                                @PathVariable(value = "tempoFine") String tempoFine) {
+                                  @PathVariable(value = "tempoInizio") String tempoInizio,
+                                  @PathVariable(value = "tempoFine") String tempoFine) {
 
         String presenze = null;
         try {
@@ -218,8 +204,12 @@ public class ServerController {
                 presenze = br.readLine();
 
             }
-            if (Objects.equals(tipo, "pir2")) {
+            else if (Objects.equals(tipo, "pir2")) {
                 out.writeBytes(Messaggi.USER_REQUEST + "-" + "presPir2" + "-" + tempoInizio + "-" + tempoFine + '\n');
+                presenze = br.readLine();
+            }
+            else{
+                out.writeBytes(Messaggi.USER_REQUEST + "-" + "sconosciuto" + '\n');
                 presenze = br.readLine();
             }
         } catch (IOException e) {
@@ -232,7 +222,7 @@ public class ServerController {
     public
     @ResponseBody
     String getMediaPres(@PathVariable(value = "tempoInizio") String tempoInizio,
-                                  @PathVariable(value = "tempoFine") String tempoFine) {
+                        @PathVariable(value = "tempoFine") String tempoFine) {
 
         String mediaPres = null;
         try {

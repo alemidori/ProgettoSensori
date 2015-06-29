@@ -1,10 +1,11 @@
-package client;
+package client.thread;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.net.SocketException;
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -35,29 +36,35 @@ public class ClientThreadForMessage implements Runnable {
                 Socket socket = serverSocket.accept();
                 BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                 String messaggio = br.readLine();
-                flag = 0;
-                if (messaggi.isEmpty()) {
-                    System.out.println("NUOVO MESSAGGIO DAL GESTORE:\n" + messaggio);
-                    System.out.println("********************************");
-                    messaggi.add(messaggio);
-                } else {
-                    for (String s : messaggi) {
-                        if (Objects.equals(s, messaggio)) {
-                            flag = 1;
-                        }
-                    }
-                    if (flag == 0) {
+                if(Objects.equals(messaggio, "logout")){
+                    System.out.println("Logout eseguito con successo.");
+                    stopListening();
+                }
+                else {
+                    flag = 0;
+                    if (messaggi.isEmpty()) {
                         System.out.println("NUOVO MESSAGGIO DAL GESTORE:\n" + messaggio);
                         System.out.println("********************************");
+                        messaggi.add(messaggio);
+                    } else {
+                        for (String s : messaggi) {
+                            if (Objects.equals(s, messaggio)) {
+                                flag = 1;
+                            }
+                        }
+                        if (flag == 0) {
+                            System.out.println("NUOVO MESSAGGIO DAL GESTORE:\n" + messaggio);
+                            System.out.println("********************************");
+                        }
                     }
                 }
-
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
         try {
             serverSocket.close();
+            System.out.println("Connessioni chiuse");
         } catch (IOException e) {
             e.printStackTrace();
         }
